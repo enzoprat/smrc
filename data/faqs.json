@@ -1,0 +1,50 @@
+[
+  {
+    "id": "f1",
+    "topic": "ecole",
+    "question": "À partir de quel âge mon enfant peut-il commencer le rugby ?",
+    "answer": "L'école de rugby du SMRC accueille les enfants dès 4-5 ans (catégorie U6). Les premières années sont consacrées à la découverte, à la motricité et au plaisir de jouer, dans un cadre 100 % sécurisé et adapté."
+  },
+  {
+    "id": "f2",
+    "topic": "ecole",
+    "question": "Le rugby est-il dangereux pour les jeunes enfants ?",
+    "answer": "Chez les plus jeunes, le rugby se pratique sans plaquage : on joue au rugby « éducatif » et progressif. Le contact est introduit petit à petit, encadré par des éducateurs diplômés, avec un matériel et des règles adaptés à chaque âge."
+  },
+  {
+    "id": "f3",
+    "topic": "ecole",
+    "question": "Mon enfant n'a jamais joué, peut-il essayer avant de s'inscrire ?",
+    "answer": "Bien sûr ! Nous proposons des séances d'essai gratuites en début de saison. Il suffit de venir avec une tenue de sport et des chaussures adaptées. Contactez-nous pour connaître les créneaux."
+  },
+  {
+    "id": "f4",
+    "topic": "ecole",
+    "question": "Quels documents faut-il pour inscrire mon enfant ?",
+    "answer": "Pour finaliser une inscription, il faut généralement : une photo d'identité, un certificat médical ou un questionnaire de santé, une autorisation parentale et le règlement de la cotisation. [À confirmer : liste exacte des documents et tarifs]"
+  },
+  {
+    "id": "f5",
+    "topic": "ecole",
+    "question": "Quels sont les jours et horaires d'entraînement ?",
+    "answer": "Les entraînements de l'école de rugby ont lieu en semaine et/ou le samedi selon les catégories d'âge. [À confirmer : horaires entraînements par catégorie]"
+  },
+  {
+    "id": "f6",
+    "topic": "ecole",
+    "question": "Encadrez-vous aussi les filles ?",
+    "answer": "Oui, le rugby est un sport mixte chez les plus jeunes et le SMRC encourage la pratique féminine à tous les âges, avec une équipe Féminines chez les seniors."
+  },
+  {
+    "id": "f7",
+    "topic": "club",
+    "question": "Comment rejoindre le club en tant que joueur senior ?",
+    "answer": "Que vous soyez débutant ou expérimenté, contactez-nous via le formulaire de contact en précisant votre profil. Le club vous orientera vers la catégorie et l'équipe adaptées."
+  },
+  {
+    "id": "f8",
+    "topic": "club",
+    "question": "Comment devenir bénévole au SMRC ?",
+    "answer": "Le club vit grâce à ses bénévoles : encadrement, intendance, événements, communication... Toutes les bonnes volontés sont les bienvenues. Indiquez votre intérêt via le formulaire de contact (sujet « Bénévolat »)."
+  }
+]

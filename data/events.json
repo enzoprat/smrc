@@ -1,0 +1,29 @@
+[
+  {
+    "id": "e1",
+    "title": "Repas des supporters",
+    "date": "2026-09-13T12:00:00",
+    "location": "Club house — Stade Robert Monseau",
+    "description": "Avant chaque match à domicile, partageons un moment convivial autour d'un repas dans l'esprit famille rugby.",
+    "ctaLabel": "Réserver",
+    "ctaHref": "/billetterie-abonnements"
+  },
+  {
+    "id": "e2",
+    "title": "Soirée des partenaires",
+    "date": "2026-10-10T19:00:00",
+    "location": "Club house — Stade Robert Monseau",
+    "description": "Une soirée dédiée au réseau d'entreprises du club, pour échanger et célébrer nos partenariats.",
+    "ctaLabel": "Devenir partenaire",
+    "ctaHref": "/partenaires/devenir-partenaire"
+  },
+  {
+    "id": "e3",
+    "title": "Tournoi de l'École de Rugby",
+    "date": "2026-11-15T09:00:00",
+    "location": "Stade Robert Monseau",
+    "description": "Une journée festive autour des plus jeunes : matchs, animations et convivialité pour toutes les familles.",
+    "ctaLabel": "En savoir plus",
+    "ctaHref": "/ecole-de-rugby"
+  }
+]

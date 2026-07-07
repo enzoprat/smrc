@@ -1,0 +1,32 @@
+[
+  {
+    "id": "r-2026-05-17",
+    "team": "Équipe Première",
+    "competition": "Fédérale 1 — Poule 4",
+    "date": "2026-05-17T15:00:00",
+    "opponent": "AS Bassin",
+    "homeAway": "home",
+    "scoreHome": 27,
+    "scoreAway": 18
+  },
+  {
+    "id": "r-2026-05-10",
+    "team": "Équipe Première",
+    "competition": "Fédérale 1 — Poule 4",
+    "date": "2026-05-10T15:00:00",
+    "opponent": "RC Pessac",
+    "homeAway": "away",
+    "scoreHome": 14,
+    "scoreAway": 21
+  },
+  {
+    "id": "r-2026-05-03",
+    "team": "Équipe Première",
+    "competition": "Fédérale 1 — Poule 4",
+    "date": "2026-05-03T15:00:00",
+    "opponent": "Stade Langonnais",
+    "homeAway": "home",
+    "scoreHome": 33,
+    "scoreAway": 12
+  }
+]

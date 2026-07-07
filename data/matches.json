@@ -1,0 +1,42 @@
+[
+  {
+    "id": "m-2026-09-13",
+    "team": "Équipe Première",
+    "competition": "Fédérale 1 — Poule 4",
+    "date": "2026-09-13T15:00:00",
+    "opponent": "RC Médoc",
+    "homeAway": "home",
+    "venue": "Stade Robert Monseau",
+    "status": "upcoming"
+  },
+  {
+    "id": "m-2026-09-20",
+    "team": "Équipe Première",
+    "competition": "Fédérale 1 — Poule 4",
+    "date": "2026-09-20T15:00:00",
+    "opponent": "US Gironde",
+    "homeAway": "away",
+    "venue": "Stade des Tilleuls",
+    "status": "upcoming"
+  },
+  {
+    "id": "m-2026-09-27",
+    "team": "Équipe Première",
+    "competition": "Fédérale 1 — Poule 4",
+    "date": "2026-09-27T15:00:00",
+    "opponent": "Stade Bordelais Avenir",
+    "homeAway": "home",
+    "venue": "Stade Robert Monseau",
+    "status": "upcoming"
+  },
+  {
+    "id": "m-2026-10-04",
+    "team": "Espoirs",
+    "competition": "Championnat Espoirs",
+    "date": "2026-10-04T13:00:00",
+    "opponent": "RC Médoc",
+    "homeAway": "home",
+    "venue": "Stade Robert Monseau",
+    "status": "upcoming"
+  }
+]
