@@ -5,6 +5,9 @@ import { results } from "@/data/results";
 import { partners } from "@/data/partners";
 import { events } from "@/data/events";
 import { faqs } from "@/data/faqs";
+import { staff } from "@/data/staff";
+import { players } from "@/data/players";
+import { training } from "@/data/training";
 
 export const metadata = { title: "Tableau de bord", robots: { index: false } };
 
@@ -15,6 +18,9 @@ export default function AdminDashboard() {
   const cards = [
     { href: "/admin/news", label: "Actualités", count: news.length, sub: `${drafts} brouillon(s)` },
     { href: "/admin/matches", label: "Matchs & Résultats", count: matches.length + results.length, sub: `${matches.length} à venir` },
+    { href: "/admin/staff", label: "Staff", count: staff.length, sub: "toutes équipes" },
+    { href: "/admin/players", label: "Joueurs", count: players.length, sub: "toutes équipes" },
+    { href: "/admin/training", label: "Entraînements", count: training.length, sub: "créneaux" },
     { href: "/admin/partners", label: "Partenaires", count: partners.length, sub: "tous niveaux" },
     { href: "/admin/events", label: "Événements", count: events.length, sub: "à venir" },
     { href: "/admin/faq", label: "FAQ", count: faqs.length, sub: "questions" },

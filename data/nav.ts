@@ -35,10 +35,23 @@ export const mainNav: NavItem[] = [
     label: "Nos équipes",
     href: "/equipes",
     children: [
+      { label: "Toutes les équipes", href: "/equipes" },
       { label: "Équipe Première", href: "/equipes/equipe-premiere" },
+      { label: "Espoirs", href: "/equipes/espoirs" },
+      { label: "Les Jalloises", href: "/equipes/feminines" },
+      { label: "Loisirs", href: "/equipes/loisirs" },
     ],
   },
-  { label: "Nos Formations", href: "/ecole-de-rugby" },
+  {
+    label: "Nos Formations",
+    href: "/ecole-de-rugby",
+    children: [
+      { label: "École de Rugby", href: "/ecole-de-rugby", description: "Les plus jeunes, de U6 à U14" },
+      { label: "Cadettes", href: "/formations/cadettes", description: "Le rugby féminin des jeunes joueuses" },
+      { label: "Pôle Jeunes", href: "/formations/pole-jeunes", description: "La formation des jeunes du club" },
+      { label: "CEL", href: "/formations/cel", description: "Centre d'Entraînement Labellisé" },
+    ],
+  },
   { label: "Calendrier & Résultats", href: "/calendrier-resultats" },
   {
     label: "Partenaires",
@@ -73,6 +86,7 @@ export const footerNav = {
     { label: "Calendrier & Résultats", href: "/calendrier-resultats" },
   ],
   support: [
+    { label: "Rejoindre les supporters", href: "/supporters" },
     { label: "Devenir partenaire", href: "/partenaires/devenir-partenaire" },
     { label: "Nos partenaires", href: "/partenaires" },
     { label: "Boutique", href: "/boutique" },

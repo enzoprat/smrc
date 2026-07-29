@@ -1,10 +1,14 @@
+import Link from "next/link";
 import type { Team } from "@/data/teams";
 import { Placeholder } from "./Placeholder";
 
-/** Carte d'équipe pour le hub /equipes et la home. */
+/** Carte d'équipe pour le hub /equipes et la home. Clique vers la page de l'équipe. */
 export function TeamCard({ team }: { team: Team }) {
   return (
-    <div className="group relative flex flex-col overflow-hidden rounded-lg bg-ink-900 shadow-card">
+    <Link
+      href={team.href}
+      className="group relative flex flex-col overflow-hidden rounded-lg bg-ink-900 shadow-card"
+    >
       <Placeholder
         src={team.image}
         alt={team.name}
@@ -20,6 +24,6 @@ export function TeamCard({ team }: { team: Team }) {
         </h3>
         <p className="mt-2 line-clamp-2 text-sm text-white/60">{team.description}</p>
       </div>
-    </div>
+    </Link>
   );
 }

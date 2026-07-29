@@ -152,7 +152,7 @@ export default function HomePage() {
               eyebrow="Supporters"
               title="Rejoignez les supporters"
               text="Chaque week-end nos jaunes et noirs ont besoin de votre soutien, rejoignez-nous."
-              href="/contact"
+              href="/supporters"
               cta="Rejoindre les supporters"
             />
             <PromoCard

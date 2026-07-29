@@ -13,6 +13,9 @@ const FILES: Record<string, { path: string; label: string }> = {
   partners: { path: "data/partners.json", label: "partenaires" },
   events: { path: "data/events.json", label: "événements" },
   faq: { path: "data/faqs.json", label: "FAQ" },
+  staff: { path: "data/staff.json", label: "staff" },
+  players: { path: "data/players.json", label: "effectifs" },
+  training: { path: "data/training.json", label: "entraînements" },
 };
 
 export async function PUT(req: Request, { params }: { params: { type: string } }) {
