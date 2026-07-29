@@ -1,7 +1,14 @@
 [
   {
-    "name": "HOTEL IBIS STYLE",
+    "name": "",
     "tier": "soutien",
+    "url": "",
+    "logo": "",
+    "id": "p-1785364483647"
+  },
+  {
+    "name": "HOTEL IBIS STYLE",
+    "tier": "officiel",
     "url": "https://all.accor.com/hotel/7208/index.fr.shtml",
     "logo": "/partners/capture-d-ecran-2026-07-30-a-00-29-24-1785364468213.png",
     "id": "p-1785364461145"
