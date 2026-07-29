@@ -1,5 +1,12 @@
 [
   {
+    "name": "INTERSPORT ",
+    "tier": "majeur",
+    "url": "https://www.intersport.fr/departement/gironde-33/",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-42-57-1785357843223.png",
+    "id": "p-1785357577160"
+  },
+  {
     "name": "MILLET PARCS ET JARDINS",
     "tier": "soutien",
     "url": "https://www.milletparcsetjardins.fr",
@@ -84,13 +91,6 @@
     "id": "p-1785355326993"
   },
   {
-    "name": "CENERGIA",
-    "tier": "officiel",
-    "url": "https://cenergia.fayat.com/cenergia",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-30-58-1785355296880.png",
-    "id": "p-1785355209914"
-  },
-  {
     "name": "Champagne Roger-Constant Lemaire",
     "tier": "soutien",
     "url": "https://champagne-lemaire.fr",
@@ -155,7 +155,7 @@
   },
   {
     "name": "MALARDIER COUVERTURE",
-    "tier": "officiel",
+    "tier": "majeur",
     "url": "https://www.malardiercouverturezinguerie.fr",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-20-01-54-1785349150073.png",
     "id": "p-1785349140883"
