@@ -1,5 +1,19 @@
 [
   {
+    "name": "BDB TRAVAUX PUBLICS",
+    "tier": "majeur",
+    "url": "https://www.bdb-tp.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-30-29-1785349890244.png",
+    "id": "p-1785349882123"
+  },
+  {
+    "name": "CENERGIA",
+    "tier": "officiel",
+    "url": "https://cenergia.fayat.com/cenergia",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-30-58-1785349958408.png",
+    "id": "p-1785349745626"
+  },
+  {
     "name": "SOCIÉTÉ GÉNÉRALE",
     "tier": "officiel",
     "url": "https://www.societegenerale.com/fr",
