@@ -1,5 +1,33 @@
 [
   {
+    "name": "ATELIER BIGATA ",
+    "tier": "majeur",
+    "url": "https://www.bigata.net/fr/",
+    "logo": "/partners/logobigataprint-1785347039018.jpg",
+    "id": "p-1785346862881"
+  },
+  {
+    "name": "RAGAZZI DA PEPPONE ",
+    "tier": "officiel",
+    "url": "https://ragazzidapeppone.fr",
+    "logo": "/partners/logo-marron-1785346822696.png",
+    "id": "p-1785346812870"
+  },
+  {
+    "name": "BUROVALIE ",
+    "tier": "officiel",
+    "url": "https://www.burovalie.com",
+    "logo": "/partners/logo-jpeg-1785346746332.png",
+    "id": "p-1785346736302"
+  },
+  {
+    "name": "DMC ENERGIE ",
+    "tier": "officiel",
+    "url": "",
+    "logo": "/partners/logo-dmc-energie-copie-1785346675147.jpg",
+    "id": "p-1785346665882"
+  },
+  {
     "name": "MAESTRIA",
     "tier": "officiel",
     "url": "https://www.maestria.fr/fr/",
