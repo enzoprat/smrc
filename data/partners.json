@@ -1,5 +1,12 @@
 [
   {
+    "name": "FRANCE TRAVAIL",
+    "tier": "institutionnel",
+    "url": "https://www.francetravail.fr/accueil/",
+    "logo": "/partners/2-1785361866272.jpg",
+    "id": "p-1785361851721"
+  },
+  {
     "name": "DUNE CONSTRUCTIONS ",
     "tier": "officiel",
     "url": "https://dune-constructions.fr",
