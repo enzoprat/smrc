@@ -1,5 +1,19 @@
 [
   {
+    "name": "COMPTOIR NATIONAL DE L'OR ",
+    "tier": "officiel",
+    "url": "https://www.gold.fr/comptoirs-achat-vente-or/le-bouscat/?srsltid=AfmBOoqlOVYKETLEfI5NgiKFyyKvKgsdbWhMv9FGVB69CO-bX5XwRLjN",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-23-58-54-1785362543105.png",
+    "id": "p-1785362532971"
+  },
+  {
+    "name": "ARCALIE",
+    "tier": "officiel",
+    "url": "https://arcalie.net",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-23-59-15-1785362500971.png",
+    "id": "p-1785362217073"
+  },
+  {
     "name": "GSF NETTOYAGE ",
     "tier": "majeur",
     "url": "https://www.gsf.fr",
