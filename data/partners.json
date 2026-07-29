@@ -1,5 +1,12 @@
 [
   {
+    "name": "GIRONDE",
+    "tier": "institutionnel",
+    "url": "",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-23-49-30-1785361908395.png",
+    "id": "p-1785361896574"
+  },
+  {
     "name": "FRANCE TRAVAIL",
     "tier": "institutionnel",
     "url": "https://www.francetravail.fr/accueil/",
