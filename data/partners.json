@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": "",
+    "name": "ARTY'SS",
+    "tier": "officiel",
+    "logo": "/partners/logo-fond-noir-1785331476022.jpg",
+    "url": "https://artyss.fr"
+  },
+  {
+    "id": "p3",
+    "name": "KEEP SAFE ",
+    "tier": "officiel",
+    "logo": "/partners/ks-couleur-1-1785331552697.png",
+    "url": "https://www.keepsafe.fr"
+  },
+  {
+    "id": "p4",
+    "name": "KOZMA CONCEPT",
+    "tier": "soutien",
+    "url": "https://kozmaconcept.fr",
+    "logo": "/partners/logo-1785331606937.jpg"
+  },
+  {
+    "id": "p5",
+    "name": "ATELIER BOIS CONCEPT ",
+    "tier": "soutien",
+    "logo": "/partners/logo-abc-fond-blanc-1785331639883.png",
+    "url": "https://www.google.com/search?client=safari&rls=en&q=ATELIER+BOIS+CONCEPT&ie=UTF-8&oe=UTF-8"
+  },
+  {
+    "id": "p6",
+    "name": "OLL'A PIZZA",
+    "tier": "officiel",
+    "logo": "/partners/image0-2-1785331784961.png",
+    "url": "OLL'A PIZZA"
+  },
+  {
+    "id": "p7",
+    "name": "COSTA ADRIEN  - POSE DE CARRELAGE ",
+    "tier": "soutien",
+    "logo": "/partners/4ad8c51e-4f31-4f0f-90b7-9b7f0a2d87cd-1785331849671.jpg",
+    "url": "https://www.pagesjaunes.fr/pros/54366698"
+  },
+  {
+    "id": "p8",
+    "name": "PRAT ENZO - CRÉATION DE SITE INTERNET ",
+    "tier": "soutien",
+    "logo": "/partners/logo-pe-1785331936972.png",
+    "url": "https://www.enzoprat.fr"
+  },
+  {
+    "id": "p9",
+    "name": "SANOLI ",
+    "tier": "majeur",
+    "logo": "/partners/sanoli-1785332017456.svg",
+    "url": "https://www.sanoli-gc.com"
+  },
+  {
+    "id": "p10",
+    "name": "BRICO E.LECLERC ",
+    "tier": "majeur",
+    "logo": "/partners/brico-st-medard-1785332058302.jpg",
+    "url": "https://www.e.leclerc/e/brico-eleclerc?srsltid=AfmBOor4ECyo-jYCAhYaSYCKNs8rcb0d6BMuXLA-1XLEYwpwpDCmTKXI"
+  },
+  {
+    "id": "p11",
+    "name": "BISTROT DE LA JALLES ",
+    "tier": "soutien",
+    "logo": "/partners/carte-visite-recto-bistro-de-la-jalle-2-1785332211973.png",
+    "url": "https://restaurant-bordeaux.net"
+  }
+]
