@@ -77,7 +77,10 @@ export function DatasetEditor({
         body: JSON.stringify({ items: cleaned }),
       });
       const j = await res.json().catch(() => ({}));
-      if (!res.ok) throw new Error(j.error || "Échec de l'enregistrement.");
+      if (!res.ok) {
+        const detail = j.detail ? ` (${j.detail})` : "";
+        throw new Error((j.error || "Échec de l'enregistrement.") + detail);
+      }
       setStatus("saved");
       setMessage("Modifications enregistrées. Le site se met à jour dans quelques instants.");
     } catch (err) {

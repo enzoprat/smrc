@@ -50,6 +50,7 @@ export async function PUT(req: Request, { params }: { params: { type: string } }
     });
     return NextResponse.json({ ok: true, commitUrl: result.commitUrl });
   } catch (err) {
+    console.error(`[admin/data/${params.type}] échec commit GitHub :`, err);
     return NextResponse.json(
       { error: "Échec de l'enregistrement sur GitHub.", detail: String(err) },
       { status: 500 },
