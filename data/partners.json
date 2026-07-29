@@ -1,5 +1,12 @@
 [
   {
+    "name": "AQMO",
+    "tier": "officiel",
+    "url": "https://aqmo.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-19-49-15-1785347546259.png",
+    "id": "p-1785347539550"
+  },
+  {
     "name": "UNIBATECH ",
     "tier": "soutien",
     "url": "https://www.unibatech.fr",
