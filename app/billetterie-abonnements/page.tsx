@@ -85,7 +85,6 @@ export default function BilletteriePage() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm text-ink-500">[À confirmer : tarifs et liens HelloAsso]</p>
         </div>
       </section>
 
@@ -97,7 +96,6 @@ export default function BilletteriePage() {
               Les abonnements et billets sont à retirer auprès du club ou présentés directement à
               l'entrée du stade Robert Monseau les jours de match.
             </p>
-            <p>[À confirmer : modalités de retrait, points de vente et horaires]</p>
           </div>
         </div>
       </section>

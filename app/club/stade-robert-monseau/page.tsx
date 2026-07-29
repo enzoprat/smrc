@@ -74,11 +74,10 @@ export default function StadePage() {
                 {site.contact.postalCode} {site.contact.city}
               </InfoBlock>
               <InfoBlock title="Parking" icon={<MapPin width={20} height={20} />}>
-                Parking à proximité du stade. [À confirmer : capacité et emplacement exact du parking]
+                Parking à proximité du stade.
               </InfoBlock>
               <InfoBlock title="Accès jour de match" icon={<Clock width={20} height={20} />}>
                 Ouverture des portes avant le coup d'envoi, buvette et club house ouverts.
-                [À confirmer : horaires d'ouverture jour de match]
               </InfoBlock>
               <a
                 href={`https://www.google.com/maps/search/?api=1&query=${mapsQuery}`}

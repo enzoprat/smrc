@@ -35,9 +35,6 @@ export default function EquipesPage() {
               <TeamCard key={t.slug} team={t} />
             ))}
           </div>
-          <p className="mt-6 text-sm text-ink-500">
-            [À confirmer : effectifs, staffs et créneaux de chaque équipe]
-          </p>
         </div>
       </section>
 

@@ -112,7 +112,6 @@ export default function EcoleRugbyPage() {
                 <Clock width={20} height={20} className="text-gold" />
                 Entraînements en semaine et/ou le samedi selon les catégories.
               </p>
-              <p className="mt-4 text-sm text-white/50">[À confirmer : horaires entraînements par catégorie]</p>
             </div>
           </div>
           <div>
@@ -121,7 +120,6 @@ export default function EcoleRugbyPage() {
               L'école de rugby est encadrée par une équipe d'éducateurs formés et diplômés, attentifs à
               la sécurité, à la progression et à l'épanouissement de chaque enfant.
             </p>
-            <p className="mt-4 text-sm text-white/50">[À confirmer : noms et diplômes des éducateurs]</p>
           </div>
         </div>
       </section>
@@ -159,7 +157,6 @@ export default function EcoleRugbyPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm text-white/50">[À confirmer : liste exacte des documents et tarifs]</p>
             <div className="mt-6 flex flex-col gap-3 sm:flex-row">
               <Link href="/contact" className="btn-gold">
                 Demander des informations

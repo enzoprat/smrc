@@ -43,7 +43,7 @@ export default function HomePage() {
               {nextMatch ? (
                 <MatchCard match={nextMatch} featured />
               ) : (
-                <p className="text-white/60">[À confirmer : calendrier 2026/2027]</p>
+                <p className="text-white/60">Prochain match bientôt annoncé.</p>
               )}
             </div>
             <div>
@@ -53,7 +53,7 @@ export default function HomePage() {
               {lastResult ? (
                 <ResultCard result={lastResult} featured />
               ) : (
-                <p className="text-white/60">[À confirmer : résultats]</p>
+                <p className="text-white/60">Résultats à venir.</p>
               )}
               <Link
                 href="/calendrier-resultats"

@@ -32,15 +32,11 @@ export default function MentionsLegalesPage() {
             </p>
             <p>
               Association sportive régie par la loi du 1<sup>er</sup> juillet 1901.
-              <br />
-              [À confirmer : numéro RNA / SIREN, directeur de la publication]
             </p>
 
             <h2>Hébergement</h2>
             <p>
               Site hébergé par Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis.
-              <br />
-              [À confirmer si l'hébergeur diffère]
             </p>
 
             <h2>Propriété intellectuelle</h2>
@@ -52,8 +48,8 @@ export default function MentionsLegalesPage() {
 
             <h2>Crédits photos</h2>
             <p>
-              [À confirmer : crédits photographiques]. Certaines images sont des visuels de remplacement
-              en attendant les photographies officielles du club.
+              Certaines images sont des visuels de remplacement en attendant les photographies
+              officielles du club.
             </p>
 
             <h2>Contact</h2>

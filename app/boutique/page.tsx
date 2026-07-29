@@ -14,12 +14,12 @@ export const metadata: Metadata = buildMetadata({
 });
 
 const products = [
-  { name: "Maillot domicile", price: "Prix [À confirmer]", cat: "Textile" },
-  { name: "Polo supporter", price: "Prix [À confirmer]", cat: "Textile" },
-  { name: "Sweat capuche SMRC", price: "Prix [À confirmer]", cat: "Textile" },
-  { name: "Écharpe jaune & noir", price: "Prix [À confirmer]", cat: "Accessoire" },
-  { name: "Casquette club", price: "Prix [À confirmer]", cat: "Accessoire" },
-  { name: "Sac de sport", price: "Prix [À confirmer]", cat: "Accessoire" },
+  { name: "Maillot", cat: "Textile" },
+  { name: "Polo", cat: "Textile" },
+  { name: "Sweat", cat: "Textile" },
+  { name: "Casquette", cat: "Accessoire" },
+  { name: "Sac à dos", cat: "Accessoire" },
+  { name: "Parapluie", cat: "Accessoire" },
 ];
 
 export default function BoutiquePage() {
@@ -46,12 +46,10 @@ export default function BoutiquePage() {
                 <div className="p-4">
                   <span className="text-xs uppercase tracking-wide text-gold-700">{p.cat}</span>
                   <h3 className="font-display text-base font-bold uppercase text-ink-900">{p.name}</h3>
-                  <p className="mt-1 text-sm text-ink-500">{p.price}</p>
                 </div>
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm text-ink-500">[À confirmer : catalogue, prix et lien boutique]</p>
         </div>
       </section>
 
@@ -73,7 +71,6 @@ export default function BoutiquePage() {
               <a href={site.external.helloAsso} target="_blank" rel="noopener noreferrer" className="btn-outline">
                 Faire un don (HelloAsso)
               </a>
-              <p className="text-xs text-white/40">[À confirmer : lien HelloAsso]</p>
             </div>
           </div>
         </div>

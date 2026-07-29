@@ -44,7 +44,7 @@ export function CalendarResults({ matches, results }: { matches: Match[]; result
             {fMatches.length ? (
               fMatches.map((m) => <MatchCard key={m.id} match={m} />)
             ) : (
-              <p className="text-ink-500">[À confirmer : calendrier 2026/2027]</p>
+              <p className="text-ink-500">Calendrier bientôt disponible.</p>
             )}
           </div>
         </div>
@@ -54,7 +54,7 @@ export function CalendarResults({ matches, results }: { matches: Match[]; result
             {fResults.length ? (
               fResults.map((r) => <ResultCard key={r.id} result={r} />)
             ) : (
-              <p className="text-ink-500">[À confirmer : résultats]</p>
+              <p className="text-ink-500">Résultats à venir.</p>
             )}
           </div>
         </div>

@@ -75,7 +75,7 @@ export default function CalendrierPage() {
             </table>
           </div>
           <p className="mt-4 text-sm text-ink-500">
-            [À confirmer : classement officiel] · Données complètes sur le site de la{" "}
+            Données complètes sur le site de la{" "}
             <a href={site.external.ffr} target="_blank" rel="noopener noreferrer" className="text-gold-700 underline">
               FFR
             </a>

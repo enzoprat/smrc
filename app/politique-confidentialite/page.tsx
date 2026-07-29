@@ -53,7 +53,6 @@ export default function PolitiqueConfidentialitePage() {
             <p>
               Ce site n'utilise pas de cookies publicitaires. Seuls des cookies techniques
               strictement nécessaires (session de l'espace d'administration) peuvent être déposés.
-              [À confirmer : outils de mesure d'audience éventuels]
             </p>
           </div>
         </div>

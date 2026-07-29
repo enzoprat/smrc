@@ -113,7 +113,6 @@ export default function ClubPage() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm text-ink-500">[À confirmer : noms et fonctions des dirigeants]</p>
         </div>
       </section>
 
