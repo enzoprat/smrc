@@ -2,7 +2,14 @@
 
 import { useState } from "react";
 
-export type FieldType = "text" | "textarea" | "number" | "date" | "datetime-local" | "select";
+export type FieldType =
+  | "text"
+  | "textarea"
+  | "number"
+  | "date"
+  | "datetime-local"
+  | "select"
+  | "file";
 
 export type FieldDef = {
   key: string;
@@ -38,10 +45,33 @@ export function DatasetEditor({
   const [rows, setRows] = useState<Row[]>(initial);
   const [status, setStatus] = useState<"idle" | "saving" | "saved" | "error">("idle");
   const [message, setMessage] = useState("");
+  const [uploadingKey, setUploadingKey] = useState<string | null>(null);
 
   function update(i: number, key: string, value: unknown) {
     setRows((prev) => prev.map((r, idx) => (idx === i ? { ...r, [key]: value } : r)));
     setStatus("idle");
+  }
+
+  async function uploadFile(i: number, key: string, file: File) {
+    setUploadingKey(`${i}-${key}`);
+    setStatus("idle");
+    setMessage("");
+    try {
+      const fd = new FormData();
+      fd.append("file", file);
+      const res = await fetch("/api/admin/upload", { method: "POST", body: fd });
+      const j = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        const detail = j.detail ? ` (${j.detail})` : "";
+        throw new Error((j.error || "Échec de l'upload.") + detail);
+      }
+      update(i, key, j.path);
+    } catch (err) {
+      setStatus("error");
+      setMessage(err instanceof Error ? err.message : "Erreur d'upload.");
+    } finally {
+      setUploadingKey(null);
+    }
   }
 
   function remove(i: number) {
@@ -142,6 +172,44 @@ export function DatasetEditor({
                         </option>
                       ))}
                     </select>
+                  ) : f.type === "file" ? (
+                    <div>
+                      {row[f.key] ? (
+                        <div className="mb-2 flex items-center gap-3">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src={String(row[f.key])}
+                            alt=""
+                            className="h-10 w-auto max-w-[6rem] object-contain"
+                            onError={(e) => {
+                              e.currentTarget.style.display = "none";
+                            }}
+                          />
+                          <span className="truncate text-xs text-ink-500">{String(row[f.key])}</span>
+                          <button
+                            type="button"
+                            onClick={() => update(i, f.key, "")}
+                            className="text-xs font-medium text-red-600 hover:underline"
+                          >
+                            Retirer
+                          </button>
+                        </div>
+                      ) : null}
+                      <input
+                        type="file"
+                        accept="image/png,image/jpeg,image/webp,image/svg+xml,image/gif"
+                        disabled={uploadingKey === `${i}-${f.key}`}
+                        onChange={(e) => {
+                          const file = e.target.files?.[0];
+                          if (file) uploadFile(i, f.key, file);
+                          e.target.value = "";
+                        }}
+                        className="block w-full text-sm text-ink-600 file:mr-3 file:rounded-sm file:border-0 file:bg-ink-900 file:px-3 file:py-2 file:text-xs file:font-semibold file:uppercase file:tracking-wide file:text-white hover:file:bg-ink-700 disabled:opacity-50"
+                      />
+                      {uploadingKey === `${i}-${f.key}` && (
+                        <p className="mt-1 text-xs text-ink-500">Envoi en cours…</p>
+                      )}
+                    </div>
                   ) : (
                     <input
                       type={f.type}

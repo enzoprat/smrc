@@ -68,6 +68,28 @@ export async function commitFile(args: {
   return { ok: true, commitUrl: res.data.commit.html_url ?? undefined };
 }
 
+/** Crée ou met à jour un fichier binaire (image) à partir de son contenu base64. */
+export async function commitBinaryFile(args: {
+  path: string;
+  base64: string;
+  message: string;
+}): Promise<{ ok: boolean; commitUrl?: string }> {
+  const cfg = getGitHubConfig();
+  if (!cfg) throw new Error("GITHUB_NOT_CONFIGURED");
+
+  const sha = await getFileSha(cfg, args.path);
+  const res = await client(cfg).repos.createOrUpdateFileContents({
+    owner: cfg.owner,
+    repo: cfg.repo,
+    path: args.path,
+    message: args.message,
+    content: args.base64,
+    branch: cfg.branch,
+    sha,
+  });
+  return { ok: true, commitUrl: res.data.commit.html_url ?? undefined };
+}
+
 /** Supprime un fichier du repo (utilisé pour supprimer une actualité). */
 export async function deleteFile(args: {
   path: string;

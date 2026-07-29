@@ -18,7 +18,7 @@ const fields: FieldDef[] = [
     ],
   },
   { key: "url", label: "Site web (optionnel)", type: "text", placeholder: "https://..." },
-  { key: "logo", label: "Chemin du logo (optionnel)", type: "text", placeholder: "/partners/mon-logo.png" },
+  { key: "logo", label: "Logo (optionnel)", type: "file" },
 ];
 
 export default function AdminPartnersPage() {
