@@ -1,5 +1,12 @@
 [
   {
+    "name": "CRÉDIT AGRICOLE",
+    "tier": "officiel",
+    "url": "https://www.credit-agricole.fr/particulier/agence/aquitaine/merignac-capeyron-1961.html",
+    "logo": "/partners/ca-aquitaine-v-rvb-1785358629261.jpg",
+    "id": "p-1785358617963"
+  },
+  {
     "name": "EAT SALAD",
     "tier": "officiel",
     "url": "https://eatsalad.com/listing/le-haillan/",
