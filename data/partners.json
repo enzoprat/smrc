@@ -1,17 +1,5 @@
 [
   {
-    "name": "E",
-    "tier": "institutionnel",
-    "url": "https://www.smcouverturepau.fr",
-    "logo": "",
-    "id": "E"
-  },
-  {
-    "id": "p1",
-    "name": "Entreprise Majeure",
-    "tier": "majeur"
-  },
-  {
     "id": "p2",
     "name": "Groupe Local",
     "tier": "majeur"
