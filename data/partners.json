@@ -1,5 +1,19 @@
 [
   {
+    "name": "SBFM ",
+    "tier": "officiel",
+    "url": "https://www.sbfm-grillage.com/fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-23-17-19-1785359873975.png",
+    "id": "p-1785359551843"
+  },
+  {
+    "name": "CRÉDIT MUTUELLE SUD OUEST ",
+    "tier": "officiel",
+    "url": "https://www.google.com/search?client=safari&rls=en&q=CREDIT+MUTUEL+SAINT+M%C3%89DARD&ie=UTF-8&oe=UTF-8",
+    "logo": "/partners/5-logo-cmso-couleur-rvb-4-3-1785359513349.jpg",
+    "id": "p-1785359502023"
+  },
+  {
     "name": "BRICOMARCHÉ ",
     "tier": "officiel",
     "url": "https://www.bricomarche.com/magasin/saint-medard-en-jalles/07902",
@@ -30,7 +44,7 @@
   {
     "name": "LA GRANDE JAUGUE",
     "tier": "officiel",
-    "url": "",
+    "url": "https://www.la-grande-jaugue.fr",
     "logo": "/partners/grande-jaugue-logopantone-1785358865768.jpg",
     "id": "p-1785358857374"
   },
