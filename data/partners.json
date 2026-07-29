@@ -1,5 +1,26 @@
 [
   {
+    "name": "",
+    "tier": "soutien",
+    "url": "",
+    "logo": "",
+    "id": "p-1785357328473"
+  },
+  {
+    "name": "MAISON AUZÈNE GALISSON",
+    "tier": "officiel",
+    "url": "https://gratuit-2503485.webador.fr",
+    "logo": "/partners/image-4-1785357301446.png",
+    "id": "p-1785357290101"
+  },
+  {
+    "name": "VIVONS COURTIER",
+    "tier": "officiel",
+    "url": "https://vivonscourtier.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-33-44-1785357266030.png",
+    "id": "p-1785357259334"
+  },
+  {
     "name": "SO'9 HABITAT",
     "tier": "officiel",
     "url": "https://so9-habitat.fr",
