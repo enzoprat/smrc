@@ -1,5 +1,12 @@
 [
   {
+    "name": "E.LECLERC",
+    "tier": "majeur",
+    "url": "https://www.e.leclerc",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-21-29-1785349345596.png",
+    "id": "p-1785349277779"
+  },
+  {
     "name": "CTS",
     "tier": "majeur",
     "url": "https://www.google.com/search?client=safari&rls=en&q=CTS+EYSINES&ie=UTF-8&oe=UTF-8",
