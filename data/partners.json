@@ -1,5 +1,19 @@
 [
   {
+    "name": "UPERIO GROUP",
+    "tier": "officiel",
+    "url": "https://www.uperio-group.com/fr_fr/",
+    "logo": "/partners/unknown-4-1785365136304.png",
+    "id": "p-1785364845565"
+  },
+  {
+    "name": "HIGHTECH CONCEPT ",
+    "tier": "officiel",
+    "url": "https://hightechconcept.com",
+    "logo": "/partners/logo-hightechconcept-1785364860706.png",
+    "id": "p-1785364844804"
+  },
+  {
     "name": "GREEN SHACK ",
     "tier": "officiel",
     "url": "https://greenshack.fr",
