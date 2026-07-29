@@ -1,5 +1,12 @@
 [
   {
+    "name": "VILLE DE SAINT-MÉDARD-EN-JALLES",
+    "tier": "institutionnel",
+    "url": "https://www.saint-medard-en-jalles.fr",
+    "logo": "/partners/logo-saint-medard-en-jalles-1785333353591.jpg",
+    "id": "p-1785333193947"
+  },
+  {
     "name": "VAKOM",
     "tier": "officiel",
     "url": "https://vakom.fr/franchise-vakom/bordeaux-merignac/",
