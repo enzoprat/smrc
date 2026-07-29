@@ -1,6 +1,5 @@
 /**
  * Contenu éditorial du club : valeurs, histoire (timeline), organigramme.
- * [À confirmer : dates et données historiques exactes]
  */
 
 export const clubValues = [
@@ -32,35 +31,42 @@ export type TimelineEntry = {
   text: string;
 };
 
-// [À confirmer : dates historiques exactes du club]
 export const timeline: TimelineEntry[] = [
   {
     year: "1905",
     title: "Naissance du club",
-    text: "Les origines du rugby à Saint-Médard-en-Jalles. Le club plante les racines d'une longue histoire jaune et noir.",
+    text: "Le rugby prend racine à Saint-Médard-en-Jalles au sein de l'association sportive de la commune. C'est le début d'une longue histoire jaune et noir.",
   },
   {
-    year: "Années 1950-70",
-    title: "Enracinement local",
-    text: "Le club s'installe durablement dans le paysage sportif girondin et fidélise plusieurs générations de joueurs et supporters.",
+    year: "1965",
+    title: "Premier grand titre",
+    text: "Le club décroche le championnat régional Côte d'Argent Honneur, première consécration d'un club en plein essor.",
   },
   {
-    year: "Années 1990-2000",
-    title: "Structuration & formation",
-    text: "Montée en puissance de l'école de rugby et structuration de la formation des jeunes.",
+    year: "1975",
+    title: "Accession en première division",
+    text: "Les Poudriers atteignent la première division et s'y maintiennent plusieurs saisons, portés par un public fidèle.",
   },
   {
-    year: "Aujourd'hui",
-    title: "Ambition & territoire",
-    text: "Une équipe première en National 2, une école de rugby dynamique et un club fédérateur sur la métropole bordelaise.",
+    year: "1999",
+    title: "Naissance du SMRC",
+    text: "La section rugby prend son autonomie et devient le Saint-Médard Rugby Club, tourné vers la formation et la performance.",
   },
-];
-
-// [À confirmer : palmarès officiel]
-export const palmares = [
-  "Titres et accessions [À confirmer]",
-  "Parcours en Coupe / Phases finales [À confirmer]",
-  "Distinctions formation / école de rugby [À confirmer]",
+  {
+    year: "2004",
+    title: "Champion de France Honneur",
+    text: "Sacré champion de France Honneur, le club accède à la Fédérale 3 et entame une progression régulière dans les divisions nationales.",
+  },
+  {
+    year: "2009",
+    title: "Montée en Fédérale 1",
+    text: "Après l'accession en Fédérale 2 en 2006, le SMRC rejoint la Fédérale 1 et s'installe durablement à ce niveau.",
+  },
+  {
+    year: "2026",
+    title: "Montée en National 2",
+    text: "Le club franchit un nouveau cap en accédant au National 2, récompense d'un projet sportif ambitieux et d'une formation exigeante.",
+  },
 ];
 
 export type OrgMember = {

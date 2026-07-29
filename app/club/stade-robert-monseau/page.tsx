@@ -44,9 +44,9 @@ export default function StadePage() {
           <div>
             <SectionTitle eyebrow="Présentation" title="Notre maison" />
             <p className="mt-6 text-ink-600">
-              Le stade Robert Monseau accueille les matchs à domicile de l'équipe première et les
-              entraînements de toutes les catégories. C'est ici que vibre la communauté jaune et noir,
-              dans une ambiance chaleureuse et familiale.
+              Le stade Robert Monseau accueille les matchs à domicile et les entraînements de toutes
+              les catégories du club. C'est ici que vibre la communauté jaune et noir, dans une
+              ambiance chaleureuse et familiale.
             </p>
             <ul className="mt-6 space-y-3">
               {infos.map((t) => (

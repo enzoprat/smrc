@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/PageHero";
 import { SectionTitle } from "@/components/SectionTitle";
 import { CTASection } from "@/components/CTASection";
-import { Trophy } from "@/components/Icons";
-import { timeline, palmares } from "@/data/club";
+import { timeline } from "@/data/club";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
@@ -52,22 +51,6 @@ export default function HistoirePage() {
               </li>
             ))}
           </ol>
-          <p className="mt-6 text-sm text-ink-500">[À confirmer : dates historiques exactes du club]</p>
-        </div>
-      </section>
-
-      {/* Palmarès */}
-      <section className="bg-ink-900 py-16 sm:py-24">
-        <div className="container-x max-w-4xl">
-          <SectionTitle eyebrow="Palmarès" title="Nos titres et distinctions" dark />
-          <ul className="mt-10 grid gap-4 sm:grid-cols-2">
-            {palmares.map((p, i) => (
-              <li key={i} className="flex items-start gap-3 rounded-lg border border-white/10 bg-white/[0.03] p-5 text-white/80">
-                <Trophy width={22} height={22} className="mt-0.5 flex-shrink-0 text-gold" />
-                {p}
-              </li>
-            ))}
-          </ul>
         </div>
       </section>
 
