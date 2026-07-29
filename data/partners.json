@@ -1,5 +1,12 @@
 [
   {
+    "name": "https://francerol-robotics.com",
+    "tier": "officiel",
+    "url": "https://francerol-robotics.com",
+    "logo": "/partners/logo-fond-violet-francerol-robotics-1785365805566.webp",
+    "id": "p-1785365729865"
+  },
+  {
     "name": "CHANTIERS D'AQUITAINE ",
     "tier": "soutien",
     "url": "https://www.google.com/search?client=safari&rls=en&q=chantier+d%27aquitaine+exedra&ie=UTF-8&oe=UTF-8",
