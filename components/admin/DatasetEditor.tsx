@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 export type FieldType =
   | "text"
@@ -42,7 +42,11 @@ export function DatasetEditor({
   idPrefix: string;
   template: Row;
 }) {
-  const [rows, setRows] = useState<Row[]>(initial);
+  // Clé interne stable par ligne : découplée des champs éditables pour ne pas
+  // remonter (et perdre le focus) quand l'utilisateur modifie l'identifiant.
+  const keyCounter = useRef(0);
+  const genKey = () => `row-${keyCounter.current++}`;
+  const [rows, setRows] = useState<Row[]>(() => initial.map((r) => ({ ...r, __key: genKey() })));
   const [status, setStatus] = useState<"idle" | "saving" | "saved" | "error">("idle");
   const [message, setMessage] = useState("");
   const [uploadingKey, setUploadingKey] = useState<string | null>(null);
@@ -81,7 +85,7 @@ export function DatasetEditor({
   }
 
   function add() {
-    const row: Row = { ...template, [idKey]: `${idPrefix}-${Date.now()}` };
+    const row: Row = { ...template, [idKey]: `${idPrefix}-${Date.now()}`, __key: genKey() };
     setRows((prev) => [row, ...prev]);
     setStatus("idle");
   }
@@ -92,6 +96,7 @@ export function DatasetEditor({
     // Coerce number fields
     const cleaned = rows.map((r) => {
       const out: Row = { ...r };
+      delete out.__key;
       fields.forEach((f) => {
         if (f.type === "number" && out[f.key] !== undefined && out[f.key] !== "") {
           out[f.key] = Number(out[f.key]);
@@ -144,7 +149,7 @@ export function DatasetEditor({
           </p>
         )}
         {rows.map((row, i) => (
-          <div key={String(row[idKey] ?? i)} className="rounded-lg bg-white p-5 shadow-sm ring-1 ring-black/5">
+          <div key={String(row.__key ?? i)} className="rounded-lg bg-white p-5 shadow-sm ring-1 ring-black/5">
             <div className="grid gap-4 sm:grid-cols-2">
               {fields.map((f) => (
                 <div key={f.key} className={f.full || f.type === "textarea" ? "sm:col-span-2" : ""}>
