@@ -1,5 +1,33 @@
 [
   {
+    "name": "LA TABLE DU POISSONNIER",
+    "tier": "officiel",
+    "url": "https://lacabane116-poissonnerie-eysines.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-09-49-1785348844785.png",
+    "id": "p-1785348833077"
+  },
+  {
+    "name": "LA CABANE 116",
+    "tier": "officiel",
+    "url": "https://lacabane116-poissonnerie-eysines.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-02-31-1785348182681.png",
+    "id": "p-1785348177193"
+  },
+  {
+    "name": "CENTURY 21 KADIMA",
+    "tier": "majeur",
+    "url": "https://www.century21.fr/trouver_agence/agence/2411517036/",
+    "logo": "",
+    "id": "p-1785347839525"
+  },
+  {
+    "name": "ALTEA BUSINESS SCHOOL",
+    "tier": "officiel",
+    "url": "https://www.altea-formation.com",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-19-48-54-1785347809184.png",
+    "id": "p-1785347800023"
+  },
+  {
     "name": "AQMO",
     "tier": "officiel",
     "url": "https://aqmo.fr",
