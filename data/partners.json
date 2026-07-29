@@ -1,5 +1,19 @@
 [
   {
+    "name": "BRICOMARCHÉ ",
+    "tier": "officiel",
+    "url": "https://www.bricomarche.com/magasin/saint-medard-en-jalles/07902",
+    "logo": "/partners/logo-bricomarche-fond-blanc-rvbbis-1785359463152.jpg",
+    "id": "p-1785359313120"
+  },
+  {
+    "name": "SABI LOCATION ",
+    "tier": "officiel",
+    "url": "https://sabigroupe.fr",
+    "logo": "/partners/sabi-location-hd-1785359323213.png",
+    "id": "p-1785359310172"
+  },
+  {
     "name": "ERECAPLURIEL ",
     "tier": "officiel",
     "url": "https://www.erecapluriel.fr",
