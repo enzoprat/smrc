@@ -1,5 +1,12 @@
 [
   {
+    "name": "GSF NETTOYAGE ",
+    "tier": "majeur",
+    "url": "https://www.gsf.fr",
+    "logo": "/partners/logo-gsf-2x-1785362182332.webp",
+    "id": "p-1785362142316"
+  },
+  {
     "name": "BORDEAUX MÉTROPOLE ",
     "tier": "institutionnel",
     "url": "",
