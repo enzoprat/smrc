@@ -1,5 +1,26 @@
 [
   {
+    "name": "HIGHTECH CONCEPT ",
+    "tier": "soutien",
+    "url": "https://hightechconcept.com",
+    "logo": "/partners/logo-hightechconcept-1785363556135.png",
+    "id": "p-1785363527987"
+  },
+  {
+    "name": "GREEN SHACK ",
+    "tier": "officiel",
+    "url": "https://greenshack.fr",
+    "logo": "/partners/images-5-1785363521182.png",
+    "id": "p-1785363390177"
+  },
+  {
+    "name": "ÉCOLE COURT PERET ",
+    "tier": "officiel",
+    "url": "https://www.cours-peret-bordeaux.com",
+    "logo": "",
+    "id": "p-1785362844854"
+  },
+  {
     "name": "ARIANE GROUP",
     "tier": "institutionnel",
     "url": "https://www.ariane.group",
