@@ -1,5 +1,26 @@
 [
   {
+    "name": "",
+    "tier": "soutien",
+    "url": "",
+    "logo": "",
+    "id": "p-1785346462982"
+  },
+  {
+    "name": "E2M",
+    "tier": "majeur",
+    "url": "https://e2m-groupe.fr",
+    "logo": "/partners/e2m-sans-fond-grand-format-pour-autocollants-et-bleus-1785346471776.png",
+    "id": "p-1785346458559"
+  },
+  {
+    "name": "GROUPAMA",
+    "tier": "officiel",
+    "url": "https://agences.groupama.fr/assurance/",
+    "logo": "/partners/fondblanc-groupama-sign-hor-vert-pms-x2-1785346432620.jpg",
+    "id": "p-1785346417994"
+  },
+  {
     "name": "ATELIER FLIPPER ",
     "tier": "soutien",
     "url": "https://atelier-du-flipper.fr",
