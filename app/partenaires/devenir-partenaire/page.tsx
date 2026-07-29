@@ -17,10 +17,10 @@ export const metadata: Metadata = buildMetadata({
 
 const reasons = [
   { title: "Visibilité locale", text: "Affichez votre marque auprès d'une communauté fidèle sur la métropole bordelaise." },
-  { title: "Réseau d'entreprises", text: "Intégrez un réseau dynamique d'entrepreneurs et de décideurs locaux." },
-  { title: "Hospitalité jour de match", text: "Recevez vos clients et collaborateurs dans un cadre convivial et unique." },
+  { title: "Réseau d'entreprises", text: "Intégrez le réseau Club 1905." },
+  { title: "Hospitalité jour de match", text: "Recevez vos clients et collaborateurs avec un bracelet partenaire ou dans un salon en fonction des matchs." },
   { title: "Communication digitale", text: "Bénéficiez d'une présence sur le site, la newsletter et les réseaux sociaux." },
-  { title: "Soutien à la formation", text: "Contribuez concrètement à la formation des jeunes de l'école de rugby." },
+  { title: "Soutien à la formation", text: "Contribuez concrètement à la formation des jeunes poudriers." },
   { title: "Image de marque locale", text: "Associez votre entreprise aux valeurs fortes du rugby et du territoire." },
 ];
 
@@ -124,15 +124,17 @@ export default function DevenirPartenairePage() {
             <SectionTitle
               eyebrow="Contact partenariat"
               title="Parlons de votre projet"
-              subtitle="Remplissez ce formulaire : le responsable partenariats vous recontacte rapidement."
+              subtitle="Remplissez ce formulaire ou appelez-nous : le responsable partenariats vous recontacte rapidement."
             />
+            <p className="mt-6 font-display text-lg font-bold uppercase text-ink-900">
+              <a href="tel:0780560311" className="hover:text-gold-700">07 80 56 03 11</a>
+            </p>
             <div className="mt-8 rounded-lg bg-bone p-6 ring-1 ring-black/5">
               <h3 className="font-display text-lg font-bold uppercase text-ink-900">Ils nous font confiance</h3>
               <p className="mt-2 text-sm text-ink-600">
                 « Être partenaire du SMRC, c'est soutenir le sport local et profiter d'une belle
                 visibilité auprès des familles et des entreprises du territoire. »
               </p>
-              <p className="mt-2 text-sm text-ink-500">[À confirmer : témoignages partenaires]</p>
             </div>
           </div>
           <div className="rounded-lg bg-bone p-6 ring-1 ring-black/5 sm:p-8">

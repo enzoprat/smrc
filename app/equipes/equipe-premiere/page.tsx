@@ -13,9 +13,9 @@ import { site } from "@/data/site";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Équipe Première (Fédérale 1) | Saint-Médard Rugby Club",
+  title: "Équipe Première (National 2) | Saint-Médard Rugby Club",
   description:
-    "L'équipe première du SMRC en Fédérale 1 : effectif, staff, calendrier, résultats et classement. Venez encourager les jaune et noir !",
+    "L'équipe première du SMRC en National 2 : effectif, staff, calendrier, résultats et classement. Venez encourager les jaune et noir !",
   path: "/equipes/equipe-premiere",
 });
 
@@ -26,7 +26,7 @@ export default function EquipePremierePage() {
   return (
     <>
       <PageHero
-        eyebrow="Équipes · Fédérale 1"
+        eyebrow="Équipes · National 2"
         title="Équipe Première"
         description="Le fer de lance du club, porteur des ambitions et des couleurs du SMRC au plus haut niveau régional."
         crumbs={[

@@ -30,7 +30,7 @@ export const teams: Team[] = [
   {
     slug: "equipe-premiere",
     name: "Équipe Première",
-    category: "Seniors · Fédérale 1",
+    category: "Seniors · National 2",
     description:
       "Le fer de lance du club. Une équipe ambitieuse qui porte les couleurs jaune et noir au plus haut niveau régional.",
     href: "/equipes/equipe-premiere",
@@ -46,7 +46,7 @@ export const teams: Team[] = [
   },
   {
     slug: "feminines",
-    name: "Féminines",
+    name: "Les Jalloises",
     category: "Seniors · Féminines",
     description:
       "Le rugby féminin du SMRC : engagement, solidarité et plaisir de jeu pour toutes les joueuses.",

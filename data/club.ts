@@ -6,7 +6,7 @@
 export const clubValues = [
   {
     title: "Engagement",
-    text: "Sur le terrain comme en dehors, on donne tout pour le maillot, les coéquipiers et le club.",
+    text: "Sur le terrain comme en dehors, on donne tout pour le maillot, le club et la ville.",
   },
   {
     title: "Formation",
@@ -52,7 +52,7 @@ export const timeline: TimelineEntry[] = [
   {
     year: "Aujourd'hui",
     title: "Ambition & territoire",
-    text: "Une équipe première en Fédérale 1, une école de rugby dynamique et un club fédérateur sur la métropole bordelaise.",
+    text: "Une équipe première en National 2, une école de rugby dynamique et un club fédérateur sur la métropole bordelaise.",
   },
 ];
 

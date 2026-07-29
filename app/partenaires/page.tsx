@@ -39,7 +39,6 @@ export default function PartenairesPage() {
               </div>
             );
           })}
-          <p className="text-sm text-ink-500">[À confirmer : liste réelle des partenaires et logos]</p>
         </div>
       </section>
 

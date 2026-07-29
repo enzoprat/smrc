@@ -59,7 +59,7 @@ export default function AdminMatchesPage() {
           idPrefix="m"
           template={{
             team: "Équipe Première",
-            competition: "Fédérale 1 — Poule 4",
+            competition: "National 2 — Poule 4",
             date: "",
             opponent: "",
             homeAway: "home",
@@ -81,7 +81,7 @@ export default function AdminMatchesPage() {
           idPrefix="r"
           template={{
             team: "Équipe Première",
-            competition: "Fédérale 1 — Poule 4",
+            competition: "National 2 — Poule 4",
             date: "",
             opponent: "",
             homeAway: "home",

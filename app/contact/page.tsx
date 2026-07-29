@@ -3,7 +3,7 @@ import { PageHero } from "@/components/PageHero";
 import { SectionTitle } from "@/components/SectionTitle";
 import { ContactForm } from "@/components/ContactForm";
 import { JsonLd } from "@/components/JsonLd";
-import { MapPin, Phone, Mail, Facebook, Instagram, Youtube } from "@/components/Icons";
+import { MapPin, Phone, Mail, Facebook, Instagram } from "@/components/Icons";
 import { site } from "@/data/site";
 import { localBusinessLd } from "@/lib/jsonld";
 import { buildMetadata } from "@/lib/seo";
@@ -65,7 +65,6 @@ export default function ContactPage() {
                 {[
                   { href: social.facebook, label: "Facebook", Icon: Facebook },
                   { href: social.instagram, label: "Instagram", Icon: Instagram },
-                  { href: social.youtube, label: "YouTube", Icon: Youtube },
                 ].map(({ href, label, Icon }) => (
                   <a
                     key={label}

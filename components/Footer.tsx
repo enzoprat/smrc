@@ -2,7 +2,7 @@ import Link from "next/link";
 import { footerNav } from "@/data/nav";
 import { site } from "@/data/site";
 import { Logo } from "./Logo";
-import { MapPin, Phone, Mail, Facebook, Instagram, Youtube } from "./Icons";
+import { MapPin, Phone, Mail, Facebook, Instagram } from "./Icons";
 
 /** Footer global complet. */
 export function Footer() {
@@ -47,7 +47,6 @@ export function Footer() {
               {[
                 { href: social.facebook, label: "Facebook", Icon: Facebook },
                 { href: social.instagram, label: "Instagram", Icon: Instagram },
-                { href: social.youtube, label: "YouTube", Icon: Youtube },
               ].map(({ href, label, Icon }) => (
                 <a
                   key={label}

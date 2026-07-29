@@ -8,27 +8,23 @@ import { NewsCard } from "@/components/NewsCard";
 import { TeamCard } from "@/components/TeamCard";
 import { PartnerLogoGrid } from "@/components/PartnerLogoGrid";
 import { CTASection } from "@/components/CTASection";
-import { Placeholder } from "@/components/Placeholder";
-import { ArrowRight, Check, MapPin, Phone, Mail } from "@/components/Icons";
+import { ArrowRight, MapPin, Phone, Mail } from "@/components/Icons";
 import { getNextMatch } from "@/data/matches";
 import { getLatestResult } from "@/data/results";
 import { getArticleMetas } from "@/lib/content";
 import { teams } from "@/data/teams";
 import { partners } from "@/data/partners";
-import { getUpcomingEvents } from "@/data/events";
 import { site } from "@/data/site";
-import { formatShortDate } from "@/lib/format";
 
 export default function HomePage() {
   const nextMatch = getNextMatch();
   const lastResult = getLatestResult();
   const news = getArticleMetas().slice(0, 3);
-  const events = getUpcomingEvents(3);
 
   const stats = [
     { value: String(site.foundedYear), label: "Année de fondation" },
     { value: site.division, label: "Équipe première" },
-    { value: "École de rugby", label: "Formation des jeunes" },
+    { value: "École de rugby", label: "Labellisé 3 étoiles" },
     { value: "Jaune & Noir", label: "Nos couleurs" },
   ];
 
@@ -75,7 +71,7 @@ export default function HomePage() {
         <div className="container-x">
           <SectionTitle
             eyebrow="Le club en chiffres"
-            title="120 ans d'histoire jaune et noir"
+            title="121 ans d'histoire jaune et noir"
             subtitle="Un club historique, formateur et ancré dans son territoire girondin."
             dark
           />
@@ -109,55 +105,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* École de rugby */}
-      <section className="bg-white py-16 sm:py-24">
-        <div className="container-x">
-          <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
-            <Placeholder
-              src=""
-              alt="École de rugby du SMRC"
-              label="École de rugby"
-              ratio="aspect-[4/3]"
-              className="rounded-lg shadow-card"
-            />
-            <div>
-              <SectionTitle
-                eyebrow="École de rugby"
-                title="Votre enfant veut découvrir le rugby ?"
-                subtitle="De 4 à 14 ans, filles et garçons, dans un cadre familial, sécurisé et encadré par des éducateurs passionnés."
-              />
-              <ul className="mt-6 space-y-3">
-                {[
-                  "Découverte du rugby sans plaquage chez les plus jeunes",
-                  "Apprentissage des valeurs : respect, entraide, plaisir",
-                  "Encadrement par des éducateurs diplômés",
-                  "Séances d'essai gratuites en début de saison",
-                ].map((t) => (
-                  <li key={t} className="flex items-start gap-3 text-ink-700">
-                    <Check width={20} height={20} className="mt-0.5 flex-shrink-0 text-gold-600" />
-                    {t}
-                  </li>
-                ))}
-              </ul>
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                <Link href="/ecole-de-rugby" className="btn-gold">
-                  Découvrir l'école de rugby
-                </Link>
-                <Link href="/ecole-de-rugby#inscription" className="btn-dark">
-                  Inscrire mon enfant
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Équipes */}
       <section className="bg-bone py-16 sm:py-24">
         <div className="container-x">
           <SectionTitle
             eyebrow="Nos équipes"
-            title="De l'école de rugby à la Fédérale 1"
+            title="De l'école de rugby au National 2"
             subtitle="Toutes les générations portent les mêmes couleurs et le même esprit."
           />
           <div className="mt-10 grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-3">
@@ -191,51 +144,16 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Vie du club */}
-      <section className="bg-white py-16 sm:py-24">
-        <div className="container-x">
-          <SectionTitle
-            eyebrow="Vie du club"
-            title="Bien plus qu'un club de rugby"
-            subtitle="Événements, repas supporters, bénévolat, anciens joueurs : le SMRC, c'est une grande famille."
-          />
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
-            {events.map((e) => (
-              <article key={e.id} className="card flex flex-col p-6">
-                <span className="font-display text-xs uppercase tracking-widest text-gold-700">
-                  {formatShortDate(e.date)}
-                </span>
-                <h3 className="mt-2 font-display text-xl font-bold uppercase leading-tight text-ink-900">
-                  {e.title}
-                </h3>
-                <p className="mt-2 flex items-center gap-1.5 text-xs text-ink-500">
-                  <MapPin width={14} height={14} /> {e.location}
-                </p>
-                <p className="mt-3 flex-1 text-sm text-ink-600">{e.description}</p>
-                {e.ctaHref && (
-                  <Link
-                    href={e.ctaHref}
-                    className="mt-4 inline-flex items-center gap-1 font-display text-sm font-semibold uppercase tracking-wide text-gold-700 hover:text-gold-600"
-                  >
-                    {e.ctaLabel} <ArrowRight width={16} height={16} />
-                  </Link>
-                )}
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Boutique / Abonnements */}
       <section className="bg-bone py-16 sm:py-24">
         <div className="container-x">
           <div className="grid gap-6 lg:grid-cols-2">
             <PromoCard
-              eyebrow="Boutique"
-              title="Portez les couleurs du club"
-              text="Maillots, textiles et accessoires aux couleurs jaune et noir. Affichez votre fierté SMRC."
-              href="/boutique"
-              cta="Accéder à la boutique"
+              eyebrow="Supporters"
+              title="Rejoignez les supporters"
+              text="Chaque week-end nos jaunes et noirs ont besoin de votre soutien, rejoignez-nous."
+              href="/contact"
+              cta="Rejoindre les supporters"
             />
             <PromoCard
               eyebrow="Abonnements & billetterie"

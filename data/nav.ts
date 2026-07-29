@@ -23,7 +23,7 @@ export const mainNav: NavItem[] = [
     href: "/club",
     children: [
       { label: "Présentation", href: "/club", description: "Histoire, valeurs et organisation" },
-      { label: "Notre histoire", href: "/club/histoire", description: "120 ans de rugby jaune et noir" },
+      { label: "Notre histoire", href: "/club/histoire", description: "121 ans de rugby jaune et noir" },
       {
         label: "Stade Robert Monseau",
         href: "/club/stade-robert-monseau",
@@ -32,14 +32,13 @@ export const mainNav: NavItem[] = [
     ],
   },
   {
-    label: "Équipes",
+    label: "Nos équipes",
     href: "/equipes",
     children: [
-      { label: "Toutes les équipes", href: "/equipes" },
       { label: "Équipe Première", href: "/equipes/equipe-premiere" },
     ],
   },
-  { label: "École de Rugby", href: "/ecole-de-rugby" },
+  { label: "Nos Formations", href: "/ecole-de-rugby" },
   { label: "Calendrier & Résultats", href: "/calendrier-resultats" },
   {
     label: "Partenaires",
@@ -49,14 +48,13 @@ export const mainNav: NavItem[] = [
       { label: "Devenir partenaire", href: "/partenaires/devenir-partenaire" },
     ],
   },
-  { label: "Boutique", href: "/boutique" },
   { label: "Contact", href: "/contact" },
 ];
 
 /** CTA mis en avant dans le header */
 export const headerCta = {
-  label: "Inscrire mon enfant",
-  href: "/ecole-de-rugby#inscription",
+  label: "Boutique",
+  href: "/boutique",
 };
 
 /** Liens regroupés pour le footer */

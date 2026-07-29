@@ -9,7 +9,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Nos équipes | Saint-Médard Rugby Club",
   description:
-    "Découvrez toutes les équipes du SMRC : équipe première (Fédérale 1), espoirs, féminines, U18, U16 et école de rugby.",
+    "Découvrez toutes les équipes du SMRC : équipe première (National 2), espoirs, féminines, U18, U16 et école de rugby.",
   path: "/equipes",
 });
 

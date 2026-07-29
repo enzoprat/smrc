@@ -29,8 +29,7 @@ export function PageHero({ title, eyebrow, description, crumbs, image }: PageHer
           </div>
         )}
         {eyebrow && (
-          <span className="mb-3 inline-flex items-center gap-2 font-display text-sm font-semibold uppercase tracking-[0.2em] text-gold">
-            <span className="h-px w-6 bg-gold" />
+          <span className="mb-3 inline-flex items-center font-display text-sm font-semibold uppercase tracking-[0.2em] text-gold">
             {eyebrow}
           </span>
         )}

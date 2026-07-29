@@ -22,7 +22,7 @@ export function sportsOrganizationLd() {
     },
     telephone: site.contact.phone,
     email: site.contact.email,
-    sameAs: [site.social.facebook, site.social.instagram, site.social.youtube].filter(Boolean),
+    sameAs: [site.social.facebook, site.social.instagram].filter(Boolean),
   };
 }
 

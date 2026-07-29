@@ -19,8 +19,7 @@ export function SectionTitle({
       className={`max-w-2xl ${align === "center" ? "mx-auto text-center" : ""}`}
     >
       {eyebrow && (
-        <span className="mb-3 inline-flex items-center gap-2 font-display text-sm font-semibold uppercase tracking-[0.2em] text-gold-600">
-          <span className="h-px w-6 bg-gold" />
+        <span className="mb-3 inline-flex items-center font-display text-sm font-semibold uppercase tracking-[0.2em] text-gold-600">
           {eyebrow}
         </span>
       )}

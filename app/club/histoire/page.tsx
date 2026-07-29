@@ -9,7 +9,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Notre histoire | Saint-Médard Rugby Club",
   description:
-    "120 ans de rugby jaune et noir : fondation, grandes dates, palmarès et évolution du Saint-Médard Rugby Club.",
+    "121 ans de rugby jaune et noir : fondation, grandes dates, palmarès et évolution du Saint-Médard Rugby Club.",
   path: "/club/histoire",
 });
 

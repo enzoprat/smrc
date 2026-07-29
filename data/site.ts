@@ -6,12 +6,12 @@
 export const site = {
   name: "Saint-Médard Rugby Club",
   shortName: "SMRC",
-  tagline: "120 ans de rugby, de formation et de passion à Saint-Médard-en-Jalles.",
+  tagline: "121 ans de rugby, de formation et de passion à Saint-Médard-en-Jalles.",
   // Ajuster avec l'URL de production réelle (utilisé pour le SEO / canonical / sitemap)
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://smrc33.fr",
   locale: "fr_FR",
   foundedYear: 1905,
-  division: "Fédérale 1",
+  division: "National 2",
   colors: "Jaune & Noir",
   contact: {
     clubName: "Saint-Médard Rugby Club",
@@ -21,16 +21,13 @@ export const site = {
     city: "Saint-Médard-en-Jalles",
     region: "Gironde",
     country: "France",
-    // [À confirmer : numéro de téléphone officiel]
-    phone: "05 56 00 00 00",
+    phone: "05 56 95 17 72",
     // [À confirmer : email officiel]
     email: "contact@smrc33.fr",
   },
   social: {
-    facebook: "https://www.facebook.com/",
-    instagram: "https://www.instagram.com/",
-    youtube: "https://www.youtube.com/",
-    // [À confirmer : liens réseaux sociaux officiels]
+    facebook: "https://www.facebook.com/smrcrugby/?locale=fr_FR",
+    instagram: "https://www.instagram.com/smrc_officiel/?hl=fr",
   },
   // Liens externes (billetterie / boutique) — à confirmer
   external: {

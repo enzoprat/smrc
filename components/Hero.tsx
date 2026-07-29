@@ -32,9 +32,6 @@ export function Hero() {
               Voir le prochain match
               <ArrowRight width={18} height={18} />
             </Link>
-            <Link href="/ecole-de-rugby#inscription" className="btn-outline">
-              Inscrire mon enfant
-            </Link>
             <Link href="/partenaires/devenir-partenaire" className="btn-outline">
               Devenir partenaire
             </Link>

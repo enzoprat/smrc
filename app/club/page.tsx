@@ -31,7 +31,7 @@ export default function ClubPage() {
           <div>
             <SectionTitle
               eyebrow="Notre histoire"
-              title="Plus de 120 ans de passion"
+              title="Plus de 121 ans de passion"
               subtitle="Né en 1905, le Saint-Médard Rugby Club est l'un des clubs historiques de la métropole bordelaise."
             />
             <p className="mt-6 text-ink-600">
