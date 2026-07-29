@@ -1,24 +1,10 @@
 [
   {
-    "name": "CRÉATECK PAYSAGE ",
+    "name": "ATOL",
     "tier": "officiel",
-    "url": "https://www.createck-paysage.com",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-23-20-00-1785360048409.png",
-    "id": "p-1785359930881"
-  },
-  {
-    "name": "SBFM ",
-    "tier": "officiel",
-    "url": "https://www.sbfm-grillage.com/fr",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-23-17-19-1785359873975.png",
-    "id": "p-1785359551843"
-  },
-  {
-    "name": "CRÉDIT MUTUELLE SUD OUEST ",
-    "tier": "officiel",
-    "url": "https://www.google.com/search?client=safari&rls=en&q=CREDIT+MUTUEL+SAINT+M%C3%89DARD&ie=UTF-8&oe=UTF-8",
-    "logo": "/partners/5-logo-cmso-couleur-rvb-4-3-1785359513349.jpg",
-    "id": "p-1785359502023"
+    "url": "https://magasins.atol.fr/france/cible-saint-medard-en-jalles-807",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-23-23-19-1785361222844.png",
+    "id": "p-1785361216572"
   },
   {
     "name": "BRICOMARCHÉ ",
@@ -51,7 +37,7 @@
   {
     "name": "LA GRANDE JAUGUE",
     "tier": "officiel",
-    "url": "https://www.la-grande-jaugue.fr",
+    "url": "",
     "logo": "/partners/grande-jaugue-logopantone-1785358865768.jpg",
     "id": "p-1785358857374"
   },
