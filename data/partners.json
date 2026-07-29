@@ -1,5 +1,19 @@
 [
   {
+    "name": "INDIAN MOTORCYCLE ",
+    "tier": "officiel",
+    "url": "https://www.indianmotorcyclebordeaux.com",
+    "logo": "/partners/imc-dealer-sac-logo-bordeaux-fa-150dpi-1785332880248.png",
+    "id": "p-1785332841805"
+  },
+  {
+    "name": "CHER MONSIEUR ",
+    "tier": "officiel",
+    "url": "https://www.cher-monsieur.fr/bordeaux-saint-medard-en-jalles",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-15-43-53-1785332772607.png",
+    "id": "p-1785332713811"
+  },
+  {
     "id": "",
     "name": "ARTY'SS",
     "tier": "officiel",
@@ -23,7 +37,7 @@
   {
     "id": "p5",
     "name": "ATELIER BOIS CONCEPT ",
-    "tier": "soutien",
+    "tier": "officiel",
     "logo": "/partners/logo-abc-fond-blanc-1785331639883.png",
     "url": "https://www.google.com/search?client=safari&rls=en&q=ATELIER+BOIS+CONCEPT&ie=UTF-8&oe=UTF-8"
   },
@@ -37,14 +51,14 @@
   {
     "id": "p7",
     "name": "COSTA ADRIEN  - POSE DE CARRELAGE ",
-    "tier": "soutien",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-15-40-05-1785332485587.png",
+    "tier": "officiel",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-15-40-05-1785332745851.png",
     "url": "https://www.pagesjaunes.fr/pros/54366698"
   },
   {
     "id": "p8",
     "name": "PRAT ENZO - CRÉATION DE SITE INTERNET ",
-    "tier": "soutien",
+    "tier": "officiel",
     "logo": "/partners/logo-pe-1785331936972.png",
     "url": "https://www.enzoprat.fr"
   },
@@ -65,7 +79,7 @@
   {
     "id": "p11",
     "name": "BISTROT DE LA JALLES ",
-    "tier": "soutien",
+    "tier": "officiel",
     "logo": "/partners/carte-visite-recto-bistro-de-la-jalle-2-1785332211973.png",
     "url": "https://restaurant-bordeaux.net"
   }
