@@ -239,7 +239,7 @@
   },
   {
     "name": "UNIBATECH ",
-    "tier": "soutien",
+    "tier": "officiel",
     "url": "https://www.unibatech.fr",
     "logo": "/partners/logo-unibatech-1785347509598.svg",
     "id": "p-1785347494482"
@@ -373,7 +373,7 @@
   {
     "id": "p4",
     "name": "KOZMA CONCEPT",
-    "tier": "soutien",
+    "tier": "officiel",
     "url": "https://kozmaconcept.fr",
     "logo": "/partners/logo-1785331606937.jpg"
   },
