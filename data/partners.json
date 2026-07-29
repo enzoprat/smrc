@@ -1,9 +1,23 @@
 [
   {
-    "name": "",
+    "name": "MAESTRIA",
+    "tier": "officiel",
+    "url": "https://www.maestria.fr/fr/",
+    "logo": "/partners/logo-maestria-1785346631760.jpg",
+    "id": "p-1785346602325"
+  },
+  {
+    "name": "CAP INCENDIE",
+    "tier": "officiel",
+    "url": "https://capincendie.com/fr/page/contact",
+    "logo": "/partners/logo-capincendie-fond-noir-v8-1785346558987.png",
+    "id": "p-1785346548005"
+  },
+  {
+    "name": "BS AUTOVITRAGE",
     "tier": "soutien",
-    "url": "",
-    "logo": "",
+    "url": "https://bs-autovitrage.fr",
+    "logo": "/partners/logo-1-1785346518768.jpg",
     "id": "p-1785346462982"
   },
   {
