@@ -2,6 +2,16 @@
   {
     "team": "Espoirs",
     "competition": "Espoirs Nationaux — Poule 1",
+    "date": "2027-02-07T13:30",
+    "opponent": "Servette RC Genève",
+    "homeAway": "away",
+    "venue": "Stade de la Plaine des Sports, Valserhône",
+    "status": "upcoming",
+    "id": "m-1785408607987"
+  },
+  {
+    "team": "Espoirs",
+    "competition": "Espoirs Nationaux — Poule 1",
     "date": "2027-01-31T13:30",
     "opponent": "AS Mâcon",
     "homeAway": "home",
