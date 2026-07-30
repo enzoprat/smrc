@@ -1,5 +1,12 @@
 [
   {
+    "name": "DIMENA",
+    "tier": "majeur",
+    "url": "https://dimena.fr",
+    "logo": "/partners/images-14-1785407056577.png",
+    "id": "p-1785406665234"
+  },
+  {
     "name": "VÉOLIA",
     "tier": "officiel",
     "url": "https://www.eau.veolia.fr",
