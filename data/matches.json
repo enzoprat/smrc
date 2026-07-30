@@ -2,6 +2,16 @@
   {
     "team": "Espoirs",
     "competition": "Espoirs Nationaux — Poule 1",
+    "date": "2026-12-12T17:15",
+    "opponent": "Union Drancy Saint-Denis",
+    "homeAway": "away",
+    "venue": "Stade Guy Moquet, Drancy",
+    "status": "upcoming",
+    "id": "m-1785408421598"
+  },
+  {
+    "team": "Espoirs",
+    "competition": "Espoirs Nationaux — Poule 1",
     "date": "2026-12-05T17:15",
     "opponent": "Stade Métropolitain",
     "homeAway": "away",
