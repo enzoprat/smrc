@@ -15,6 +15,7 @@ import { getArticleMetas } from "@/lib/content";
 import { teams } from "@/data/teams";
 import { partners } from "@/data/partners";
 import { site } from "@/data/site";
+import { findImage } from "@/lib/gallery";
 
 export default function HomePage() {
   const nextMatch = getNextMatch();
@@ -115,7 +116,7 @@ export default function HomePage() {
           />
           <div className="mt-10 grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-3">
             {teams.map((t) => (
-              <TeamCard key={t.slug} team={t} />
+              <TeamCard key={t.slug} team={{ ...t, image: findImage("accueil/categories", t.slug) ?? t.image }} />
             ))}
           </div>
         </div>

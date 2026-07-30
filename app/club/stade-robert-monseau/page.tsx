@@ -5,6 +5,7 @@ import { Placeholder } from "@/components/Placeholder";
 import { CTASection } from "@/components/CTASection";
 import { MapPin, Clock, Check } from "@/components/Icons";
 import { site } from "@/data/site";
+import { listImages } from "@/lib/gallery";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
@@ -19,6 +20,7 @@ const mapsQuery = encodeURIComponent(
 );
 
 export default function StadePage() {
+  const photos = listImages("stade");
   const infos = [
     "Tribune et espaces familles",
     "Club house pour les repas supporters",
@@ -40,7 +42,7 @@ export default function StadePage() {
 
       <section className="bg-white py-16 sm:py-24">
         <div className="container-x grid gap-10 lg:grid-cols-2 lg:gap-16">
-          <Placeholder src="" alt="Stade Robert Monseau" label="Stade Robert Monseau" ratio="aspect-[4/3]" className="rounded-lg shadow-card" />
+          <Placeholder src={photos[0]} alt="Stade Robert Monseau" label="Stade Robert Monseau" ratio="aspect-[4/3]" className="rounded-lg shadow-card" />
           <div>
             <SectionTitle eyebrow="Présentation" title="Notre maison" />
             <p className="mt-6 text-ink-600">
@@ -59,6 +61,23 @@ export default function StadePage() {
           </div>
         </div>
       </section>
+
+      {/* Galerie photos */}
+      {photos.length > 1 && (
+        <section className="bg-white pb-16 sm:pb-24">
+          <div className="container-x grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {photos.slice(1).map((src) => (
+              <Placeholder
+                key={src}
+                src={src}
+                alt="Stade Robert Monseau"
+                ratio="aspect-[4/3]"
+                className="rounded-lg shadow-sm ring-1 ring-black/5"
+              />
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Accès */}
       <section className="bg-bone py-16 sm:py-24">

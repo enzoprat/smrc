@@ -1,21 +1,31 @@
 import Link from "next/link";
 import { site } from "@/data/site";
 import { ArrowRight } from "./Icons";
+import { HeroCarousel } from "./HeroCarousel";
+import { listImages } from "@/lib/gallery";
 
 /** Hero plein écran de la page d'accueil. */
 export function Hero() {
+  const carousel = listImages("accueil/carrousel");
+
   return (
     <section className="relative flex min-h-[88vh] items-center overflow-hidden bg-ink-900">
-      {/* Fond : dégradé sombre + grain + halo doré (placeholder en attendant photo match) */}
-      <div className="absolute inset-0 bg-gradient-to-br from-ink-800 via-ink-900 to-black" />
-      <div className="absolute inset-0 bg-grain opacity-50" />
-      <div className="absolute -left-40 top-1/4 h-96 w-96 rounded-full bg-gold/10 blur-3xl" />
-      <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-gold/5 blur-3xl" />
-      {/* Lignes de terrain stylisées */}
-      <div className="absolute inset-y-0 left-1/2 w-px bg-white/5" />
-      <div className="absolute inset-x-0 bottom-0 h-1.5 bg-gradient-to-r from-gold via-gold-300 to-gold" />
+      {carousel.length > 0 ? (
+        <HeroCarousel images={carousel} />
+      ) : (
+        <>
+          {/* Fond : dégradé sombre + grain + halo doré (placeholder en attendant photo match) */}
+          <div className="absolute inset-0 bg-gradient-to-br from-ink-800 via-ink-900 to-black" />
+          <div className="absolute inset-0 bg-grain opacity-50" />
+          <div className="absolute -left-40 top-1/4 h-96 w-96 rounded-full bg-gold/10 blur-3xl" />
+          <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-gold/5 blur-3xl" />
+          {/* Lignes de terrain stylisées */}
+          <div className="absolute inset-y-0 left-1/2 w-px bg-white/5" />
+        </>
+      )}
+      <div className="absolute inset-x-0 bottom-0 z-10 h-1.5 bg-gradient-to-r from-gold via-gold-300 to-gold" />
 
-      <div className="container-x relative pt-24">
+      <div className="container-x relative z-10 pt-24">
         <div className="max-w-3xl animate-fade-up">
           <span className="mb-5 inline-flex items-center gap-2 rounded-sm border border-gold/30 bg-gold/10 px-3 py-1.5 font-display text-xs font-semibold uppercase tracking-[0.2em] text-gold">
             Depuis {site.foundedYear} · {site.division} · Gironde
