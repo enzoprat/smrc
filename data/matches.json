@@ -2,6 +2,16 @@
   {
     "team": "Espoirs",
     "competition": "Espoirs Nationaux — Poule 1",
+    "date": "2026-10-11T13:30",
+    "opponent": "Servette RC Genève",
+    "homeAway": "home",
+    "venue": "Stade Robert Monseau",
+    "status": "upcoming",
+    "id": "m-1785408098256"
+  },
+  {
+    "team": "Espoirs",
+    "competition": "Espoirs Nationaux — Poule 1",
     "date": "2026-10-04T13:30",
     "opponent": "AS Mâcon",
     "homeAway": "away",
