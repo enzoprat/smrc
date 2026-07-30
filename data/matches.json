@@ -2,6 +2,16 @@
   {
     "team": "Équipe Première",
     "competition": "Nationale 2 — Poule 1",
+    "date": "2026-12-05T19:00",
+    "opponent": "Stade Métropolitain",
+    "homeAway": "away",
+    "venue": "Complexe Sportif Boiron Granger",
+    "status": "upcoming",
+    "id": "m-1785406551546"
+  },
+  {
+    "team": "Équipe Première",
+    "competition": "Nationale 2 — Poule 1",
     "date": "2026-11-29T15:15",
     "opponent": "US Salles",
     "homeAway": "home",
