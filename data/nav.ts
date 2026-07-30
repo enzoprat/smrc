@@ -66,8 +66,9 @@ export const mainNav: NavItem[] = [
 
 /** CTA mis en avant dans le header */
 export const headerCta = {
-  label: "Nous rejoindre",
-  href: "/contact",
+  label: "Boutique",
+  href: "/boutique",
+  soon: true,
 };
 
 /** Liens regroupés pour le footer */

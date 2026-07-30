@@ -79,9 +79,13 @@ export function Header() {
           </nav>
 
           <div className="flex items-center gap-3">
-            <Link href={headerCta.href} className="btn-gold hidden xl:inline-flex">
-              {headerCta.label}
-            </Link>
+            <span
+              className="btn-gold hidden cursor-not-allowed opacity-50 xl:inline-flex"
+              aria-disabled="true"
+              title="Bientôt disponible"
+            >
+              {headerCta.label} · à venir
+            </span>
             <button
               type="button"
               onClick={() => setOpen(true)}
