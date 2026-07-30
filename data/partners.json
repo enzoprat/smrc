@@ -1,5 +1,12 @@
 [
   {
+    "name": "",
+    "tier": "soutien",
+    "url": "",
+    "logo": "",
+    "id": "p-1785414651373"
+  },
+  {
     "name": "MAISON YOU",
     "tier": "officiel",
     "url": "https://yoü.fr",
@@ -29,7 +36,7 @@
   },
   {
     "name": "ABL CÉRÉMIQUE ",
-    "tier": "officiel",
+    "tier": "majeur",
     "url": "https://www.carrelage-brisseau-lionel.fr",
     "logo": "/partners/capture-d-ecran-2026-07-30-a-14-09-09-1785413608164.png",
     "id": "p-1785413415778"
