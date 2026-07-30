@@ -2,6 +2,16 @@
   {
     "team": "Équipe Première",
     "competition": "Nationale 2 — Poule 1",
+    "date": "2027-03-06T19:00",
+    "opponent": "US Marmande",
+    "homeAway": "away",
+    "venue": "Stade Georges Dartiailh, Marmande",
+    "status": "upcoming",
+    "id": "m-1785407211950"
+  },
+  {
+    "team": "Équipe Première",
+    "competition": "Nationale 2 — Poule 1",
     "date": "2027-02-28T15:15",
     "opponent": "CS Annonay",
     "homeAway": "away",
