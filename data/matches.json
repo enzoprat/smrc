@@ -2,6 +2,16 @@
   {
     "team": "Équipe Première",
     "competition": "Nationale 2 — Poule 1",
+    "date": "2026-12-12T19:00",
+    "opponent": "Union Drancy Saint-Denis",
+    "homeAway": "away",
+    "venue": "Stade Robert Monseau",
+    "status": "upcoming",
+    "id": "m-1785406633389"
+  },
+  {
+    "team": "Équipe Première",
+    "competition": "Nationale 2 — Poule 1",
     "date": "2026-12-05T19:00",
     "opponent": "Stade Métropolitain",
     "homeAway": "away",
