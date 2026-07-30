@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { sendEmail } from "@/lib/email";
 
 const BUDGETS = ["Moins de 500 €", "500 € – 1 500 €", "1 500 € – 5 000 €", "Plus de 5 000 €", "À définir"];
 
 type Status = "idle" | "loading" | "success" | "error";
 
-/** Formulaire partenaire B2B — poste vers /api/contact avec le sujet "Partenariat". */
+/** Formulaire partenaire B2B — envoi par email via Web3Forms (sujet "Partenariat"). */
 export function PartnerForm() {
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState("");
@@ -25,16 +26,20 @@ export function PartnerForm() {
       return;
     }
 
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-      });
-      if (!res.ok) throw new Error();
+    const sent = await sendEmail("Demande de partenariat — site SMRC", {
+      Entreprise: String(data.company ?? ""),
+      Contact: String(data.contact ?? ""),
+      Email: String(data.email ?? ""),
+      Téléphone: String(data.phone ?? ""),
+      Budget: String(data.budget ?? ""),
+      Message: String(data.message ?? ""),
+      replyto: String(data.email ?? ""),
+    });
+
+    if (sent) {
       setStatus("success");
       form.reset();
-    } catch {
+    } else {
       setStatus("error");
       setError("Une erreur est survenue. Réessayez ou écrivez-nous directement par email.");
     }

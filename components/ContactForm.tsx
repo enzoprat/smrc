@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { sendEmail } from "@/lib/email";
 
 const SUBJECTS = [
   "Inscription",
@@ -34,16 +35,19 @@ export function ContactForm({ defaultSubject }: { defaultSubject?: string }) {
       return;
     }
 
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-      });
-      if (!res.ok) throw new Error();
+    const sent = await sendEmail(`Contact site — ${data.subject ?? "Message"}`, {
+      Sujet: String(data.subject ?? ""),
+      Nom: `${data.firstName ?? ""} ${data.lastName ?? ""}`.trim(),
+      Email: String(data.email ?? ""),
+      Téléphone: String(data.phone ?? ""),
+      Message: String(data.message ?? ""),
+      replyto: String(data.email ?? ""),
+    });
+
+    if (sent) {
       setStatus("success");
       form.reset();
-    } catch {
+    } else {
       setStatus("error");
       setError("Une erreur est survenue. Réessayez ou écrivez-nous directement par email.");
     }

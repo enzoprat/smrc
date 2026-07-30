@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { sendEmail } from "@/lib/email";
 
 type Status = "idle" | "loading" | "success" | "error";
 
 /**
  * Formulaire d'inscription supporter (nom, prénom, email, téléphone).
- * Poste vers /api/supporters. Même mécanisme que le formulaire de contact.
+ * Envoi par email via Web3Forms. Même mécanisme que le formulaire de contact.
  */
 export function SupporterForm() {
   const [status, setStatus] = useState<Status>("idle");
@@ -25,16 +26,17 @@ export function SupporterForm() {
       return;
     }
 
-    try {
-      const res = await fetch("/api/supporters", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-      });
-      if (!res.ok) throw new Error();
+    const sent = await sendEmail("Nouveau supporter — inscription site", {
+      Nom: `${data.firstName ?? ""} ${data.lastName ?? ""}`.trim(),
+      Email: String(data.email ?? ""),
+      Téléphone: String(data.phone ?? ""),
+      replyto: String(data.email ?? ""),
+    });
+
+    if (sent) {
       setStatus("success");
       form.reset();
-    } catch {
+    } else {
       setStatus("error");
       setError("Une erreur est survenue. Réessayez ou écrivez-nous directement par email.");
     }
