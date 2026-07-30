@@ -2,6 +2,16 @@
   {
     "team": "Équipe Première",
     "competition": "Nationale 2 — Poule 1",
+    "date": "2027-01-31T15:15",
+    "opponent": "AS Mâcon",
+    "homeAway": "home",
+    "venue": "Stade Robert Monseau",
+    "status": "upcoming",
+    "id": "m-1785406849561"
+  },
+  {
+    "team": "Équipe Première",
+    "competition": "Nationale 2 — Poule 1",
     "date": "2027-01-17T15:15",
     "opponent": "Floirac Rive Droite",
     "homeAway": "away",
