@@ -2,6 +2,16 @@
   {
     "team": "Espoirs",
     "competition": "Espoirs Nationaux — Poule 1",
+    "date": "2026-10-17T17:15",
+    "opponent": "Stade Nantais",
+    "homeAway": "away",
+    "venue": "Stade Pascal Laporte, Nantes",
+    "status": "upcoming",
+    "id": "m-1785408149732"
+  },
+  {
+    "team": "Espoirs",
+    "competition": "Espoirs Nationaux — Poule 1",
     "date": "2026-10-11T13:30",
     "opponent": "Servette RC Genève",
     "homeAway": "home",
