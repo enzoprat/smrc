@@ -44,7 +44,7 @@ export function Header() {
               <div key={item.href} className="group relative">
                 <Link
                   href={item.href}
-                  className={`flex items-center gap-1 px-3 py-2 font-display text-sm font-semibold uppercase tracking-wide transition-colors ${
+                  className={`flex items-center gap-1 whitespace-nowrap px-3 py-2 font-display text-sm font-semibold uppercase tracking-wide transition-colors ${
                     isActive(item.href) ? "text-gold" : "text-white/90 hover:text-gold"
                   }`}
                 >

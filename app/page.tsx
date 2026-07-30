@@ -6,14 +6,13 @@ import { MatchCard } from "@/components/MatchCard";
 import { ResultCard } from "@/components/ResultCard";
 import { NewsCard } from "@/components/NewsCard";
 import { TeamCard } from "@/components/TeamCard";
-import { PartnerLogoGrid } from "@/components/PartnerLogoGrid";
+import { PartnerSlider } from "@/components/PartnerSlider";
 import { CTASection } from "@/components/CTASection";
 import { ArrowRight, MapPin, Phone, Mail } from "@/components/Icons";
 import { getNextMatch } from "@/data/matches";
 import { getLatestResult } from "@/data/results";
 import { getArticleMetas } from "@/lib/content";
 import { teams } from "@/data/teams";
-import { partners } from "@/data/partners";
 import { site } from "@/data/site";
 import { findImage } from "@/lib/gallery";
 
@@ -132,7 +131,7 @@ export default function HomePage() {
             dark
           />
           <div className="mt-10">
-            <PartnerLogoGrid partners={partners} dark />
+            <PartnerSlider dark />
           </div>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
             <Link href="/partenaires/devenir-partenaire" className="btn-gold">

@@ -63,6 +63,16 @@ export const timeline: TimelineEntry[] = [
     text: "Après l'accession en Fédérale 2 en 2006, le SMRC rejoint la Fédérale 1 et s'installe durablement à ce niveau.",
   },
   {
+    year: "2019",
+    title: "Descente en Fédérale 2",
+    text: "Après plusieurs saisons au plus haut niveau régional, le club connaît une descente en Fédérale 2, point de départ d'un nouveau projet de reconstruction.",
+  },
+  {
+    year: "2022",
+    title: "Montée en Fédérale 1",
+    text: "Porté par un groupe rajeuni et une formation solide, le SMRC retrouve la Fédérale 1 et relance sa dynamique sportive.",
+  },
+  {
     year: "2026",
     title: "Montée en Nationale 2",
     text: "Le club franchit un nouveau cap en accédant à la Nationale 2, récompense d'un projet sportif ambitieux et d'une formation exigeante.",
