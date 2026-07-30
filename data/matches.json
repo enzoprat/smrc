@@ -2,6 +2,16 @@
   {
     "team": "Équipe Première",
     "competition": "Nationale 2 — Poule 1",
+    "date": "2026-11-15T15:15",
+    "opponent": "RCS Rumilly",
+    "homeAway": "away",
+    "venue": "Stade des Grangettes",
+    "status": "upcoming",
+    "id": "m-1785406444965"
+  },
+  {
+    "team": "Équipe Première",
+    "competition": "Nationale 2 — Poule 1",
     "date": "2026-11-08T15:15",
     "opponent": "US Marmande",
     "homeAway": "home",
