@@ -2,6 +2,16 @@
   {
     "team": "Espoirs",
     "competition": "Espoirs Nationaux — Poule 1",
+    "date": "2027-03-06T17:15",
+    "opponent": "US Marmande",
+    "homeAway": "away",
+    "venue": "Stade Georges Dartiailh, Marmande",
+    "status": "upcoming",
+    "id": "m-1785408726975"
+  },
+  {
+    "team": "Espoirs",
+    "competition": "Espoirs Nationaux — Poule 1",
     "date": "2027-02-28T13:30",
     "opponent": "CS Annonay",
     "homeAway": "away",
