@@ -2,6 +2,16 @@
   {
     "team": "Équipe Première",
     "competition": "Nationale 2 — Poule 1",
+    "date": "2026-04-04T15:15",
+    "opponent": "US Salles",
+    "homeAway": "away",
+    "venue": "Stade Raymond Brun",
+    "status": "upcoming",
+    "id": "m-1785407322392"
+  },
+  {
+    "team": "Équipe Première",
+    "competition": "Nationale 2 — Poule 1",
     "date": "2027-03-28T15:15",
     "opponent": "RCS Rumilly",
     "homeAway": "home",
