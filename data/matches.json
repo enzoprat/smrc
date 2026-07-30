@@ -2,6 +2,16 @@
   {
     "team": "Espoirs",
     "competition": "Espoirs Nationaux — Poule 1",
+    "date": "2026-12-05T17:15",
+    "opponent": "Stade Métropolitain",
+    "homeAway": "away",
+    "venue": "Complexe Sportif Boiron Granger, Villeurbanne",
+    "status": "upcoming",
+    "id": "m-1785408367877"
+  },
+  {
+    "team": "Espoirs",
+    "competition": "Espoirs Nationaux — Poule 1",
     "date": "2026-11-29T13:30",
     "opponent": "US Salles",
     "homeAway": "home",
@@ -205,7 +215,7 @@
     "date": "2026-12-12T19:00",
     "opponent": "Union Drancy Saint-Denis",
     "homeAway": "away",
-    "venue": "Stade Guy Moquet, Drançy",
+    "venue": "Stade Guy Moquet, Drancy",
     "status": "upcoming",
     "id": "m-1785406633389"
   },
