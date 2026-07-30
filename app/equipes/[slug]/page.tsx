@@ -12,6 +12,7 @@ import { playersByTeam } from "@/data/players";
 import { trainingByTeam } from "@/data/training";
 import { getUpcomingMatches } from "@/data/matches";
 import { getResults, standings } from "@/data/results";
+import { findImage } from "@/lib/gallery";
 import { buildMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
@@ -61,7 +62,7 @@ export default function TeamPage({ params }: { params: { slug: string } }) {
       <section className="bg-white py-16 sm:py-24">
         <div className="container-x grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <Placeholder
-            src={team.image}
+            src={team.image ?? findImage("accueil/categories", team.slug)}
             alt={team.name}
             label={team.name}
             ratio="aspect-[4/3]"

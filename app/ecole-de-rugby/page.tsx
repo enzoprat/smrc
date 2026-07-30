@@ -9,6 +9,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { Check, Users, Clock, ArrowRight } from "@/components/Icons";
 import { faqsByTopic } from "@/data/faqs";
 import { faqLd } from "@/lib/jsonld";
+import { findImage } from "@/lib/gallery";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
@@ -55,7 +56,7 @@ export default function EcoleRugbyPage() {
       {/* Message rassurant */}
       <section className="bg-white py-16 sm:py-24">
         <div className="container-x grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
-          <Placeholder src="" alt="Enfants à l'école de rugby du SMRC" label="École de rugby" ratio="aspect-[4/3]" className="rounded-lg shadow-card" />
+          <Placeholder src={findImage("accueil/categories", "ecole-de-rugby")} alt="Enfants à l'école de rugby du SMRC" label="École de rugby" ratio="aspect-[4/3]" className="rounded-lg shadow-card" />
           <div>
             <SectionTitle
               eyebrow="Pour les parents"

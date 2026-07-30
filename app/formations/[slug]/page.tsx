@@ -6,6 +6,7 @@ import { Placeholder } from "@/components/Placeholder";
 import { CTASection } from "@/components/CTASection";
 import { Check } from "@/components/Icons";
 import { formations, getFormation } from "@/data/formations";
+import { findImage } from "@/lib/gallery";
 import { buildMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
@@ -41,7 +42,7 @@ export default function FormationPage({ params }: { params: { slug: string } }) 
       <section className="bg-white py-16 sm:py-24">
         <div className="container-x grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <Placeholder
-            src=""
+            src={findImage("accueil/categories", formation.slug)}
             alt={formation.name}
             label={formation.name}
             ratio="aspect-[4/3]"
