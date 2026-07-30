@@ -1,6 +1,13 @@
 [
   {
     "team": "feminines",
+    "day": "Jeudi",
+    "time": "19h30-21h00",
+    "place": "Bords de Jalle",
+    "id": "e-1785416578748"
+  },
+  {
+    "team": "feminines",
     "day": "Mardi",
     "time": "19h30-21h00",
     "place": "Martignas",
