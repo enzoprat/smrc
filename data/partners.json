@@ -4,6 +4,13 @@
     "tier": "soutien",
     "url": "",
     "logo": "",
+    "id": "p-1785419689988"
+  },
+  {
+    "name": "",
+    "tier": "soutien",
+    "url": "",
+    "logo": "",
     "id": "p-1785417454720"
   },
   {
@@ -17,12 +24,12 @@
     "name": "PROFIL PLUS",
     "tier": "officiel",
     "url": "https://www.profilplus.fr/agence/77-le-haillan",
-    "logo": "/partners/image-29-1785417153128.jpg",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-15-54-09-1785419673945.png",
     "id": "p-1785417124901"
   },
   {
     "name": "REP INDUSTRIE ",
-    "tier": "soutien",
+    "tier": "officiel",
     "url": "https://www.google.com/search?client=safari&rls=en&q=REP+INDUSTRIE&ie=UTF-8&oe=UTF-8",
     "logo": "/partners/images-28-1785417039821.png",
     "id": "p-1785417003840"
