@@ -2,6 +2,16 @@
   {
     "team": "Équipe Première",
     "competition": "Nationale 2 — Poule 1",
+    "date": "2027-02-14T15:15",
+    "opponent": "Stade Nantais",
+    "homeAway": "home",
+    "venue": "Stade Robert Monseau",
+    "status": "upcoming",
+    "id": "m-1785407110688"
+  },
+  {
+    "team": "Équipe Première",
+    "competition": "Nationale 2 — Poule 1",
     "date": "2027-02-07T15:15",
     "opponent": "Servette RC Genève",
     "homeAway": "away",
