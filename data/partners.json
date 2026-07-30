@@ -1,5 +1,33 @@
 [
   {
+    "name": "",
+    "tier": "soutien",
+    "url": "",
+    "logo": "",
+    "id": "p-1785405487118"
+  },
+  {
+    "name": "BOUCHERIE DYLAN CHOURI",
+    "tier": "officiel",
+    "url": "https://www.google.com/search?client=safari&hs=iagV&sca_esv=2c719d755bc25006&rls=en&sxsrf=APpeQnv7kjCnY0zsGhqkPQxzCpxJC-4bjw:1785405348553&q=boucherie+dylan+choury&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKE96KF_epQoJkgXuqdq6dlmxS4Fb98UQv6ZD6Rw83Xr8GuD7KurDdSpheH3G8iiG8vPWswjkEXl6JpsxdKzzespnS4wDVaEk2HEMXb1hy7U5u8RgxA&sa=X&ved=2ahUKEwjgj9KckfqVAxUTOPsDHQ5GJQUQ0pQJegQIDRAB&biw=1440&bih=900&dpr=1",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-11-55-58-1785405502596.png",
+    "id": "p-1785405486852"
+  },
+  {
+    "name": "CHAUFFE & VOUS",
+    "tier": "majeur",
+    "url": "",
+    "logo": "",
+    "id": "p-1785405486101"
+  },
+  {
+    "name": "CHAUFFE & VOUS",
+    "tier": "officiel",
+    "url": "https://www.chauffeetvous.fr",
+    "logo": "/partners/images-12-1785405724267.jpg",
+    "id": "p-1785405379259"
+  },
+  {
     "name": "BOUCHERIE SAINT MÉDARD",
     "tier": "officiel",
     "url": "https://www.google.com/search?client=safari&rls=en&q=BOUCHERIE+SAINT+M%C3%89DARD&ie=UTF-8&oe=UTF-8",
