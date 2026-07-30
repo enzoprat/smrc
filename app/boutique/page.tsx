@@ -60,14 +60,14 @@ export default function BoutiquePage() {
               <SectionTitle
                 eyebrow="Commander"
                 title="Boutique en ligne & dons"
-                subtitle="Commandez vos produits ou soutenez le club via notre billetterie en ligne."
+                subtitle="La boutique en ligne arrive bientôt. En attendant, vous pouvez déjà soutenir le club via notre billetterie en ligne."
                 dark
               />
             </div>
             <div className="flex flex-col gap-3">
-              <a href={site.external.boutique} target="_blank" rel="noopener noreferrer" className="btn-gold">
-                Accéder à la boutique
-              </a>
+              <span className="btn-gold cursor-not-allowed opacity-60" aria-disabled="true">
+                Boutique à venir
+              </span>
               <a href={site.external.helloAsso} target="_blank" rel="noopener noreferrer" className="btn-outline">
                 Faire un don (HelloAsso)
               </a>
