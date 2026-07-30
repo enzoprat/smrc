@@ -58,6 +58,8 @@ export function NewsForm({
   const [slugTouched, setSlugTouched] = useState(mode === "edit");
   const [status, setStatus] = useState<"idle" | "saving" | "saved" | "error">("idle");
   const [message, setMessage] = useState("");
+  const [uploading, setUploading] = useState(false);
+  const [uploadError, setUploadError] = useState("");
 
   const originalSlug = mode === "edit" ? initial?.slug ?? "" : "";
 
@@ -73,6 +75,27 @@ export function NewsForm({
       slug: slugTouched ? prev.slug : slugify(value),
     }));
     setStatus("idle");
+  }
+
+  async function uploadImage(file: File) {
+    setUploading(true);
+    setUploadError("");
+    try {
+      const fd = new FormData();
+      fd.append("file", file);
+      fd.append("folder", "actualites");
+      const res = await fetch("/api/admin/upload", { method: "POST", body: fd });
+      const j = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        const detail = j.detail ? ` (${j.detail})` : "";
+        throw new Error((j.error || "Échec de l'upload.") + detail);
+      }
+      set("image", j.path);
+    } catch (err) {
+      setUploadError(err instanceof Error ? err.message : "Erreur d'upload.");
+    } finally {
+      setUploading(false);
+    }
   }
 
   async function submit(e: React.FormEvent) {
@@ -173,13 +196,41 @@ export function NewsForm({
           </div>
 
           <div>
-            <label className={labelCls}>Image (chemin ou URL, optionnel)</label>
-            <input
-              value={values.image}
-              onChange={(e) => set("image", e.target.value)}
-              className={inputCls}
-              placeholder="/news/mon-image.jpg"
-            />
+            <label className={labelCls}>Image de l'article (optionnel)</label>
+            {values.image ? (
+              <div className="flex items-center gap-3">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={values.image}
+                  alt="Aperçu"
+                  className="h-16 w-16 rounded-sm object-cover ring-1 ring-black/10"
+                />
+                <div className="min-w-0">
+                  <p className="truncate text-xs text-ink-500">{values.image}</p>
+                  <button
+                    type="button"
+                    onClick={() => set("image", "")}
+                    className="mt-1 text-xs font-medium text-red-600 hover:underline"
+                  >
+                    Retirer l'image
+                  </button>
+                </div>
+              </div>
+            ) : (
+              <input
+                type="file"
+                accept="image/png,image/jpeg,image/webp,image/gif"
+                disabled={uploading}
+                onChange={(e) => {
+                  const file = e.target.files?.[0];
+                  if (file) uploadImage(file);
+                  e.target.value = "";
+                }}
+                className="block w-full text-sm text-ink-600 file:mr-3 file:rounded-sm file:border-0 file:bg-ink-900 file:px-3 file:py-2 file:text-xs file:font-semibold file:uppercase file:tracking-wide file:text-white hover:file:bg-ink-700 disabled:opacity-50"
+              />
+            )}
+            {uploading && <p className="mt-1 text-xs text-ink-500">Envoi en cours…</p>}
+            {uploadError && <p className="mt-1 text-xs text-red-600">{uploadError}</p>}
           </div>
 
           <div className="sm:col-span-2">

@@ -3,12 +3,17 @@ import { getSession } from "@/lib/auth";
 import { commitBinaryFile, isGitHubConfigured } from "@/lib/github";
 
 /**
- * Upload d'une image (logo partenaire) : le fichier est committé dans
- * public/partners/ via l'API GitHub, puis servi après le redéploiement.
- * Renvoie le chemin public à stocker dans le champ concerné.
+ * Upload d'une image : le fichier est committé dans public/<dossier>/ via
+ * l'API GitHub, puis servi après le redéploiement. Renvoie le chemin public
+ * à stocker dans le champ concerné. Le dossier cible est choisi via le champ
+ * `folder` (liste blanche), par défaut « partners ».
  */
 
 const MAX_SIZE = 2 * 1024 * 1024; // 2 Mo
+const FOLDERS: Record<string, string> = {
+  partners: "partners",
+  actualites: "actualites",
+};
 const ALLOWED: Record<string, string> = {
   "image/png": "png",
   "image/jpeg": "jpg",
@@ -60,17 +65,18 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Fichier trop volumineux (max 2 Mo)." }, { status: 413 });
   }
 
-  const base = slugify(file.name.replace(/\.[^.]+$/, "")) || "logo";
+  const folder = FOLDERS[String(form.get("folder") ?? "partners")] ?? "partners";
+  const base = slugify(file.name.replace(/\.[^.]+$/, "")) || "image";
   const filename = `${base}-${Date.now()}.${ext}`;
   const base64 = Buffer.from(await file.arrayBuffer()).toString("base64");
 
   try {
     await commitBinaryFile({
-      path: `public/partners/${filename}`,
+      path: `public/${folder}/${filename}`,
       base64,
-      message: `chore(admin): upload logo ${filename}`,
+      message: `chore(admin): upload image ${folder}/${filename}`,
     });
-    return NextResponse.json({ ok: true, path: `/partners/${filename}` });
+    return NextResponse.json({ ok: true, path: `/${folder}/${filename}` });
   } catch (err) {
     console.error("[admin/upload] échec commit GitHub :", err);
     return NextResponse.json(
