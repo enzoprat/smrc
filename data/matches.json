@@ -3,6 +3,16 @@
     "team": "Équipe Première",
     "competition": "Nationale 2 — Poule 1",
     "date": "",
+    "opponent": "Stade Langonnais",
+    "homeAway": "away",
+    "venue": "Stade Comberlin",
+    "status": "upcoming",
+    "id": "m-1785406072091"
+  },
+  {
+    "team": "Équipe Première",
+    "competition": "Nationale 2 — Poule 1",
+    "date": "",
     "opponent": "Union Drancy Saint-Denis",
     "homeAway": "home",
     "venue": "Stade Robert Monseau",
