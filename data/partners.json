@@ -1,5 +1,12 @@
 [
   {
+    "name": "K-PAX ",
+    "tier": "soutien",
+    "url": "https://k-pax.fr",
+    "logo": "/partners/kpax-logo-1785407119672.jpg",
+    "id": "p-1785407065806"
+  },
+  {
     "name": "DIMENA",
     "tier": "majeur",
     "url": "https://dimena.fr",
@@ -8,7 +15,7 @@
   },
   {
     "name": "VÉOLIA",
-    "tier": "officiel",
+    "tier": "soutien",
     "url": "https://www.eau.veolia.fr",
     "logo": "/partners/images-14-1785406628747.png",
     "id": "p-1785406539452"
