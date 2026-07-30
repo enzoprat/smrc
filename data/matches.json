@@ -2,166 +2,6 @@
   {
     "team": "Espoirs",
     "competition": "Espoirs Nationaux — Poule 1",
-    "date": "2027-04-11T13:30",
-    "opponent": "Stade Métropolitain",
-    "homeAway": "home",
-    "venue": "Stade Robert Monseau",
-    "status": "upcoming",
-    "id": "m-1785408826510"
-  },
-  {
-    "team": "Espoirs",
-    "competition": "Espoirs Nationaux — Poule 1",
-    "date": "2027-04-04T13:30",
-    "opponent": "US Salles",
-    "homeAway": "away",
-    "venue": "Stade Raymond Brun",
-    "status": "upcoming",
-    "id": "m-1785408796800"
-  },
-  {
-    "team": "Espoirs",
-    "competition": "Espoirs Nationaux — Poule 1",
-    "date": "2027-03-28T13:30",
-    "opponent": "RCS Rumilly",
-    "homeAway": "home",
-    "venue": "Stade Robert Monseau",
-    "status": "upcoming",
-    "id": "m-1785408761080"
-  },
-  {
-    "team": "Espoirs",
-    "competition": "Espoirs Nationaux — Poule 1",
-    "date": "2027-03-06T17:15",
-    "opponent": "US Marmande",
-    "homeAway": "away",
-    "venue": "Stade Georges Dartiailh, Marmande",
-    "status": "upcoming",
-    "id": "m-1785408726975"
-  },
-  {
-    "team": "Espoirs",
-    "competition": "Espoirs Nationaux — Poule 1",
-    "date": "2027-02-28T13:30",
-    "opponent": "CS Annonay",
-    "homeAway": "away",
-    "venue": "Stade Antonio Pinto, Annonay",
-    "status": "upcoming",
-    "id": "m-1785408681938"
-  },
-  {
-    "team": "Espoirs",
-    "competition": "Espoirs Nationaux — Poule 1",
-    "date": "2027-02-14T13:30",
-    "opponent": "Stade Nantais",
-    "homeAway": "home",
-    "venue": "Stade Robert Monseau",
-    "status": "upcoming",
-    "id": "m-1785408660528"
-  },
-  {
-    "team": "Espoirs",
-    "competition": "Espoirs Nationaux — Poule 1",
-    "date": "2027-02-07T13:30",
-    "opponent": "Servette RC Genève",
-    "homeAway": "away",
-    "venue": "Stade de la Plaine des Sports, Valserhône",
-    "status": "upcoming",
-    "id": "m-1785408607987"
-  },
-  {
-    "team": "Espoirs",
-    "competition": "Espoirs Nationaux — Poule 1",
-    "date": "2027-01-31T13:30",
-    "opponent": "AS Mâcon",
-    "homeAway": "home",
-    "venue": "Stade Robert Monseau",
-    "status": "upcoming",
-    "id": "m-1785408582071"
-  },
-  {
-    "team": "Espoirs",
-    "competition": "Espoirs Nationaux — Poule 1",
-    "date": "2027-01-17T13:30",
-    "opponent": "Floirac Rive Droite",
-    "homeAway": "away",
-    "venue": "Stade Jean-Raymond Guyon, Floirac",
-    "status": "upcoming",
-    "id": "m-1785408521738"
-  },
-  {
-    "team": "Espoirs",
-    "competition": "Espoirs Nationaux — Poule 1",
-    "date": "2027-01-10T13:30",
-    "opponent": "Stade Langonnais",
-    "homeAway": "home",
-    "venue": "Stade Robert Monseau",
-    "status": "upcoming",
-    "id": "m-1785408489647"
-  },
-  {
-    "team": "Espoirs",
-    "competition": "Espoirs Nationaux — Poule 1",
-    "date": "2026-12-12T17:15",
-    "opponent": "Union Drancy Saint-Denis",
-    "homeAway": "away",
-    "venue": "Stade Guy Moquet, Drancy",
-    "status": "upcoming",
-    "id": "m-1785408421598"
-  },
-  {
-    "team": "Espoirs",
-    "competition": "Espoirs Nationaux — Poule 1",
-    "date": "2026-12-05T17:15",
-    "opponent": "Stade Métropolitain",
-    "homeAway": "away",
-    "venue": "Complexe Sportif Boiron Granger, Villeurbanne",
-    "status": "upcoming",
-    "id": "m-1785408367877"
-  },
-  {
-    "team": "Espoirs",
-    "competition": "Espoirs Nationaux — Poule 1",
-    "date": "2026-11-29T13:30",
-    "opponent": "US Salles",
-    "homeAway": "home",
-    "venue": "Stade Robert Monseau",
-    "status": "upcoming",
-    "id": "m-1785408341677"
-  },
-  {
-    "team": "Espoirs",
-    "competition": "Espoirs Nationaux — Poule 1",
-    "date": "2026-11-15T13:30",
-    "opponent": "RCS Rumilly",
-    "homeAway": "away",
-    "venue": "Stade des Grangettes, Rumilly",
-    "status": "upcoming",
-    "id": "m-1785408239265"
-  },
-  {
-    "team": "Espoirs",
-    "competition": "Espoirs Nationaux — Poule 1",
-    "date": "2026-11-08T13:30",
-    "opponent": "US Marmande",
-    "homeAway": "home",
-    "venue": "Stade Robert Monseau",
-    "status": "upcoming",
-    "id": "m-1785408214304"
-  },
-  {
-    "team": "Espoirs",
-    "competition": "Espoirs Nationaux — Poule 1",
-    "date": "2026-11-01T13:30",
-    "opponent": "CS Annonay",
-    "homeAway": "home",
-    "venue": "Stade Robert Monseau",
-    "status": "upcoming",
-    "id": "m-1785408189279"
-  },
-  {
-    "team": "Espoirs",
-    "competition": "Espoirs Nationaux — Poule 1",
     "date": "2026-10-17T17:15",
     "opponent": "Stade Nantais",
     "homeAway": "away",
@@ -232,7 +72,7 @@
   {
     "team": "Nationale 2",
     "competition": "Nationale 2 — Poule 1",
-    "date": "2026-04-04T15:15",
+    "date": "2027-04-04T15:15",
     "opponent": "US Salles",
     "homeAway": "away",
     "venue": "Stade Raymond Brun, Salles",
@@ -325,7 +165,7 @@
     "date": "2026-12-12T19:00",
     "opponent": "Union Drancy Saint-Denis",
     "homeAway": "away",
-    "venue": "Stade Guy Moquet, Drancy",
+    "venue": "Stade Guy Moquet, Drançy",
     "status": "upcoming",
     "id": "m-1785406633389"
   },
