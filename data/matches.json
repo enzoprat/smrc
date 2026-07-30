@@ -2,6 +2,16 @@
   {
     "team": "Équipe Première",
     "competition": "Nationale 2 — Poule 1",
+    "date": "2027-02-28T15:15",
+    "opponent": "CS Annonay",
+    "homeAway": "away",
+    "venue": "Stade Antonio Pinto, Annonay",
+    "status": "upcoming",
+    "id": "m-1785407150454"
+  },
+  {
+    "team": "Équipe Première",
+    "competition": "Nationale 2 — Poule 1",
     "date": "2027-02-14T15:15",
     "opponent": "Stade Nantais",
     "homeAway": "home",
