@@ -2,10 +2,20 @@
   {
     "team": "Équipe Première",
     "competition": "Nationale 2 — Poule 1",
+    "date": "2027-04-11T15:15",
+    "opponent": "Stade Métropolitain",
+    "homeAway": "home",
+    "venue": "Stade Robert Monseau",
+    "status": "upcoming",
+    "id": "m-1785407372409"
+  },
+  {
+    "team": "Équipe Première",
+    "competition": "Nationale 2 — Poule 1",
     "date": "2026-04-04T15:15",
     "opponent": "US Salles",
     "homeAway": "away",
-    "venue": "Stade Raymond Brun",
+    "venue": "Stade Raymond Brun, Salles",
     "status": "upcoming",
     "id": "m-1785407322392"
   },
