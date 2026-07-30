@@ -4,6 +4,7 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { TeamCard } from "@/components/TeamCard";
 import { CTASection } from "@/components/CTASection";
 import { teams } from "@/data/teams";
+import { findImage } from "@/lib/gallery";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
@@ -32,7 +33,10 @@ export default function EquipesPage() {
           />
           <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {teams.map((t) => (
-              <TeamCard key={t.slug} team={t} />
+              <TeamCard
+                key={t.slug}
+                team={{ ...t, image: findImage("accueil/categories", t.slug) ?? t.image }}
+              />
             ))}
           </div>
         </div>
