@@ -2,6 +2,16 @@
   {
     "team": "Espoirs",
     "competition": "Espoirs Nationaux — Poule 1",
+    "date": "2026-11-29T13:30",
+    "opponent": "US Salles",
+    "homeAway": "home",
+    "venue": "Stade Robert Monseau",
+    "status": "upcoming",
+    "id": "m-1785408341677"
+  },
+  {
+    "team": "Espoirs",
+    "competition": "Espoirs Nationaux — Poule 1",
     "date": "2026-11-15T13:30",
     "opponent": "RCS Rumilly",
     "homeAway": "away",
