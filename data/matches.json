@@ -1,6 +1,16 @@
 [
   {
     "team": "Équipe Première",
+    "competition": "National 2 — Poule 1",
+    "date": "2026-11-01T15:15",
+    "opponent": "CS Annonay",
+    "homeAway": "home",
+    "venue": "Stade Robert Monseau",
+    "status": "upcoming",
+    "id": "m-1785406382070"
+  },
+  {
+    "team": "Équipe Première",
     "competition": "Nationale 2 — Poule 1",
     "date": "2026-10-17T19:00",
     "opponent": "Stade Nantais",
