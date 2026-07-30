@@ -43,7 +43,7 @@ export const mainNav: NavItem[] = [
     ],
   },
   {
-    label: "Nos Formations",
+    label: "Notre Formation",
     href: "/ecole-de-rugby",
     children: [
       { label: "École de Rugby", href: "/ecole-de-rugby", description: "Les plus jeunes, de U6 à U14" },

@@ -9,7 +9,7 @@ export type MatchStatus = "upcoming" | "live" | "finished";
 export type Match = {
   id: string;
   team: string; // ex: "Équipe Première"
-  competition: string; // ex: "National 2 — Poule 4"
+  competition: string; // ex: "Nationale 2 — Poule 4"
   date: string; // ISO ex: "2026-09-13T15:00:00"
   opponent: string;
   homeAway: "home" | "away";

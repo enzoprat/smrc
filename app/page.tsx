@@ -111,7 +111,7 @@ export default function HomePage() {
         <div className="container-x">
           <SectionTitle
             eyebrow="Nos équipes"
-            title="De l'école de rugby au National 2"
+            title="De l'école de rugby à la Nationale 2"
             subtitle="Toutes les générations portent les mêmes couleurs et le même esprit."
           />
           <div className="mt-10 grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-3">
@@ -132,7 +132,7 @@ export default function HomePage() {
             dark
           />
           <div className="mt-10">
-            <PartnerLogoGrid partners={partners.slice(0, 8)} />
+            <PartnerLogoGrid partners={partners} dark />
           </div>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
             <Link href="/partenaires/devenir-partenaire" className="btn-gold">

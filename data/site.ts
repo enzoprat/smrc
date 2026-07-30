@@ -11,7 +11,7 @@ export const site = {
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://smrc33.fr",
   locale: "fr_FR",
   foundedYear: 1905,
-  division: "National 2",
+  division: "Nationale 2",
   colors: "Jaune & Noir",
   contact: {
     clubName: "Saint-Médard Rugby Club",

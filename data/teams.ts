@@ -21,11 +21,11 @@ export const teams: Team[] = [
   {
     slug: "equipe-premiere",
     name: "Équipe Première",
-    category: "Seniors · National 2",
+    category: "Seniors · Nationale 2",
     description:
       "Le fer de lance du club. Une équipe ambitieuse qui porte les couleurs jaune et noir au plus haut niveau.",
     intro:
-      "Engagée en National 2, l'équipe première incarne l'ambition du club. Un groupe soudé, formé en grande partie au club, qui défend les couleurs du SMRC chaque week-end devant son public au stade Robert Monseau.",
+      "Engagée en Nationale 2, l'équipe première incarne l'ambition du club. Un groupe soudé, formé en grande partie au club, qui défend les couleurs du SMRC chaque week-end devant son public au stade Robert Monseau.",
     href: "/equipes/equipe-premiere",
     accent: "gold",
     layout: "full",

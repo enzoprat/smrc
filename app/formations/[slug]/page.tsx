@@ -30,11 +30,11 @@ export default function FormationPage({ params }: { params: { slug: string } }) 
   return (
     <>
       <PageHero
-        eyebrow="Nos Formations"
+        eyebrow="Notre Formation"
         title={formation.name}
         description={formation.tagline}
         crumbs={[
-          { name: "Nos Formations", path: "/ecole-de-rugby" },
+          { name: "Notre Formation", path: "/ecole-de-rugby" },
           { name: formation.name, path: `/formations/${formation.slug}` },
         ]}
       />

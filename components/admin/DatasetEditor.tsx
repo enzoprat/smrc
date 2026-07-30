@@ -84,6 +84,17 @@ export function DatasetEditor({
     setStatus("idle");
   }
 
+  function move(i: number, dir: -1 | 1) {
+    setRows((prev) => {
+      const j = i + dir;
+      if (j < 0 || j >= prev.length) return prev;
+      const next = [...prev];
+      [next[i], next[j]] = [next[j], next[i]];
+      return next;
+    });
+    setStatus("idle");
+  }
+
   function add() {
     const row: Row = { ...template, [idKey]: `${idPrefix}-${Date.now()}`, __key: genKey() };
     setRows((prev) => [row, ...prev]);
@@ -150,6 +161,31 @@ export function DatasetEditor({
         )}
         {rows.map((row, i) => (
           <div key={String(row.__key ?? i)} className="rounded-lg bg-white p-5 shadow-sm ring-1 ring-black/5">
+            <div className="mb-3 flex items-center gap-2 border-b border-black/5 pb-3">
+              <span className="font-display text-sm font-bold text-ink-400">#{i + 1}</span>
+              <div className="ml-auto flex items-center gap-1">
+                <button
+                  type="button"
+                  onClick={() => move(i, -1)}
+                  disabled={i === 0}
+                  aria-label="Monter"
+                  title="Monter"
+                  className="inline-flex h-8 w-8 items-center justify-center rounded-sm ring-1 ring-black/10 hover:bg-bone disabled:opacity-30"
+                >
+                  ↑
+                </button>
+                <button
+                  type="button"
+                  onClick={() => move(i, 1)}
+                  disabled={i === rows.length - 1}
+                  aria-label="Descendre"
+                  title="Descendre"
+                  className="inline-flex h-8 w-8 items-center justify-center rounded-sm ring-1 ring-black/10 hover:bg-bone disabled:opacity-30"
+                >
+                  ↓
+                </button>
+              </div>
+            </div>
             <div className="grid gap-4 sm:grid-cols-2">
               {fields.map((f) => (
                 <div key={f.key} className={f.full || f.type === "textarea" ? "sm:col-span-2" : ""}>

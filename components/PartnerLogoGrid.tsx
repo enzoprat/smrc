@@ -2,7 +2,7 @@ import Image from "next/image";
 import type { Partner } from "@/data/partners";
 
 /** Grille de logos partenaires (placeholder texte si pas de logo). */
-export function PartnerLogoGrid({ partners }: { partners: Partner[] }) {
+export function PartnerLogoGrid({ partners, dark = false }: { partners: Partner[]; dark?: boolean }) {
   return (
     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
       {partners.map((p) => {
@@ -23,7 +23,11 @@ export function PartnerLogoGrid({ partners }: { partners: Partner[] }) {
                 </span>
               )}
             </div>
-            <p className="mt-2 text-center text-xs font-semibold uppercase tracking-wide text-ink-600">
+            <p
+              className={`mt-2 text-center text-xs font-semibold uppercase tracking-wide ${
+                dark ? "text-white/70" : "text-ink-600"
+              }`}
+            >
               {p.name}
             </p>
           </>

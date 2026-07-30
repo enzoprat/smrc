@@ -64,8 +64,8 @@ export const timeline: TimelineEntry[] = [
   },
   {
     year: "2026",
-    title: "Montée en National 2",
-    text: "Le club franchit un nouveau cap en accédant au National 2, récompense d'un projet sportif ambitieux et d'une formation exigeante.",
+    title: "Montée en Nationale 2",
+    text: "Le club franchit un nouveau cap en accédant à la Nationale 2, récompense d'un projet sportif ambitieux et d'une formation exigeante.",
   },
 ];
 

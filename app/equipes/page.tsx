@@ -10,7 +10,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Nos équipes | Saint-Médard Rugby Club",
   description:
-    "Découvrez toutes les équipes seniors du SMRC : équipe première (National 2), espoirs, Les Jalloises (féminines) et le rugby loisir.",
+    "Découvrez toutes les équipes seniors du SMRC : équipe première (Nationale 2), espoirs, Les Jalloises (féminines) et le rugby loisir.",
   path: "/equipes",
 });
 
