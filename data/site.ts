@@ -31,7 +31,7 @@ export const site = {
   },
   // Liens externes (billetterie / boutique) — à confirmer
   external: {
-    helloAsso: "#", // [À confirmer : lien HelloAsso]
+    helloAsso: "https://www.helloasso.com/associations/saint-medard-rugby-club",
     boutique: "https://b5.intersport-boutique-club.fr/56-saint-medard-rugby-club",
     ffr: "https://www.ffr.fr/",
   },
