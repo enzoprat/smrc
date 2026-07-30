@@ -1,5 +1,15 @@
 [
   {
+    "team": "Espoirs",
+    "competition": "Espoirs Nationaux — Poule 1",
+    "date": "2026-09-06T13:30",
+    "opponent": "Union Drancy Saint-Denis",
+    "homeAway": "home",
+    "venue": "Stade Robert Monseau",
+    "status": "upcoming",
+    "id": "m-1785407901604"
+  },
+  {
     "team": "Nationale 2",
     "competition": "Nationale 2 — Poule 1",
     "date": "2027-04-11T15:15",
