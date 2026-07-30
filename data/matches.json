@@ -2,6 +2,16 @@
   {
     "team": "Équipe Première",
     "competition": "Nationale 2 — Poule 1",
+    "date": "2026-10-04T15:15",
+    "opponent": "AS Mâcon",
+    "homeAway": "away",
+    "venue": "Stade Emile Vanier",
+    "status": "upcoming",
+    "id": "m-1785406201306"
+  },
+  {
+    "team": "Équipe Première",
+    "competition": "Nationale 2 — Poule 1",
     "date": "",
     "opponent": "Floirac Rive Droite",
     "homeAway": "home",
