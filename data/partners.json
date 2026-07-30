@@ -1,9 +1,16 @@
 [
   {
+    "name": "JLT BTP",
+    "tier": "officiel",
+    "url": "https://jltbtp-33.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-16-47-44-1785422899348.png",
+    "id": "p-1785422573247"
+  },
+  {
     "name": "Dr HOUSE - M.N PIHATARIOE",
     "tier": "officiel",
     "url": "https://www.drhouse-immo.com/conseiller-immobilier/saint-medard-en-jalles-33160/marie-noelle-pihatarioe",
-    "logo": "",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-16-05-12-1785422891595.png",
     "id": "p-1785422171829"
   },
   {
