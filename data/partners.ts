@@ -24,8 +24,17 @@ export const tierLabels: Record<PartnerTier, string> = {
 
 export const partners: Partner[] = data as Partner[];
 
+/** id du partenaire à mettre en tête de sa catégorie (créateur du site). */
+const PINNED_PARTNER_ID = "p8";
+
 export function partnersByTier(tier: PartnerTier): Partner[] {
-  return partners.filter((p) => p.tier === tier);
+  return partners
+    .filter((p) => p.tier === tier)
+    .sort((a, b) => {
+      if (a.id === PINNED_PARTNER_ID) return -1;
+      if (b.id === PINNED_PARTNER_ID) return 1;
+      return 0;
+    });
 }
 
 /** Offres de partenariat — prix sur demande. */

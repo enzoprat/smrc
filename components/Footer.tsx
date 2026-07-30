@@ -75,6 +75,16 @@ export function Footer() {
         <div className="container-x flex flex-col items-center justify-between gap-4 py-6 text-xs text-white/50 sm:flex-row">
           <p>
             © {year} {site.name}. Tous droits réservés.
+            {" · "}
+            Site créé par{" "}
+            <a
+              href="https://www.enzoprat.fr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gold"
+            >
+              Prat Enzo
+            </a>
           </p>
           <ul className="flex flex-wrap items-center gap-4">
             {footerNav.legal.map((l) => (
