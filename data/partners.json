@@ -1,16 +1,9 @@
 [
   {
-    "name": "",
-    "tier": "soutien",
-    "url": "",
-    "logo": "",
-    "id": "p-1785419689988"
-  },
-  {
-    "name": "PEREIRA RENOHABITAT",
+    "name": "PEREIRA RÉNOHABITAT",
     "tier": "officiel",
     "url": "https://pereira-renohabitat.fr",
-    "logo": "/partners/logo-prh-1785419890980.jpg",
+    "logo": "/partners/logo-prh-1785422155957.jpg",
     "id": "p-1785417454720"
   },
   {
@@ -21,15 +14,8 @@
     "id": "p-1785417384964"
   },
   {
-    "name": "PROFIL PLUS",
-    "tier": "officiel",
-    "url": "https://www.profilplus.fr/agence/77-le-haillan",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-15-54-09-1785419673945.png",
-    "id": "p-1785417124901"
-  },
-  {
     "name": "REP INDUSTRIE ",
-    "tier": "officiel",
+    "tier": "soutien",
     "url": "https://www.google.com/search?client=safari&rls=en&q=REP+INDUSTRIE&ie=UTF-8&oe=UTF-8",
     "logo": "/partners/images-28-1785417039821.png",
     "id": "p-1785417003840"
