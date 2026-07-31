@@ -11,7 +11,7 @@ import { staffByTeam } from "@/data/staff";
 import { playersByTeam } from "@/data/players";
 import { trainingByTeam } from "@/data/training";
 import { getUpcomingMatches } from "@/data/matches";
-import { getResults, standings } from "@/data/results";
+import { getResults } from "@/data/results";
 import { findImage } from "@/lib/gallery";
 import { buildMetadata } from "@/lib/seo";
 
@@ -37,14 +37,14 @@ export default function TeamPage({ params }: { params: { slug: string } }) {
   const players = playersByTeam(team.slug);
   const sessions = trainingByTeam(team.slug);
   const isFull = team.layout === "full";
+  const matchName = team.matchName ?? team.name;
   const matches = isFull
-    ? getUpcomingMatches().filter((m) => m.team === team.name).slice(0, 2)
+    ? getUpcomingMatches().filter((m) => m.team === matchName).slice(0, 2)
     : [];
   const teamResults = isFull
-    ? getResults().filter((r) => r.team === team.name).slice(0, 2)
+    ? getResults().filter((r) => r.team === matchName).slice(0, 2)
     : [];
   const showFixtures = isFull && (matches.length > 0 || teamResults.length > 0);
-  const showStandings = team.slug === "equipe-premiere";
 
   return (
     <>
@@ -177,37 +177,6 @@ export default function TeamPage({ params }: { params: { slug: string } }) {
                 </div>
               </div>
             )}
-          </div>
-        </section>
-      )}
-
-      {/* Classement (équipe première) */}
-      {showStandings && (
-        <section className="bg-white py-16 sm:py-24">
-          <div className="container-x">
-            <SectionTitle eyebrow="Classement" title="Notre poule" />
-            <div className="mt-8 overflow-hidden rounded-lg shadow-card ring-1 ring-black/5">
-              <table className="w-full text-sm">
-                <thead className="bg-ink-900 text-left font-display uppercase tracking-wide text-white">
-                  <tr>
-                    <th className="px-4 py-3">#</th>
-                    <th className="px-4 py-3">Équipe</th>
-                    <th className="px-4 py-3 text-center">J</th>
-                    <th className="px-4 py-3 text-center">Pts</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-black/5 bg-white">
-                  {standings.map((s) => (
-                    <tr key={s.rank} className={s.isSmrc ? "bg-gold/10 font-semibold" : ""}>
-                      <td className="px-4 py-3 text-ink-500">{s.rank}</td>
-                      <td className="px-4 py-3 text-ink-900">{s.team}</td>
-                      <td className="px-4 py-3 text-center text-ink-600">{s.played}</td>
-                      <td className="px-4 py-3 text-center text-ink-900">{s.points}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
           </div>
         </section>
       )}

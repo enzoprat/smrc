@@ -12,9 +12,46 @@ import { ArrowRight, MapPin, Phone, Mail } from "@/components/Icons";
 import { getNextMatch } from "@/data/matches";
 import { getLatestResult } from "@/data/results";
 import { getArticleMetas } from "@/lib/content";
-import { teams } from "@/data/teams";
+import { teams, type Team } from "@/data/teams";
 import { site } from "@/data/site";
 import { findImage } from "@/lib/gallery";
+
+/** Catégories jeunes présentées sur l'accueil (pages dédiées : école de rugby & formations). */
+const youthTeams: Team[] = [
+  {
+    slug: "ecole-de-rugby",
+    name: "École de Rugby",
+    category: "Jeunes · dès 3 ans",
+    description:
+      "Baby rugby, U6 à U14 : la découverte du rugby dans un cadre éducatif, sécurisé et familial.",
+    href: "/ecole-de-rugby",
+    layout: "simple",
+  },
+  {
+    slug: "juniors",
+    name: "Juniors",
+    category: "Jeunes · U19",
+    description: "La dernière marche avant les seniors : formation et compétition pour les plus grands.",
+    href: "/formations/pole-jeunes",
+    layout: "simple",
+  },
+  {
+    slug: "cadets",
+    name: "Cadets",
+    category: "Jeunes · U16",
+    description: "Perfectionnement technique et esprit collectif pour les jeunes joueurs du club.",
+    href: "/formations/pole-jeunes",
+    layout: "simple",
+  },
+  {
+    slug: "cadettes",
+    name: "Cadettes",
+    category: "Jeunes · Féminines",
+    description: "Le rugby au féminin pour les jeunes joueuses, dans un cadre encadré et bienveillant.",
+    href: "/formations/cadettes",
+    layout: "simple",
+  },
+];
 
 export default function HomePage() {
   const nextMatch = getNextMatch();
@@ -114,7 +151,7 @@ export default function HomePage() {
             subtitle="Toutes les générations portent les mêmes couleurs et le même esprit."
           />
           <div className="mt-10 grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-3">
-            {teams.map((t) => (
+            {[...teams, ...youthTeams].map((t) => (
               <TeamCard key={t.slug} team={{ ...t, image: findImage("accueil/categories", t.slug) ?? t.image }} />
             ))}
           </div>

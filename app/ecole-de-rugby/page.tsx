@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { PageHero } from "@/components/PageHero";
 import { SectionTitle } from "@/components/SectionTitle";
 import { Placeholder } from "@/components/Placeholder";
 import { FaqAccordion } from "@/components/FaqAccordion";
 import { CTASection } from "@/components/CTASection";
 import { JsonLd } from "@/components/JsonLd";
-import { Check, Users, Clock, ArrowRight } from "@/components/Icons";
+import { Check, Users, Clock } from "@/components/Icons";
 import { faqsByTopic } from "@/data/faqs";
 import { faqLd } from "@/lib/jsonld";
 import { findImage } from "@/lib/gallery";
@@ -20,6 +19,7 @@ export const metadata: Metadata = buildMetadata({
 });
 
 const ageCategories = [
+  { cat: "Baby Rugby", age: "à partir de 3 ans", focus: "Éveil, motricité et découverte par le jeu" },
   { cat: "U6 – U8", age: "4 à 7 ans", focus: "Découverte, motricité, jeu sans plaquage" },
   { cat: "U10 – U12", age: "8 à 11 ans", focus: "Apprentissage technique et collectif" },
   { cat: "U14", age: "12 à 13 ans", focus: "Perfectionnement et premières compétitions" },
@@ -30,13 +30,6 @@ const eduValues = [
   "Esprit d'équipe et solidarité",
   "Confiance en soi et dépassement",
   "Plaisir de jouer avant tout",
-];
-
-const steps = [
-  { n: "1", t: "Venez essayer", d: "Participez à une séance d'essai gratuite avec votre enfant." },
-  { n: "2", t: "Rencontrez l'équipe", d: "Échangez avec les éducateurs et découvrez le fonctionnement." },
-  { n: "3", t: "Constituez le dossier", d: "Réunissez les documents nécessaires à l'inscription." },
-  { n: "4", t: "C'est parti !", d: "Votre enfant rejoint la grande famille du SMRC." },
 ];
 
 export default function EcoleRugbyPage() {
@@ -88,7 +81,7 @@ export default function EcoleRugbyPage() {
       <section className="bg-bone py-16 sm:py-24">
         <div className="container-x">
           <SectionTitle eyebrow="Catégories" title="À chaque âge son rugby" />
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {ageCategories.map((c) => (
               <div key={c.cat} className="card flex flex-col p-6">
                 <span className="flex h-12 w-12 items-center justify-center rounded-sm bg-gold text-ink-900">
@@ -125,52 +118,6 @@ export default function EcoleRugbyPage() {
         </div>
       </section>
 
-      {/* Comment inscrire */}
-      <section id="inscription" className="scroll-mt-24 bg-white py-16 sm:py-24">
-        <div className="container-x">
-          <SectionTitle
-            eyebrow="Inscription"
-            title="Comment inscrire votre enfant"
-            subtitle="Quatre étapes simples pour rejoindre l'école de rugby du SMRC."
-          />
-          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {steps.map((s) => (
-              <div key={s.n} className="relative rounded-lg bg-bone p-6 ring-1 ring-black/5">
-                <span className="font-display text-4xl font-extrabold text-gold/50">{s.n}</span>
-                <h3 className="mt-2 font-display text-lg font-bold uppercase text-ink-900">{s.t}</h3>
-                <p className="mt-2 text-sm text-ink-600">{s.d}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-10 rounded-lg bg-ink-900 p-8 text-white sm:p-10">
-            <h3 className="font-display text-xl font-bold uppercase text-gold">Documents nécessaires</h3>
-            <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-              {[
-                "Une photo d'identité",
-                "Un certificat médical ou questionnaire de santé",
-                "Une autorisation parentale",
-                "Le règlement de la cotisation",
-              ].map((d) => (
-                <li key={d} className="flex items-start gap-2 text-white/80">
-                  <Check width={18} height={18} className="mt-0.5 flex-shrink-0 text-gold" />
-                  {d}
-                </li>
-              ))}
-            </ul>
-            <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-              <Link href="/contact" className="btn-gold">
-                Demander des informations
-              </Link>
-              <Link href="/contact" className="btn-outline">
-                Inscrire mon enfant
-                <ArrowRight width={18} height={18} />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ */}
       <section className="bg-bone py-16 sm:py-24">
         <div className="container-x max-w-3xl">
@@ -185,7 +132,7 @@ export default function EcoleRugbyPage() {
         eyebrow="Rejoignez-nous"
         title="Offrez le rugby à votre enfant"
         text="Une séance d'essai gratuite, et c'est souvent le début d'une belle aventure."
-        primary={{ label: "Inscrire mon enfant", href: "/contact" }}
+        primary={{ label: "Nous contacter", href: "/contact" }}
         secondary={{ label: "Poser une question", href: "/contact" }}
       />
     </>

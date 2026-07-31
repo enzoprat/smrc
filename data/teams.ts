@@ -14,6 +14,8 @@ export type Team = {
   href: string;
   accent?: "gold" | "ink";
   layout: "full" | "simple";
+  /** Nom utilisé pour filtrer le calendrier/résultats si différent du nom d'équipe. */
+  matchName?: string;
   subTeams?: { name: string; description: string }[];
 };
 
@@ -29,6 +31,7 @@ export const teams: Team[] = [
     href: "/equipes/equipe-premiere",
     accent: "gold",
     layout: "full",
+    matchName: "Nationale 2",
   },
   {
     slug: "espoirs",
