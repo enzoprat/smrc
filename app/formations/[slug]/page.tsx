@@ -4,7 +4,7 @@ import { PageHero } from "@/components/PageHero";
 import { SectionTitle } from "@/components/SectionTitle";
 import { Placeholder } from "@/components/Placeholder";
 import { CTASection } from "@/components/CTASection";
-import { Check } from "@/components/Icons";
+import { Check, Users, Clock } from "@/components/Icons";
 import { formations, getFormation } from "@/data/formations";
 import { findImage } from "@/lib/gallery";
 import { buildMetadata } from "@/lib/seo";
@@ -62,6 +62,63 @@ export default function FormationPage({ params }: { params: { slug: string } }) 
           </div>
         </div>
       </section>
+
+      {/* Équipes de la filière */}
+      {formation.teams && formation.teams.length > 0 && (
+        <section className="bg-bone py-16 sm:py-24">
+          <div className="container-x">
+            <SectionTitle eyebrow="Nos équipes" title="Les équipes de la filière" />
+            <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {formation.teams.map((t) => (
+                <div key={t} className="card flex flex-col items-start p-6">
+                  <span className="flex h-12 w-12 items-center justify-center rounded-sm bg-gold text-ink-900">
+                    <Users width={24} height={24} />
+                  </span>
+                  <h3 className="mt-4 font-display text-xl font-bold uppercase text-ink-900">{t}</h3>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Blocs de présentation */}
+      {formation.blocks && formation.blocks.length > 0 && (
+        <section className="bg-ink-900 py-16 sm:py-24">
+          <div className="container-x">
+            <SectionTitle eyebrow="Le programme" title="Ce que le CEL apporte aux joueurs" dark />
+            <div className="mt-10 grid gap-6 md:grid-cols-3">
+              {formation.blocks.map((b) => (
+                <div key={b.title} className="rounded-lg border border-white/10 bg-white/[0.03] p-6">
+                  <h3 className="font-display text-lg font-bold uppercase text-white">{b.title}</h3>
+                  <p className="mt-3 text-sm text-white/70">{b.text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Entraînements */}
+      {formation.training && formation.training.length > 0 && (
+        <section className="bg-white py-16 sm:py-24">
+          <div className="container-x">
+            <SectionTitle eyebrow="Entraînements" title="Les créneaux" />
+            <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {formation.training.map((s) => (
+                <div key={`${s.day}-${s.time}`} className="rounded-lg bg-bone p-5 ring-1 ring-black/5">
+                  <p className="flex items-center gap-2 font-display text-lg font-bold uppercase text-ink-900">
+                    <Clock width={18} height={18} className="text-gold-600" />
+                    {s.day}
+                  </p>
+                  <p className="mt-1 text-ink-600">{s.time}</p>
+                  <p className="text-sm text-ink-500">{s.place}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <CTASection
         title="Envie de rejoindre nos formations ?"

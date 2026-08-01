@@ -71,7 +71,7 @@ export default function ClubPage() {
       {/* Stade */}
       <section className="bg-bone py-16 sm:py-24">
         <div className="container-x grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
-          <Placeholder src="" alt="Stade Robert Monseau" label="Stade Robert Monseau" ratio="aspect-[4/3]" className="rounded-lg shadow-card" />
+          <Placeholder src="/stade/stade-1.jpg" alt="Stade Robert Monseau" label="Stade Robert Monseau" ratio="aspect-[4/3]" className="rounded-lg shadow-card" />
           <div>
             <SectionTitle
               eyebrow="Notre stade"
@@ -102,7 +102,7 @@ export default function ClubPage() {
           />
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {organigramme.map((m) => (
-              <div key={m.role} className="flex items-center gap-4 rounded-lg bg-bone p-5 ring-1 ring-black/5">
+              <div key={m.name} className="flex items-center gap-4 rounded-lg bg-bone p-5 ring-1 ring-black/5">
                 <span className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-sm bg-ink-900 text-gold">
                   <Users width={22} height={22} />
                 </span>

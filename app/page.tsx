@@ -61,7 +61,7 @@ export default function HomePage() {
   const stats = [
     { value: String(site.foundedYear), label: "Année de fondation" },
     { value: site.division, label: "Équipe première" },
-    { value: "École de rugby", label: "Labellisé 3 étoiles" },
+    { value: "École de rugby", label: "Labellisée 3 étoiles" },
     { value: "Jaune & Noir", label: "Nos couleurs" },
   ];
 

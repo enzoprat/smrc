@@ -27,7 +27,7 @@ export const teams: Team[] = [
     description:
       "Le fer de lance du club. Une équipe ambitieuse qui porte les couleurs jaune et noir au plus haut niveau.",
     intro:
-      "Engagée en Nationale 2, l'équipe première incarne l'ambition du club. Un groupe soudé, formé en grande partie au club, qui défend les couleurs du SMRC chaque week-end devant son public au stade Robert Monseau.",
+      "Vitrine du club, l'équipe Première évolue en Nationale 2, le quatrième niveau national, pour la saison 2026-2027. Composée de joueurs formés au club et de renforts expérimentés, elle porte les ambitions sportives du SMRC tout en incarnant les valeurs qui font son identité : engagement, solidarité et esprit de compétition.",
     href: "/equipes/equipe-premiere",
     accent: "gold",
     layout: "full",
@@ -40,7 +40,7 @@ export const teams: Team[] = [
     description:
       "Le tremplin entre la formation et le haut niveau. Les Espoirs préparent la relève de l'équipe première.",
     intro:
-      "Les Espoirs assurent la transition entre la formation et le groupe senior. C'est ici que les jeunes joueurs franchissent un cap, gagnent en expérience et s'aguerrissent avant de rejoindre l'équipe première.",
+      "Véritable passerelle vers l'équipe Première, les Espoirs permettent aux jeunes joueurs de poursuivre leur progression au plus haut niveau amateur. Composée majoritairement de joueurs de moins de 23 ans, l'équipe allie formation, développement et performance, avec l'objectif de préparer les talents de demain.",
     href: "/equipes/espoirs",
     layout: "full",
   },
@@ -51,7 +51,7 @@ export const teams: Team[] = [
     description:
       "Le rugby féminin du SMRC : engagement, solidarité et plaisir de jeu pour toutes les joueuses.",
     intro:
-      "Les Jalloises portent haut les couleurs du rugby féminin au SMRC. Engagement, solidarité et convivialité : l'équipe accueille toutes les joueuses, débutantes comme confirmées, dans un esprit familial.",
+      "Les Jalloises représentent l'équipe Seniors féminine du SMRC. Engagées en rugby à X dans le cadre d'une entente avec le club de Martignas, elles portent avec fierté les couleurs du club dans un esprit de convivialité, d'engagement et de compétition.",
     href: "/equipes/feminines",
     layout: "simple",
   },
@@ -69,12 +69,12 @@ export const teams: Team[] = [
       {
         name: "Les Salamanders",
         description:
-          "Le rugby loisir dans sa version la plus conviviale : on se retrouve pour le plaisir de jouer, quel que soit son niveau.",
+          "Les Salamanders sont l'équipe loisirs féminine du SMRC. Elles pratiquent le Rugby à 5, une discipline sans plaquage, accessible à toutes, qui privilégie le plaisir de jouer, la convivialité et l'esprit d'équipe. Débutantes ou anciennes joueuses, chacune y trouve sa place.",
       },
       {
         name: "Les Vieux Crampons",
         description:
-          "Les anciens du club qui ne raccrochent pas les crampons : passion intacte, esprit d'équipe et bonne humeur garantie.",
+          "Les Vieux Crampons sont l'équipe loisirs masculine du SMRC. Engagés en Rugby à 5, ils partagent la passion du rugby dans une pratique conviviale, sans contact, où le plaisir, le fair-play et la bonne humeur sont au cœur de chaque rencontre.",
       },
     ],
   },

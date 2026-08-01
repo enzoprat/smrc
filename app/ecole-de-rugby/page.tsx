@@ -5,7 +5,7 @@ import { Placeholder } from "@/components/Placeholder";
 import { FaqAccordion } from "@/components/FaqAccordion";
 import { CTASection } from "@/components/CTASection";
 import { JsonLd } from "@/components/JsonLd";
-import { Check, Users, Clock } from "@/components/Icons";
+import { Check, Users, Clock, Trophy } from "@/components/Icons";
 import { faqsByTopic } from "@/data/faqs";
 import { faqLd } from "@/lib/jsonld";
 import { findImage } from "@/lib/gallery";
@@ -96,6 +96,26 @@ export default function EcoleRugbyPage() {
         </div>
       </section>
 
+      {/* Label 3 étoiles */}
+      <section className="bg-white py-16 sm:py-24">
+        <div className="container-x">
+          <div className="mx-auto flex max-w-4xl flex-col items-center gap-6 rounded-lg bg-gold p-8 text-center sm:p-12">
+            <span className="flex h-16 w-16 items-center justify-center rounded-sm bg-ink-900 text-gold">
+              <Trophy width={32} height={32} />
+            </span>
+            <h2 className="font-display text-2xl font-bold uppercase text-ink-900 sm:text-3xl">
+              École de rugby labellisée 3 étoiles
+            </h2>
+            <p className="max-w-2xl text-ink-900/80">
+              L'École de rugby a été labellisée 3 étoiles par la FFR. L'attribution du label est le
+              symbole de la reconnaissance par la Fédération Française de Rugby de l'École de Rugby
+              dans sa démarche de qualité engagée dans les domaines suivants : l'accueil,
+              l'accompagnement et la formation des joueurs ainsi que le développement de l'activité.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Horaires + encadrement */}
       <section className="bg-ink-900 py-16 sm:py-24">
         <div className="container-x grid gap-10 lg:grid-cols-2">
@@ -104,7 +124,7 @@ export default function EcoleRugbyPage() {
             <div className="mt-6 rounded-lg border border-white/10 bg-white/[0.03] p-6">
               <p className="flex items-center gap-2 text-white/80">
                 <Clock width={20} height={20} className="text-gold" />
-                Entraînements en semaine et/ou le samedi selon les catégories.
+                Entraînement les mercredis et/ou samedis.
               </p>
             </div>
           </div>

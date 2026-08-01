@@ -9,6 +9,12 @@ export type Formation = {
   tagline: string;
   intro: string;
   points: string[];
+  /** Créneaux d'entraînement affichés en cartes. */
+  training?: { day: string; time: string; place: string }[];
+  /** Équipes de la filière, affichées en cartes. */
+  teams?: string[];
+  /** Blocs de présentation détaillés (titre + texte). */
+  blocks?: { title: string; text: string }[];
 };
 
 export const formations: Formation[] = [
@@ -24,6 +30,10 @@ export const formations: Formation[] = [
       "Un collectif solidaire et une ambiance familiale",
       "La passerelle vers l'équipe Féminines seniors",
     ],
+    training: [
+      { day: "Mardi", time: "19h – 20h30", place: "Terrains des Bords de Jalle" },
+      { day: "Jeudi", time: "19h – 20h30", place: "Terrains des Bords de Jalle" },
+    ],
   },
   {
     slug: "pole-jeunes",
@@ -37,6 +47,12 @@ export const formations: Formation[] = [
       "Un encadrement à l'écoute de chaque profil",
       "La préparation vers les équipes seniors du club",
     ],
+    teams: [
+      "Cadets Régionaux",
+      "Cadets Nationaux",
+      "Juniors Régionaux",
+      "Juniors Nationaux",
+    ],
   },
   {
     slug: "cel",
@@ -49,6 +65,20 @@ export const formations: Formation[] = [
       "Un accompagnement sportif et éducatif",
       "Le développement des joueurs à fort potentiel",
       "Une passerelle vers le rugby de compétition",
+    ],
+    blocks: [
+      {
+        title: "Heures d'entraînement supplémentaires",
+        text: "Les joueurs qui font partie du Centre d'Entraînement Labellisé bénéficient de deux plages horaires supplémentaires pour qu'ils puissent s'entraîner de manière plus approfondie sur leur technique individuelle.",
+      },
+      {
+        title: "Suivi scolaire",
+        text: "Dans le staff du CEL, nous avons un responsable scolaire qui accompagne les jeunes joueurs du Centre d'Entraînement. Cela permet aux entraîneurs d'avoir une vision globale du joueur. Grâce à cet encadrement structuré, les jeunes peuvent allier rugby et études sans compromis !",
+      },
+      {
+        title: "Suivi sportif",
+        text: "Un suivi sportif est mis en place entre le manager sportif du club et le responsable du Centre d'Entraînement. Cela permet de connaître ses forces et ses faiblesses pour ensuite y travailler.",
+      },
     ],
   },
 ];
