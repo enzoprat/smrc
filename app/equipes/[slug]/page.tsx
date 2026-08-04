@@ -12,7 +12,7 @@ import { playersByTeam } from "@/data/players";
 import { trainingByTeam } from "@/data/training";
 import { getUpcomingMatches } from "@/data/matches";
 import { getResults } from "@/data/results";
-import { findImage } from "@/lib/gallery";
+import { findImage, listImages } from "@/lib/gallery";
 import { buildMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
@@ -45,6 +45,7 @@ export default function TeamPage({ params }: { params: { slug: string } }) {
     ? getResults().filter((r) => r.team === matchName).slice(0, 2)
     : [];
   const showFixtures = isFull && (matches.length > 0 || teamResults.length > 0);
+  const photos = listImages(`equipes/${team.slug}`);
 
   return (
     <>
@@ -62,7 +63,7 @@ export default function TeamPage({ params }: { params: { slug: string } }) {
       <section className="bg-white py-16 sm:py-24">
         <div className="container-x grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <Placeholder
-            src={team.image ?? findImage("accueil/categories", team.slug)}
+            src={photos[0] ?? team.image ?? findImage("accueil/categories", team.slug)}
             alt={team.name}
             label={team.name}
             ratio="aspect-[4/3]"
@@ -177,6 +178,26 @@ export default function TeamPage({ params }: { params: { slug: string } }) {
                 </div>
               </div>
             )}
+          </div>
+        </section>
+      )}
+
+      {/* Galerie photos */}
+      {photos.length > 1 && (
+        <section className="bg-white py-16 sm:py-24">
+          <div className="container-x">
+            <SectionTitle eyebrow="En images" title="La galerie" />
+            <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {photos.slice(1).map((src) => (
+                <Placeholder
+                  key={src}
+                  src={src}
+                  alt={team.name}
+                  ratio="aspect-[4/3]"
+                  className="rounded-lg shadow-sm ring-1 ring-black/5"
+                />
+              ))}
+            </div>
           </div>
         </section>
       )}

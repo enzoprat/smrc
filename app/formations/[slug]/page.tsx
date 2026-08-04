@@ -6,7 +6,7 @@ import { Placeholder } from "@/components/Placeholder";
 import { CTASection } from "@/components/CTASection";
 import { Check, Users, Clock } from "@/components/Icons";
 import { formations, getFormation } from "@/data/formations";
-import { findImage } from "@/lib/gallery";
+import { findImage, listImages } from "@/lib/gallery";
 import { buildMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
@@ -27,6 +27,8 @@ export default function FormationPage({ params }: { params: { slug: string } }) 
   const formation = getFormation(params.slug);
   if (!formation) notFound();
 
+  const photos = listImages(`formations/${formation.slug}`);
+
   return (
     <>
       <PageHero
@@ -42,7 +44,7 @@ export default function FormationPage({ params }: { params: { slug: string } }) 
       <section className="bg-white py-16 sm:py-24">
         <div className="container-x grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <Placeholder
-            src={findImage("accueil/categories", formation.slug)}
+            src={photos[0] ?? findImage("accueil/categories", formation.slug)}
             alt={formation.name}
             label={formation.name}
             ratio="aspect-[4/3]"
@@ -114,6 +116,26 @@ export default function FormationPage({ params }: { params: { slug: string } }) 
                   <p className="mt-1 text-ink-600">{s.time}</p>
                   <p className="text-sm text-ink-500">{s.place}</p>
                 </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Galerie photos */}
+      {photos.length > 1 && (
+        <section className="bg-white py-16 sm:py-24">
+          <div className="container-x">
+            <SectionTitle eyebrow="En images" title="La galerie" />
+            <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {photos.slice(1).map((src) => (
+                <Placeholder
+                  key={src}
+                  src={src}
+                  alt={formation.name}
+                  ratio="aspect-[4/3]"
+                  className="rounded-lg shadow-sm ring-1 ring-black/5"
+                />
               ))}
             </div>
           </div>

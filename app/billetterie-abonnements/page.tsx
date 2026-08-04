@@ -20,6 +20,7 @@ const offers = [
     benefits: ["Accès à tous les matchs à domicile", "Tarif préférentiel", "Soutien direct au club"],
     cta: "S'abonner",
     featured: true,
+    link: "https://www.helloasso.com/associations/saint-medard-rugby-club/evenements/26-27-abonnements",
   },
   {
     name: "Repas supporters",
@@ -75,7 +76,7 @@ export default function BilletteriePage() {
                   ))}
                 </ul>
                 <a
-                  href={site.external.helloAsso}
+                  href={o.link ?? site.external.helloAsso}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={o.featured ? "btn-gold mt-5" : "btn-dark mt-5"}

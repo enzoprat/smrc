@@ -53,6 +53,21 @@ const youthTeams: Team[] = [
   },
 ];
 
+/** Ordre d'affichage des cartes équipes sur l'accueil. */
+const homeTeamsOrder = [
+  "equipe-premiere",
+  "espoirs",
+  "feminines",
+  "juniors",
+  "cadets",
+  "cadettes",
+  "ecole-de-rugby",
+  "loisirs",
+];
+const homeTeams = homeTeamsOrder
+  .map((slug) => [...teams, ...youthTeams].find((t) => t.slug === slug))
+  .filter((t): t is Team => Boolean(t));
+
 export default function HomePage() {
   const nextMatch = getNextMatch();
   const lastResult = getLatestResult();
@@ -151,7 +166,7 @@ export default function HomePage() {
             subtitle="Toutes les générations portent les mêmes couleurs et le même esprit."
           />
           <div className="mt-10 grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-3">
-            {[...teams, ...youthTeams].map((t) => (
+            {homeTeams.map((t) => (
               <TeamCard key={t.slug} team={{ ...t, image: findImage("accueil/categories", t.slug) ?? t.image }} />
             ))}
           </div>
