@@ -50,6 +50,7 @@ export const mainNav: NavItem[] = [
       { label: "Cadettes", href: "/formations/cadettes", description: "Le rugby féminin des jeunes joueuses" },
       { label: "Pôle Jeunes", href: "/formations/pole-jeunes", description: "La formation des jeunes du club" },
       { label: "CEL", href: "/formations/cel", description: "Centre d'Entraînement Labellisé" },
+      { label: "Arbitres", href: "/arbitres", description: "La formation à l'arbitrage" },
     ],
   },
   { label: "Calendrier & Résultats", href: "/calendrier-resultats" },
