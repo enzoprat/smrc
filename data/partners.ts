@@ -42,50 +42,33 @@ export type PartnerPack = {
   name: string;
   pitch: string;
   benefits: string[];
+  price?: string;
   featured?: boolean;
 };
 
 export const partnerPacks: PartnerPack[] = [
   {
-    name: "Pack Local",
-    pitch: "Soutenez le club et affichez votre engagement local.",
+    name: "Pack Découverte",
+    pitch: "Rejoignez le réseau des partenaires et soutenez le club.",
+    price: "500 €",
     benefits: [
-      "Logo sur le site internet du club",
-      "Mention sur les réseaux sociaux",
-      "Invitations jour de match",
+      "Club 1905 — accès au réseau des partenaires",
+      "Annonce du partenariat",
+      "Invitation à la soirée partenaires",
+      "4 abonnements",
     ],
   },
   {
-    name: "Pack Club",
-    pitch: "Une visibilité régulière auprès de la communauté SMRC.",
+    name: "Partenaire Territoire",
+    pitch: "Ancrez votre marque au cœur du stade et de la vie du club.",
+    price: "1 000 €",
     benefits: [
-      "Panneau publicitaire au stade Robert Monseau",
-      "Logo sur le site et la newsletter",
-      "Pack d'invitations + accès espace réception",
-      "Mise en avant sur les réseaux sociaux",
-    ],
-  },
-  {
-    name: "Pack Premium",
-    pitch: "Associez durablement votre marque aux couleurs jaune et noir.",
-    benefits: [
-      "Panneau premium et bâche bord de terrain",
-      "Logo sur les supports de communication",
-      "Hospitalité jour de match (loge / table)",
-      "Présence sur le mur des partenaires",
-      "Opérations de communication dédiées",
+      "Club 1905 — accès au réseau des partenaires",
+      "Abri de touche",
+      "Invitation à la soirée partenaires",
+      "Annonce du partenariat",
+      "4 abonnements",
     ],
     featured: true,
-  },
-  {
-    name: "Pack Majeur",
-    pitch: "Devenez un partenaire de référence du SMRC.",
-    benefits: [
-      "Naming d'une tribune ou d'un événement",
-      "Visibilité maillot / équipements",
-      "Hospitalité VIP toute la saison",
-      "Soirées réseau entreprises du club",
-      "Plan de communication sur-mesure",
-    ],
   },
 ];

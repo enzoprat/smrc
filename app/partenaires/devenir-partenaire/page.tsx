@@ -78,9 +78,9 @@ export default function DevenirPartenairePage() {
           <SectionTitle
             eyebrow="Nos offres"
             title="Des packs adaptés à chaque entreprise"
-            subtitle="Tarifs sur demande. Chaque pack peut être personnalisé selon vos objectifs."
+            subtitle="Chaque pack peut être personnalisé selon vos objectifs. Contactez-nous pour en savoir plus."
           />
-          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div className="mx-auto mt-10 grid max-w-4xl gap-6 sm:grid-cols-2">
             {partnerPacks.map((pack) => (
               <div
                 key={pack.name}
@@ -105,8 +105,8 @@ export default function DevenirPartenairePage() {
                     </li>
                   ))}
                 </ul>
-                <p className={`mt-5 font-display text-sm font-semibold uppercase ${pack.featured ? "text-white" : "text-ink-900"}`}>
-                  Prix sur demande
+                <p className={`mt-5 font-display text-2xl font-bold uppercase ${pack.featured ? "text-gold" : "text-ink-900"}`}>
+                  {pack.price ?? "Prix sur demande"}
                 </p>
                 <a href="#formulaire" className={pack.featured ? "btn-gold mt-4" : "btn-dark mt-4"}>
                   Demander ce pack
