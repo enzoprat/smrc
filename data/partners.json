@@ -718,7 +718,7 @@
     "tier": "majeur",
     "url": "https://www.e.leclerc",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-20-21-29-1785349345596.png",
-    "id": "p-1785349277779"
+    "id": "p-01"
   },
   {
     "name": "CTS",
@@ -865,7 +865,7 @@
     "tier": "majeur",
     "url": "https://e2m-groupe.fr",
     "logo": "/partners/e2m-sans-fond-grand-format-pour-autocollants-et-bleus-1785346471776.png",
-    "id": "p-1785346458559"
+    "id": "p-06"
   },
   {
     "name": "GROUPAMA",
@@ -919,7 +919,7 @@
   {
     "id": "p3",
     "name": "KEEP SAFE ",
-    "tier": "officiel",
+    "tier": "majeur",
     "logo": "/partners/ks-couleur-1-1785331552697.png",
     "url": "https://www.keepsafe.fr"
   },
@@ -966,7 +966,7 @@
     "url": "https://www.sanoli-gc.com"
   },
   {
-    "id": "p10",
+    "id": "p02",
     "name": "BRICO E.LECLERC ",
     "tier": "majeur",
     "logo": "/partners/brico-st-medard-1785332058302.jpg",
