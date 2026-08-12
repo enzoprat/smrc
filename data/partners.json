@@ -574,11 +574,11 @@
     "id": "p-1785357898737"
   },
   {
-    "name": "DIMENA",
+    "name": "INTERSPORT ",
     "tier": "majeur",
-    "url": "https://dimena.fr",
-    "logo": "/partners/images-14-1785407056577.png",
-    "id": "p-1785406665234"
+    "url": "https://www.intersport.fr/departement/gironde-33/",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-42-57-1785357843223.png",
+    "id": "p-1785357577160"
   },
   {
     "name": "MILLET PARCS ET JARDINS",
@@ -630,11 +630,11 @@
     "id": "p-1785356756727"
   },
   {
-    "name": "INTERSPORT ",
+    "name": "BDB TRAVAUX PUBLICS",
     "tier": "majeur",
-    "url": "https://www.intersport.fr/departement/gironde-33/",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-42-57-1785357843223.png",
-    "id": "p-1785357577160"
+    "url": "https://www.bdb-tp.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-30-29-1785349890244.png",
+    "id": "p-1785349882123"
   },
   {
     "name": "MUTUELLE DE POITIERS",
@@ -644,11 +644,11 @@
     "id": "p-1785355828360"
   },
   {
-    "name": "GSF NETTOYAGE ",
+    "name": "ATELIER BIGATA ",
     "tier": "majeur",
-    "url": "https://www.gsf.fr",
-    "logo": "/partners/logo-gsf-2x-1785362182332.webp",
-    "id": "p-1785362142316"
+    "url": "https://www.bigata.net/fr/",
+    "logo": "/partners/logobigataprint-1785347039018.jpg",
+    "id": "p-1785346862881"
   },
   {
     "name": "STÉPHANIE LUCAT - SWISS LIFE",
@@ -679,11 +679,11 @@
     "id": "p-1785355108639"
   },
   {
-    "name": "CEFERKA RECYCLAGE ",
+    "name": "CTS",
     "tier": "majeur",
-    "url": "https://www.ceferka.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-23-48-1785356649073.png",
-    "id": "p-1785356495551"
+    "url": "https://www.google.com/search?client=safari&rls=en&q=CTS+EYSINES&ie=UTF-8&oe=UTF-8",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-20-26-1785349250751.png",
+    "id": "p-1785349181303"
   },
   {
     "name": "CENERGIA",
@@ -707,32 +707,25 @@
     "id": "p-1785349489017"
   },
   {
-    "name": "LOCA MS ",
+    "name": "E2M",
     "tier": "majeur",
-    "url": "https://www.locams.com",
-    "logo": "/partners/image001-1785355794379.png",
-    "id": "p-1785355686963"
+    "url": "https://e2m-groupe.fr",
+    "logo": "/partners/e2m-sans-fond-grand-format-pour-autocollants-et-bleus-1785346471776.png",
+    "id": "p-06"
   },
   {
-    "name": "BDB TRAVAUX PUBLICS",
+    "name": "GSF NETTOYAGE ",
     "tier": "majeur",
-    "url": "https://www.bdb-tp.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-30-29-1785349890244.png",
-    "id": "p-1785349882123"
+    "url": "https://www.gsf.fr",
+    "logo": "/partners/logo-gsf-2x-1785362182332.webp",
+    "id": "p-1785362142316"
   },
   {
-    "name": "SUD OUEST",
+    "name": "SORGELMAT DISTRIBUTION",
     "tier": "majeur",
-    "url": "https://abonnement.sudouest.fr/?utm_source=googleads&utm_medium=paidsocial&utm_campaign=googleadsdefensif&utm_term=sud%20ouest&utm_campaign=SO+-+SWG+DEFENSIF&utm_source=adwords&utm_medium=ppc&hsa_acc=4080296732&hsa_cam=17998976131&hsa_grp=140741302795&hsa_ad=615831785498&hsa_src=g&hsa_tgt=kwd-33321641&hsa_kw=sud%20ouest&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=17998976131&gbraid=0AAAAADoahGUQGIaEv67nxLGrFMzdS3eRp&gclid=CjwKCAjwyabTBhBFEiwAM3mNUCOab_h0L_ifxrsNMahtPf-6hP5CNlMTm3b50fX9jEy_WI8JA_IMAxoC6g0QAvD_BwE",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-23-17-1785349449367.png",
-    "id": "p-1785349441994"
-  },
-  {
-    "name": "CTS",
-    "tier": "majeur",
-    "url": "https://www.google.com/search?client=safari&rls=en&q=CTS+EYSINES&ie=UTF-8&oe=UTF-8",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-20-26-1785349250751.png",
-    "id": "p-1785349181303"
+    "url": "https://sorgelmat.fr",
+    "logo": "/partners/logo-print-hd-transparent-1785347424713.png",
+    "id": "p-1785347112003"
   },
   {
     "name": "MALARDIER COUVERTURE",
@@ -742,6 +735,13 @@
     "id": "p-1785349140883"
   },
   {
+    "name": "DIMENA",
+    "tier": "majeur",
+    "url": "https://dimena.fr",
+    "logo": "/partners/images-14-1785407056577.png",
+    "id": "p-1785406665234"
+  },
+  {
     "name": "LA CABANE DE LULU",
     "tier": "officiel",
     "url": "https://www.lacabanedelulu.com",
@@ -749,11 +749,11 @@
     "id": "p-1785348967848"
   },
   {
-    "name": "PROFIL PLUS",
-    "tier": "majeur",
-    "url": "https://www.profilplus.fr/agence/77-le-haillan",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-17-24-1785349101280.png",
-    "id": "p-1785349094161"
+    "name": "SUD OUEST",
+    "tier": "soutien",
+    "url": "https://abonnement.sudouest.fr/?utm_source=googleads&utm_medium=paidsocial&utm_campaign=googleadsdefensif&utm_term=sud%20ouest&utm_campaign=SO+-+SWG+DEFENSIF&utm_source=adwords&utm_medium=ppc&hsa_acc=4080296732&hsa_cam=17998976131&hsa_grp=140741302795&hsa_ad=615831785498&hsa_src=g&hsa_tgt=kwd-33321641&hsa_kw=sud%20ouest&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=17998976131&gbraid=0AAAAADoahGUQGIaEv67nxLGrFMzdS3eRp&gclid=CjwKCAjwyabTBhBFEiwAM3mNUCOab_h0L_ifxrsNMahtPf-6hP5CNlMTm3b50fX9jEy_WI8JA_IMAxoC6g0QAvD_BwE",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-23-17-1785349449367.png",
+    "id": "p-1785349441994"
   },
   {
     "name": "LA TABLE DU POISSONNIER",
@@ -770,11 +770,11 @@
     "id": "p-1785348177193"
   },
   {
-    "name": "ENGIE",
+    "name": "CEFERKA RECYCLAGE ",
     "tier": "majeur",
-    "url": "https://particuliers.engie.fr/aide-contact/tous-nos-contacts.html?utm_source=sea_google&utm_medium=cpc&utm_campaign=sea_google_marque_engie_seul_exact_perf_prospecting&utm_term=engie&utm_device=c&utm_network=g&utm_match=e&utm_target=&utm_placement=&wiz_source=sea_google&wiz_medium=cpc&wiz_campaign=sea_google_marque_engie_seul_exact_perf_prospecting&wiz_term=engie&gad_source=1&gad_campaignid=266296860&gclid=CjwKCAjwyabTBhBFEiwAM3mNUKcEgaXd_VysNj1rdSicN-mc3_tSWhwPW0-hzMVsAsMfRznXPjvzmhoCArAQAvD_BwE",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-01-24-1785348917889.png",
-    "id": "p-1785348858751"
+    "url": "https://www.ceferka.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-23-48-1785356649073.png",
+    "id": "p-1785356495551"
   },
   {
     "name": "ALTEA BUSINESS SCHOOL",
@@ -812,11 +812,11 @@
     "id": "p-1785347839525"
   },
   {
-    "name": "SORGELMAT DISTRIBUTION",
+    "name": "LOCA MS ",
     "tier": "majeur",
-    "url": "https://sorgelmat.fr",
-    "logo": "/partners/logo-print-hd-transparent-1785347424713.png",
-    "id": "p-1785347112003"
+    "url": "https://www.locams.com",
+    "logo": "/partners/image001-1785355794379.png",
+    "id": "p-1785355686963"
   },
   {
     "name": "RAGAZZI DA PEPPONE ",
@@ -861,11 +861,11 @@
     "id": "p-1785346462982"
   },
   {
-    "name": "ATELIER BIGATA ",
+    "id": "p3",
+    "name": "KEEP SAFE ",
     "tier": "majeur",
-    "url": "https://www.bigata.net/fr/",
-    "logo": "/partners/logobigataprint-1785347039018.jpg",
-    "id": "p-1785346862881"
+    "logo": "/partners/ks-couleur-1-1785331552697.png",
+    "url": "https://www.keepsafe.fr"
   },
   {
     "name": "GROUPAMA",
@@ -917,11 +917,11 @@
     "url": "https://artyss.fr"
   },
   {
-    "name": "E2M",
+    "name": "PROFIL PLUS",
     "tier": "majeur",
-    "url": "https://e2m-groupe.fr",
-    "logo": "/partners/e2m-sans-fond-grand-format-pour-autocollants-et-bleus-1785346471776.png",
-    "id": "p-06"
+    "url": "https://www.profilplus.fr/agence/77-le-haillan",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-17-24-1785349101280.png",
+    "id": "p-1785349094161"
   },
   {
     "id": "p4",
@@ -959,11 +959,11 @@
     "url": "https://www.enzoprat.fr"
   },
   {
-    "id": "p3",
-    "name": "KEEP SAFE ",
+    "name": "ENGIE",
     "tier": "majeur",
-    "logo": "/partners/ks-couleur-1-1785331552697.png",
-    "url": "https://www.keepsafe.fr"
+    "url": "https://particuliers.engie.fr/aide-contact/tous-nos-contacts.html?utm_source=sea_google&utm_medium=cpc&utm_campaign=sea_google_marque_engie_seul_exact_perf_prospecting&utm_term=engie&utm_device=c&utm_network=g&utm_match=e&utm_target=&utm_placement=&wiz_source=sea_google&wiz_medium=cpc&wiz_campaign=sea_google_marque_engie_seul_exact_perf_prospecting&wiz_term=engie&gad_source=1&gad_campaignid=266296860&gclid=CjwKCAjwyabTBhBFEiwAM3mNUKcEgaXd_VysNj1rdSicN-mc3_tSWhwPW0-hzMVsAsMfRznXPjvzmhoCArAQAvD_BwE",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-01-24-1785348917889.png",
+    "id": "p-1785348858751"
   },
   {
     "id": "p9",
