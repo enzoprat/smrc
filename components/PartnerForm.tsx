@@ -2,8 +2,12 @@
 
 import { useState } from "react";
 import { sendEmail } from "@/lib/email";
+import { partnerPacks } from "@/data/partners";
 
-const BUDGETS = ["Moins de 500 €", "500 € – 1 500 €", "1 500 € – 5 000 €", "Plus de 5 000 €", "À définir"];
+const BUDGETS = [
+  ...partnerPacks.map((p) => (p.price ? `${p.name} — ${p.price}` : p.name)),
+  "Budget personnalisé",
+];
 
 type Status = "idle" | "loading" | "success" | "error";
 
@@ -67,7 +71,7 @@ export function PartnerForm() {
 
       <div>
         <label htmlFor="budget" className="mb-1.5 block font-display text-sm font-semibold uppercase tracking-wide text-ink-700">
-          Budget estimé
+          Pack souhaité / budget estimé
         </label>
         <select
           id="budget"
