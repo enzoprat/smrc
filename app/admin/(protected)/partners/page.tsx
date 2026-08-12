@@ -27,8 +27,9 @@ export default function AdminPartnersPage() {
       <header className="mb-6">
         <h1 className="font-display text-3xl font-bold uppercase text-ink-900">Partenaires</h1>
         <p className="mt-1 text-ink-600">
-          Gérez les partenaires affichés sur le site. Filtrez par catégorie puis utilisez les flèches ↑↓
-          pour choisir l'ordre d'apparition au sein de la catégorie.
+          Gérez les partenaires affichés sur le site. Sélectionnez une catégorie, puis indiquez dans
+          la case « Ordre » le rang d'apparition (1 pour le premier, 2 pour le deuxième, etc.).
+          L'ordre est appliqué à l'enregistrement.
         </p>
       </header>
       <DatasetEditor

@@ -51,14 +51,26 @@ export function DatasetEditor({
   // remonter (et perdre le focus) quand l'utilisateur modifie l'identifiant.
   const keyCounter = useRef(0);
   const genKey = () => `row-${keyCounter.current++}`;
-  const [rows, setRows] = useState<Row[]>(() => initial.map((r) => ({ ...r, __key: genKey() })));
-  const [status, setStatus] = useState<"idle" | "saving" | "saved" | "error">("idle");
-  const [message, setMessage] = useState("");
-  const [uploadingKey, setUploadingKey] = useState<string | null>(null);
-  const [activeGroup, setActiveGroup] = useState<string>("");
 
   const groupFieldDef = groupField ? fields.find((f) => f.key === groupField) : undefined;
   const groupOptions = groupFieldDef?.options ?? [];
+
+  // Chaque ligne reçoit un numéro d'ordre (__order) au sein de sa catégorie,
+  // initialisé selon sa position d'origine. L'admin peut saisir 1, 2, 3…
+  const [rows, setRows] = useState<Row[]>(() => {
+    const counters: Record<string, number> = {};
+    return initial.map((r) => {
+      const g = groupField ? String(r[groupField] ?? "") : "";
+      counters[g] = (counters[g] ?? 0) + 1;
+      return { ...r, __key: genKey(), __order: counters[g] };
+    });
+  });
+  const [status, setStatus] = useState<"idle" | "saving" | "saved" | "error">("idle");
+  const [message, setMessage] = useState("");
+  const [uploadingKey, setUploadingKey] = useState<string | null>(null);
+  const [activeGroup, setActiveGroup] = useState<string>(
+    groupField ? groupOptions[0]?.value ?? "" : "",
+  );
 
   // Indices (dans `rows`) des lignes actuellement visibles compte tenu du filtre.
   const visibleIndices = rows
@@ -98,37 +110,52 @@ export function DatasetEditor({
     setStatus("idle");
   }
 
-  // `pos` est la position dans la liste visible (filtrée). On échange avec la
-  // ligne visible voisine, ce qui réordonne au sein de la catégorie affichée.
-  function move(pos: number, dir: -1 | 1) {
+  function add() {
     setRows((prev) => {
-      const vis = prev
-        .map((_, idx) => idx)
-        .filter((idx) => !groupField || !activeGroup || String(prev[idx][groupField] ?? "") === activeGroup);
-      const from = vis[pos];
-      const to = vis[pos + dir];
-      if (from === undefined || to === undefined) return prev;
-      const next = [...prev];
-      [next[from], next[to]] = [next[to], next[from]];
-      return next;
+      const g = activeGroup || "";
+      const maxOrder = prev
+        .filter((r) => !groupField || String(r[groupField] ?? "") === g)
+        .reduce((m, r) => Math.max(m, Number(r.__order) || 0), 0);
+      const row: Row = {
+        ...template,
+        [idKey]: `${idPrefix}-${Date.now()}`,
+        __key: genKey(),
+        __order: maxOrder + 1,
+      };
+      if (groupField && activeGroup) row[groupField] = activeGroup;
+      return [row, ...prev];
     });
     setStatus("idle");
   }
 
-  function add() {
-    const row: Row = { ...template, [idKey]: `${idPrefix}-${Date.now()}`, __key: genKey() };
-    if (groupField && activeGroup) row[groupField] = activeGroup;
-    setRows((prev) => [row, ...prev]);
-    setStatus("idle");
+  // Réordonne les lignes : d'abord par catégorie (ordre des options du groupe),
+  // puis par le numéro d'ordre saisi (__order) au sein de chaque catégorie.
+  function orderedRows(): Row[] {
+    if (!groupField) return rows;
+    const groupOrder = groupOptions.map((o) => o.value);
+    const rank = (r: Row) => {
+      const idx = groupOrder.indexOf(String(r[groupField] ?? ""));
+      return idx === -1 ? groupOrder.length : idx;
+    };
+    const orderVal = (r: Row) =>
+      r.__order === "" || r.__order == null ? Number.POSITIVE_INFINITY : Number(r.__order);
+    return [...rows].sort((a, b) => {
+      const ra = rank(a);
+      const rb = rank(b);
+      if (ra !== rb) return ra - rb;
+      return orderVal(a) - orderVal(b);
+    });
   }
 
   async function save() {
     setStatus("saving");
     setMessage("");
+    const ordered = orderedRows();
     // Coerce number fields
-    const cleaned = rows.map((r) => {
+    const cleaned = ordered.map((r) => {
       const out: Row = { ...r };
       delete out.__key;
+      delete out.__order;
       fields.forEach((f) => {
         if (f.type === "number" && out[f.key] !== undefined && out[f.key] !== "") {
           out[f.key] = Number(out[f.key]);
@@ -147,6 +174,17 @@ export function DatasetEditor({
       if (!res.ok) {
         const detail = j.detail ? ` (${j.detail})` : "";
         throw new Error((j.error || "Échec de l'enregistrement.") + detail);
+      }
+      // Réaffiche les lignes dans l'ordre enregistré, avec une numérotation propre.
+      if (groupField) {
+        const counters: Record<string, number> = {};
+        setRows(
+          ordered.map((r) => {
+            const g = String(r[groupField] ?? "");
+            counters[g] = (counters[g] ?? 0) + 1;
+            return { ...r, __order: counters[g] };
+          }),
+        );
       }
       setStatus("saved");
       setMessage("Modifications enregistrées. Le site se met à jour dans quelques instants.");
@@ -204,29 +242,24 @@ export function DatasetEditor({
           return (
           <div key={String(row.__key ?? i)} className="rounded-lg bg-white p-5 shadow-sm ring-1 ring-black/5">
             <div className="mb-3 flex items-center gap-2 border-b border-black/5 pb-3">
-              <span className="font-display text-sm font-bold text-ink-400">#{pos + 1}</span>
-              <div className="ml-auto flex items-center gap-1">
-                <button
-                  type="button"
-                  onClick={() => move(pos, -1)}
-                  disabled={pos === 0}
-                  aria-label="Monter"
-                  title="Monter"
-                  className="inline-flex h-8 w-8 items-center justify-center rounded-sm ring-1 ring-black/10 hover:bg-bone disabled:opacity-30"
-                >
-                  ↑
-                </button>
-                <button
-                  type="button"
-                  onClick={() => move(pos, 1)}
-                  disabled={pos === visibleIndices.length - 1}
-                  aria-label="Descendre"
-                  title="Descendre"
-                  className="inline-flex h-8 w-8 items-center justify-center rounded-sm ring-1 ring-black/10 hover:bg-bone disabled:opacity-30"
-                >
-                  ↓
-                </button>
-              </div>
+              {groupField ? (
+                <label className="flex items-center gap-2 text-sm text-ink-600">
+                  <span className="font-display text-xs font-semibold uppercase tracking-wide">
+                    Ordre
+                  </span>
+                  <input
+                    type="number"
+                    min={1}
+                    value={row.__order === "" || row.__order == null ? "" : String(row.__order)}
+                    onChange={(e) =>
+                      update(i, "__order", e.target.value === "" ? "" : Number(e.target.value))
+                    }
+                    className="w-16 rounded-sm border border-ink-900/15 px-2 py-1 text-center text-sm outline-none focus:border-gold focus:ring-2 focus:ring-gold/30"
+                  />
+                </label>
+              ) : (
+                <span className="font-display text-sm font-bold text-ink-400">#{pos + 1}</span>
+              )}
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
               {fields.map((f) => (
