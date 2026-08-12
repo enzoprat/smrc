@@ -133,11 +133,11 @@
     "id": "p-1785416850650"
   },
   {
-    "name": "INTERMARCHÉ ",
+    "name": "E.LECLERC",
     "tier": "majeur",
-    "url": "https://www.intermarche.com/?srsltid=AfmBOoqmxLFR9-VLOKzesWfsq77amNd-PrT17QJxsNFq8t4xT8SGUzes",
-    "logo": "/partners/images-25-1785416792232.jpg",
-    "id": "p-1785416673522"
+    "url": "https://www.e.leclerc",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-21-29-1785349345596.png",
+    "id": "p-01"
   },
   {
     "name": "AUDIT COURTAGE",
@@ -154,11 +154,11 @@
     "id": "p-1785416212821"
   },
   {
-    "name": "SF2I PROMOTEUR IMMOBILIER",
+    "id": "p02",
+    "name": "BRICO E.LECLERC ",
     "tier": "majeur",
-    "url": "https://www.google.com/search?q=sf2i+immobilier%C2%A0&client=safari&hs=ZdgV&sca_esv=2c719d755bc25006&rls=en&biw=1440&bih=900&sxsrf=APpeQnutxAfxOrWbgE2_-l6P_TK7brwTdg%3A1785415974488&ei=JklravPBHcqskdUPqO2y-Qs&ved=0ahUKEwjz7L3nuPqVAxVKVqQEHai2LL8Q4dUDCBA&uact=5&oq=sf2i+immobilier%C2%A0&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXNmMmkgaW1tb2JpbGllcsKgMgQQIxgnMgYQABgWGB4yCBAAGIAEGKIEMgUQABjvBTIFEAAY7wUyCBAAGIAEGKIEMggQABiABBiiBEjBCFDCAljrBnABeAGQAQCYAVmgAZ4CqgEBNLgBA8gBAPgBAZgCBaAC_wLCAgoQABhHGNYEGLADwgIIEAAYiQUYogSYAwCIBgGQBgaSBwM0LjGgB_cOsgcDMy4xuAfOAsIHBzItMS4zLjHIB0aACAE&sclient=gws-wiz-serp",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-15-13-51-1785417473849.png",
-    "id": "p-1785415804031"
+    "logo": "/partners/brico-st-medard-1785332058302.jpg",
+    "url": "https://www.e.leclerc/e/brico-eleclerc?srsltid=AfmBOor4ECyo-jYCAhYaSYCKNs8rcb0d6BMuXLA-1XLEYwpwpDCmTKXI"
   },
   {
     "name": "AUTO SÉCURITÉ",
@@ -203,11 +203,11 @@
     "id": "p-1785413859234"
   },
   {
-    "name": "ABL CÉRÉMIQUE ",
+    "name": "SF2I PROMOTEUR IMMOBILIER",
     "tier": "majeur",
-    "url": "https://www.carrelage-brisseau-lionel.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-14-09-09-1785413608164.png",
-    "id": "p-1785413415778"
+    "url": "https://www.google.com/search?q=sf2i+immobilier%C2%A0&client=safari&hs=ZdgV&sca_esv=2c719d755bc25006&rls=en&biw=1440&bih=900&sxsrf=APpeQnutxAfxOrWbgE2_-l6P_TK7brwTdg%3A1785415974488&ei=JklravPBHcqskdUPqO2y-Qs&ved=0ahUKEwjz7L3nuPqVAxVKVqQEHai2LL8Q4dUDCBA&uact=5&oq=sf2i+immobilier%C2%A0&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXNmMmkgaW1tb2JpbGllcsKgMgQQIxgnMgYQABgWGB4yCBAAGIAEGKIEMgUQABjvBTIFEAAY7wUyCBAAGIAEGKIEMggQABiABBiiBEjBCFDCAljrBnABeAGQAQCYAVmgAZ4CqgEBNLgBA8gBAPgBAZgCBaAC_wLCAgoQABhHGNYEGLADwgIIEAAYiQUYogSYAwCIBgGQBgaSBwM0LjGgB_cOsgcDMy4xuAfOAsIHBzItMS4zLjHIB0aACAE&sclient=gws-wiz-serp",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-15-13-51-1785417473849.png",
+    "id": "p-1785415804031"
   },
   {
     "name": "DVM GLOBAL ",
@@ -259,11 +259,11 @@
     "id": "p-1785407065806"
   },
   {
-    "name": "DIMENA",
+    "name": "INTERMARCHÉ ",
     "tier": "majeur",
-    "url": "https://dimena.fr",
-    "logo": "/partners/images-14-1785407056577.png",
-    "id": "p-1785406665234"
+    "url": "https://www.intermarche.com/?srsltid=AfmBOoqmxLFR9-VLOKzesWfsq77amNd-PrT17QJxsNFq8t4xT8SGUzes",
+    "logo": "/partners/images-25-1785416792232.jpg",
+    "id": "p-1785416673522"
   },
   {
     "name": "VÉOLIA",
@@ -350,11 +350,11 @@
     "id": "p-1785365479931"
   },
   {
-    "name": "UNIKALO",
+    "name": "ABL CÉRÉMIQUE ",
     "tier": "majeur",
-    "url": "https://unikalo.com",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-00-50-22-1785365448517.png",
-    "id": "p-1785365260876"
+    "url": "https://www.carrelage-brisseau-lionel.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-14-09-09-1785413608164.png",
+    "id": "p-1785413415778"
   },
   {
     "name": "BL BOULANGERIE ",
@@ -455,11 +455,11 @@
     "id": "p-1785362217073"
   },
   {
-    "name": "GSF NETTOYAGE ",
+    "name": "UNIKALO",
     "tier": "majeur",
-    "url": "https://www.gsf.fr",
-    "logo": "/partners/logo-gsf-2x-1785362182332.webp",
-    "id": "p-1785362142316"
+    "url": "https://unikalo.com",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-00-50-22-1785365448517.png",
+    "id": "p-1785365260876"
   },
   {
     "name": "BORDEAUX MÉTROPOLE ",
@@ -574,11 +574,11 @@
     "id": "p-1785357898737"
   },
   {
-    "name": "INTERSPORT ",
+    "name": "DIMENA",
     "tier": "majeur",
-    "url": "https://www.intersport.fr/departement/gironde-33/",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-42-57-1785357843223.png",
-    "id": "p-1785357577160"
+    "url": "https://dimena.fr",
+    "logo": "/partners/images-14-1785407056577.png",
+    "id": "p-1785406665234"
   },
   {
     "name": "MILLET PARCS ET JARDINS",
@@ -630,11 +630,11 @@
     "id": "p-1785356756727"
   },
   {
-    "name": "CEFERKA RECYCLAGE ",
+    "name": "INTERSPORT ",
     "tier": "majeur",
-    "url": "https://www.ceferka.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-23-48-1785356649073.png",
-    "id": "p-1785356495551"
+    "url": "https://www.intersport.fr/departement/gironde-33/",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-42-57-1785357843223.png",
+    "id": "p-1785357577160"
   },
   {
     "name": "MUTUELLE DE POITIERS",
@@ -644,11 +644,11 @@
     "id": "p-1785355828360"
   },
   {
-    "name": "LOCA MS ",
+    "name": "GSF NETTOYAGE ",
     "tier": "majeur",
-    "url": "https://www.locams.com",
-    "logo": "/partners/image001-1785355794379.png",
-    "id": "p-1785355686963"
+    "url": "https://www.gsf.fr",
+    "logo": "/partners/logo-gsf-2x-1785362182332.webp",
+    "id": "p-1785362142316"
   },
   {
     "name": "STÉPHANIE LUCAT - SWISS LIFE",
@@ -679,11 +679,11 @@
     "id": "p-1785355108639"
   },
   {
-    "name": "BDB TRAVAUX PUBLICS",
+    "name": "CEFERKA RECYCLAGE ",
     "tier": "majeur",
-    "url": "https://www.bdb-tp.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-30-29-1785349890244.png",
-    "id": "p-1785349882123"
+    "url": "https://www.ceferka.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-23-48-1785356649073.png",
+    "id": "p-1785356495551"
   },
   {
     "name": "CENERGIA",
@@ -707,18 +707,25 @@
     "id": "p-1785349489017"
   },
   {
+    "name": "LOCA MS ",
+    "tier": "majeur",
+    "url": "https://www.locams.com",
+    "logo": "/partners/image001-1785355794379.png",
+    "id": "p-1785355686963"
+  },
+  {
+    "name": "BDB TRAVAUX PUBLICS",
+    "tier": "majeur",
+    "url": "https://www.bdb-tp.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-30-29-1785349890244.png",
+    "id": "p-1785349882123"
+  },
+  {
     "name": "SUD OUEST",
     "tier": "majeur",
     "url": "https://abonnement.sudouest.fr/?utm_source=googleads&utm_medium=paidsocial&utm_campaign=googleadsdefensif&utm_term=sud%20ouest&utm_campaign=SO+-+SWG+DEFENSIF&utm_source=adwords&utm_medium=ppc&hsa_acc=4080296732&hsa_cam=17998976131&hsa_grp=140741302795&hsa_ad=615831785498&hsa_src=g&hsa_tgt=kwd-33321641&hsa_kw=sud%20ouest&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=17998976131&gbraid=0AAAAADoahGUQGIaEv67nxLGrFMzdS3eRp&gclid=CjwKCAjwyabTBhBFEiwAM3mNUCOab_h0L_ifxrsNMahtPf-6hP5CNlMTm3b50fX9jEy_WI8JA_IMAxoC6g0QAvD_BwE",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-20-23-17-1785349449367.png",
     "id": "p-1785349441994"
-  },
-  {
-    "name": "E.LECLERC",
-    "tier": "majeur",
-    "url": "https://www.e.leclerc",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-21-29-1785349345596.png",
-    "id": "p-01"
   },
   {
     "name": "CTS",
@@ -735,13 +742,6 @@
     "id": "p-1785349140883"
   },
   {
-    "name": "PROFIL PLUS",
-    "tier": "majeur",
-    "url": "https://www.profilplus.fr/agence/77-le-haillan",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-17-24-1785349101280.png",
-    "id": "p-1785349094161"
-  },
-  {
     "name": "LA CABANE DE LULU",
     "tier": "officiel",
     "url": "https://www.lacabanedelulu.com",
@@ -749,11 +749,11 @@
     "id": "p-1785348967848"
   },
   {
-    "name": "ENGIE",
+    "name": "PROFIL PLUS",
     "tier": "majeur",
-    "url": "https://particuliers.engie.fr/aide-contact/tous-nos-contacts.html?utm_source=sea_google&utm_medium=cpc&utm_campaign=sea_google_marque_engie_seul_exact_perf_prospecting&utm_term=engie&utm_device=c&utm_network=g&utm_match=e&utm_target=&utm_placement=&wiz_source=sea_google&wiz_medium=cpc&wiz_campaign=sea_google_marque_engie_seul_exact_perf_prospecting&wiz_term=engie&gad_source=1&gad_campaignid=266296860&gclid=CjwKCAjwyabTBhBFEiwAM3mNUKcEgaXd_VysNj1rdSicN-mc3_tSWhwPW0-hzMVsAsMfRznXPjvzmhoCArAQAvD_BwE",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-01-24-1785348917889.png",
-    "id": "p-1785348858751"
+    "url": "https://www.profilplus.fr/agence/77-le-haillan",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-17-24-1785349101280.png",
+    "id": "p-1785349094161"
   },
   {
     "name": "LA TABLE DU POISSONNIER",
@@ -770,11 +770,11 @@
     "id": "p-1785348177193"
   },
   {
-    "name": "CENTURY 21 KADIMA",
+    "name": "ENGIE",
     "tier": "majeur",
-    "url": "https://www.century21.fr/trouver_agence/agence/2411517036/",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-19-57-52-1785349033126.png",
-    "id": "p-1785347839525"
+    "url": "https://particuliers.engie.fr/aide-contact/tous-nos-contacts.html?utm_source=sea_google&utm_medium=cpc&utm_campaign=sea_google_marque_engie_seul_exact_perf_prospecting&utm_term=engie&utm_device=c&utm_network=g&utm_match=e&utm_target=&utm_placement=&wiz_source=sea_google&wiz_medium=cpc&wiz_campaign=sea_google_marque_engie_seul_exact_perf_prospecting&wiz_term=engie&gad_source=1&gad_campaignid=266296860&gclid=CjwKCAjwyabTBhBFEiwAM3mNUKcEgaXd_VysNj1rdSicN-mc3_tSWhwPW0-hzMVsAsMfRznXPjvzmhoCArAQAvD_BwE",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-01-24-1785348917889.png",
+    "id": "p-1785348858751"
   },
   {
     "name": "ALTEA BUSINESS SCHOOL",
@@ -805,18 +805,18 @@
     "id": "p-1785347407126"
   },
   {
+    "name": "CENTURY 21 KADIMA",
+    "tier": "majeur",
+    "url": "https://www.century21.fr/trouver_agence/agence/2411517036/",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-19-57-52-1785349033126.png",
+    "id": "p-1785347839525"
+  },
+  {
     "name": "SORGELMAT DISTRIBUTION",
     "tier": "majeur",
     "url": "https://sorgelmat.fr",
     "logo": "/partners/logo-print-hd-transparent-1785347424713.png",
     "id": "p-1785347112003"
-  },
-  {
-    "name": "ATELIER BIGATA ",
-    "tier": "majeur",
-    "url": "https://www.bigata.net/fr/",
-    "logo": "/partners/logobigataprint-1785347039018.jpg",
-    "id": "p-1785346862881"
   },
   {
     "name": "RAGAZZI DA PEPPONE ",
@@ -861,11 +861,11 @@
     "id": "p-1785346462982"
   },
   {
-    "name": "E2M",
+    "name": "ATELIER BIGATA ",
     "tier": "majeur",
-    "url": "https://e2m-groupe.fr",
-    "logo": "/partners/e2m-sans-fond-grand-format-pour-autocollants-et-bleus-1785346471776.png",
-    "id": "p-06"
+    "url": "https://www.bigata.net/fr/",
+    "logo": "/partners/logobigataprint-1785347039018.jpg",
+    "id": "p-1785346862881"
   },
   {
     "name": "GROUPAMA",
@@ -917,11 +917,11 @@
     "url": "https://artyss.fr"
   },
   {
-    "id": "p3",
-    "name": "KEEP SAFE ",
+    "name": "E2M",
     "tier": "majeur",
-    "logo": "/partners/ks-couleur-1-1785331552697.png",
-    "url": "https://www.keepsafe.fr"
+    "url": "https://e2m-groupe.fr",
+    "logo": "/partners/e2m-sans-fond-grand-format-pour-autocollants-et-bleus-1785346471776.png",
+    "id": "p-06"
   },
   {
     "id": "p4",
@@ -959,18 +959,18 @@
     "url": "https://www.enzoprat.fr"
   },
   {
+    "id": "p3",
+    "name": "KEEP SAFE ",
+    "tier": "majeur",
+    "logo": "/partners/ks-couleur-1-1785331552697.png",
+    "url": "https://www.keepsafe.fr"
+  },
+  {
     "id": "p9",
     "name": "SANOLI ",
     "tier": "majeur",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-15-44-51-1785332710086.png",
     "url": "https://www.sanoli-gc.com"
-  },
-  {
-    "id": "p02",
-    "name": "BRICO E.LECLERC ",
-    "tier": "majeur",
-    "logo": "/partners/brico-st-medard-1785332058302.jpg",
-    "url": "https://www.e.leclerc/e/brico-eleclerc?srsltid=AfmBOor4ECyo-jYCAhYaSYCKNs8rcb0d6BMuXLA-1XLEYwpwpDCmTKXI"
   },
   {
     "id": "p11",
