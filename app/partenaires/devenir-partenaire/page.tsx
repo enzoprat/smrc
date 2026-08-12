@@ -80,7 +80,7 @@ export default function DevenirPartenairePage() {
             title="Des packs adaptés à chaque entreprise"
             subtitle="Chaque pack peut être personnalisé selon vos objectifs. Contactez-nous pour en savoir plus."
           />
-          <div className="mx-auto mt-10 grid max-w-4xl gap-6 sm:grid-cols-2">
+          <div className="mx-auto mt-10 grid max-w-6xl gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {partnerPacks.map((pack) => (
               <div
                 key={pack.name}

@@ -26,7 +26,10 @@ export default function AdminPartnersPage() {
     <div>
       <header className="mb-6">
         <h1 className="font-display text-3xl font-bold uppercase text-ink-900">Partenaires</h1>
-        <p className="mt-1 text-ink-600">Gérez les partenaires affichés sur le site.</p>
+        <p className="mt-1 text-ink-600">
+          Gérez les partenaires affichés sur le site. Filtrez par catégorie puis utilisez les flèches ↑↓
+          pour choisir l'ordre d'apparition au sein de la catégorie.
+        </p>
       </header>
       <DatasetEditor
         type="partners"
@@ -34,6 +37,8 @@ export default function AdminPartnersPage() {
         initial={partners as unknown as Record<string, unknown>[]}
         idPrefix="p"
         template={{ name: "", tier: "soutien", url: "", logo: "" }}
+        groupField="tier"
+        groupLabel="Catégorie"
       />
     </div>
   );

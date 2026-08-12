@@ -34,6 +34,8 @@ export function DatasetEditor({
   idKey = "id",
   idPrefix,
   template,
+  groupField,
+  groupLabel = "Filtrer par catégorie",
 }: {
   type: string;
   fields: FieldDef[];
@@ -41,6 +43,9 @@ export function DatasetEditor({
   idKey?: string;
   idPrefix: string;
   template: Row;
+  /** Champ (ex: "tier") permettant de filtrer et de réordonner par catégorie. */
+  groupField?: string;
+  groupLabel?: string;
 }) {
   // Clé interne stable par ligne : découplée des champs éditables pour ne pas
   // remonter (et perdre le focus) quand l'utilisateur modifie l'identifiant.
@@ -50,6 +55,15 @@ export function DatasetEditor({
   const [status, setStatus] = useState<"idle" | "saving" | "saved" | "error">("idle");
   const [message, setMessage] = useState("");
   const [uploadingKey, setUploadingKey] = useState<string | null>(null);
+  const [activeGroup, setActiveGroup] = useState<string>("");
+
+  const groupFieldDef = groupField ? fields.find((f) => f.key === groupField) : undefined;
+  const groupOptions = groupFieldDef?.options ?? [];
+
+  // Indices (dans `rows`) des lignes actuellement visibles compte tenu du filtre.
+  const visibleIndices = rows
+    .map((_, idx) => idx)
+    .filter((idx) => !groupField || !activeGroup || String(rows[idx][groupField] ?? "") === activeGroup);
 
   function update(i: number, key: string, value: unknown) {
     setRows((prev) => prev.map((r, idx) => (idx === i ? { ...r, [key]: value } : r)));
@@ -84,12 +98,18 @@ export function DatasetEditor({
     setStatus("idle");
   }
 
-  function move(i: number, dir: -1 | 1) {
+  // `pos` est la position dans la liste visible (filtrée). On échange avec la
+  // ligne visible voisine, ce qui réordonne au sein de la catégorie affichée.
+  function move(pos: number, dir: -1 | 1) {
     setRows((prev) => {
-      const j = i + dir;
-      if (j < 0 || j >= prev.length) return prev;
+      const vis = prev
+        .map((_, idx) => idx)
+        .filter((idx) => !groupField || !activeGroup || String(prev[idx][groupField] ?? "") === activeGroup);
+      const from = vis[pos];
+      const to = vis[pos + dir];
+      if (from === undefined || to === undefined) return prev;
       const next = [...prev];
-      [next[i], next[j]] = [next[j], next[i]];
+      [next[from], next[to]] = [next[to], next[from]];
       return next;
     });
     setStatus("idle");
@@ -97,6 +117,7 @@ export function DatasetEditor({
 
   function add() {
     const row: Row = { ...template, [idKey]: `${idPrefix}-${Date.now()}`, __key: genKey() };
+    if (groupField && activeGroup) row[groupField] = activeGroup;
     setRows((prev) => [row, ...prev]);
     setStatus("idle");
   }
@@ -138,9 +159,28 @@ export function DatasetEditor({
   return (
     <div>
       <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
-        <button onClick={add} className="btn-dark">
-          + Ajouter
-        </button>
+        <div className="flex flex-wrap items-center gap-3">
+          <button onClick={add} className="btn-dark">
+            + Ajouter
+          </button>
+          {groupField && groupOptions.length > 0 && (
+            <label className="flex items-center gap-2 text-sm text-ink-600">
+              <span className="font-display text-xs font-semibold uppercase tracking-wide">{groupLabel}</span>
+              <select
+                value={activeGroup}
+                onChange={(e) => setActiveGroup(e.target.value)}
+                className="rounded-sm border border-ink-900/15 px-3 py-2 text-sm outline-none focus:border-gold focus:ring-2 focus:ring-gold/30"
+              >
+                <option value="">Toutes les catégories</option>
+                {groupOptions.map((o) => (
+                  <option key={o.value} value={o.value}>
+                    {o.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+          )}
+        </div>
         <div className="flex items-center gap-3">
           {message && (
             <span className={`text-sm ${status === "error" ? "text-red-600" : "text-emerald-600"}`}>
@@ -154,20 +194,22 @@ export function DatasetEditor({
       </div>
 
       <div className="space-y-4">
-        {rows.length === 0 && (
+        {visibleIndices.length === 0 && (
           <p className="rounded-lg bg-white p-6 text-center text-ink-500 ring-1 ring-black/5">
             Aucun élément. Cliquez sur « Ajouter ».
           </p>
         )}
-        {rows.map((row, i) => (
+        {visibleIndices.map((i, pos) => {
+          const row = rows[i];
+          return (
           <div key={String(row.__key ?? i)} className="rounded-lg bg-white p-5 shadow-sm ring-1 ring-black/5">
             <div className="mb-3 flex items-center gap-2 border-b border-black/5 pb-3">
-              <span className="font-display text-sm font-bold text-ink-400">#{i + 1}</span>
+              <span className="font-display text-sm font-bold text-ink-400">#{pos + 1}</span>
               <div className="ml-auto flex items-center gap-1">
                 <button
                   type="button"
-                  onClick={() => move(i, -1)}
-                  disabled={i === 0}
+                  onClick={() => move(pos, -1)}
+                  disabled={pos === 0}
                   aria-label="Monter"
                   title="Monter"
                   className="inline-flex h-8 w-8 items-center justify-center rounded-sm ring-1 ring-black/10 hover:bg-bone disabled:opacity-30"
@@ -176,8 +218,8 @@ export function DatasetEditor({
                 </button>
                 <button
                   type="button"
-                  onClick={() => move(i, 1)}
-                  disabled={i === rows.length - 1}
+                  onClick={() => move(pos, 1)}
+                  disabled={pos === visibleIndices.length - 1}
                   aria-label="Descendre"
                   title="Descendre"
                   className="inline-flex h-8 w-8 items-center justify-center rounded-sm ring-1 ring-black/10 hover:bg-bone disabled:opacity-30"
@@ -269,7 +311,8 @@ export function DatasetEditor({
               </button>
             </div>
           </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );
