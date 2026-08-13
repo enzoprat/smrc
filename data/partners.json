@@ -287,13 +287,6 @@
     "id": "p-1785423833350"
   },
   {
-    "name": "BOUCHERIE ROUGE TENDRE ",
-    "tier": "officiel",
-    "url": "https://www.google.com/search?client=safari&hs=mkLq&sca_esv=2f8f76a28fa0a08e&rls=en&sxsrf=APpeQnviqrSvoJiJvoA9uvPXpRQ3Scgl8Q:1785365987676&q=ROUGE+TENDRE&source=lnms&fbs=ABfTbFWlHVawnkyJjbQ_GeAtGB4OIP9FU2kYbC9RGSbIoVl1-U5-4CH4-upo8mIaRQxIBTpoyZK1h-d7QAMzrJ_XZGLMpHo5XKeu5Xce4rB_MLXJ3nDrp4vA3yfDHrM8664jDH4ziMk3vG_WHJq3Dt0A45TctWHKpG_kmJ8x5vRy_D8bp9PTbynpqUT175aTw_aTP0on_nsvQfm_uocFQJAxZgjKU0UIhPpdUIpg4l7DNrdMrIIe6vvg88q4k4xnJAzSC02NsPif&sa=X&ved=2ahUKEwiL_fTL_viVAxVKVqQEHai2LL8Q0pQJegQIDxAB&biw=1440&bih=900&dpr=1",
-    "logo": "/partners/logo-rouge-tendre-1-1-2-1785404608546.png",
-    "id": "p-1785365979688"
-  },
-  {
     "name": "LA CABANE 116",
     "tier": "officiel",
     "url": "https://lacabane116-poissonnerie-eysines.fr",
@@ -397,6 +390,13 @@
     "url": "https://www.vitalepargne.com",
     "logo": "/partners/images-22-1785414380657.png",
     "id": "p-1785414231646"
+  },
+  {
+    "name": "BOUCHERIE ROUGE TENDRE ",
+    "tier": "officiel",
+    "url": "https://www.google.com/search?client=safari&hs=mkLq&sca_esv=2f8f76a28fa0a08e&rls=en&sxsrf=APpeQnviqrSvoJiJvoA9uvPXpRQ3Scgl8Q:1785365987676&q=ROUGE+TENDRE&source=lnms&fbs=ABfTbFWlHVawnkyJjbQ_GeAtGB4OIP9FU2kYbC9RGSbIoVl1-U5-4CH4-upo8mIaRQxIBTpoyZK1h-d7QAMzrJ_XZGLMpHo5XKeu5Xce4rB_MLXJ3nDrp4vA3yfDHrM8664jDH4ziMk3vG_WHJq3Dt0A45TctWHKpG_kmJ8x5vRy_D8bp9PTbynpqUT175aTw_aTP0on_nsvQfm_uocFQJAxZgjKU0UIhPpdUIpg4l7DNrdMrIIe6vvg88q4k4xnJAzSC02NsPif&sa=X&ved=2ahUKEwiL_fTL_viVAxVKVqQEHai2LL8Q0pQJegQIDxAB&biw=1440&bih=900&dpr=1",
+    "logo": "/partners/logo-rouge-tendre-1-1-2-1785404608546.png",
+    "id": "p-1785365979688"
   },
   {
     "name": "GROUPE FAUCHÉ",
