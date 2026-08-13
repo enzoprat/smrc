@@ -609,13 +609,6 @@
     "id": "p-1785359267077"
   },
   {
-    "name": "LAPLANTE",
-    "tier": "officiel",
-    "url": "https://www.google.com/search?client=safari&rls=en&q=LAPLANTE+IMPRESSION&ie=UTF-8&oe=UTF-8",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-32-08-1785357414959.png",
-    "id": "p-1785357405184"
-  },
-  {
     "name": "UPERIO GROUP",
     "tier": "officiel",
     "url": "https://www.uperio-group.com/fr_fr/",
@@ -936,6 +929,13 @@
     "url": "https://atelier-du-flipper.fr",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-19-31-06-1785346302931.png",
     "id": "p-1785346219463"
+  },
+  {
+    "name": "LAPLANTE",
+    "tier": "soutien",
+    "url": "https://www.google.com/search?client=safari&rls=en&q=LAPLANTE+IMPRESSION&ie=UTF-8&oe=UTF-8",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-32-08-1785357414959.png",
+    "id": "p-1785357405184"
   },
   {
     "name": "ARIANE GROUP",
