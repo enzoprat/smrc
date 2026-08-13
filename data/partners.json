@@ -1,5 +1,159 @@
 [
   {
+    "name": "E.LECLERC",
+    "tier": "majeur",
+    "url": "https://www.e.leclerc",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-21-29-1785349345596.png",
+    "id": "p-01"
+  },
+  {
+    "id": "p02",
+    "name": "BRICO E.LECLERC ",
+    "tier": "majeur",
+    "logo": "/partners/brico-st-medard-1785332058302.jpg",
+    "url": "https://www.e.leclerc/e/brico-eleclerc?srsltid=AfmBOor4ECyo-jYCAhYaSYCKNs8rcb0d6BMuXLA-1XLEYwpwpDCmTKXI"
+  },
+  {
+    "name": "SF2I PROMOTEUR IMMOBILIER",
+    "tier": "majeur",
+    "url": "https://www.google.com/search?q=sf2i+immobilier%C2%A0&client=safari&hs=ZdgV&sca_esv=2c719d755bc25006&rls=en&biw=1440&bih=900&sxsrf=APpeQnutxAfxOrWbgE2_-l6P_TK7brwTdg%3A1785415974488&ei=JklravPBHcqskdUPqO2y-Qs&ved=0ahUKEwjz7L3nuPqVAxVKVqQEHai2LL8Q4dUDCBA&uact=5&oq=sf2i+immobilier%C2%A0&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXNmMmkgaW1tb2JpbGllcsKgMgQQIxgnMgYQABgWGB4yCBAAGIAEGKIEMgUQABjvBTIFEAAY7wUyCBAAGIAEGKIEMggQABiABBiiBEjBCFDCAljrBnABeAGQAQCYAVmgAZ4CqgEBNLgBA8gBAPgBAZgCBaAC_wLCAgoQABhHGNYEGLADwgIIEAAYiQUYogSYAwCIBgGQBgaSBwM0LjGgB_cOsgcDMy4xuAfOAsIHBzItMS4zLjHIB0aACAE&sclient=gws-wiz-serp",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-15-13-51-1785417473849.png",
+    "id": "p-1785415804031"
+  },
+  {
+    "name": "INTERMARCHÉ ",
+    "tier": "majeur",
+    "url": "https://www.intermarche.com/?srsltid=AfmBOoqmxLFR9-VLOKzesWfsq77amNd-PrT17QJxsNFq8t4xT8SGUzes",
+    "logo": "/partners/images-25-1785416792232.jpg",
+    "id": "p-1785416673522"
+  },
+  {
+    "name": "ABL CÉRÉMIQUE ",
+    "tier": "majeur",
+    "url": "https://www.carrelage-brisseau-lionel.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-14-09-09-1785413608164.png",
+    "id": "p-1785413415778"
+  },
+  {
+    "name": "UNIKALO",
+    "tier": "majeur",
+    "url": "https://unikalo.com",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-00-50-22-1785365448517.png",
+    "id": "p-1785365260876"
+  },
+  {
+    "name": "INTERSPORT ",
+    "tier": "majeur",
+    "url": "https://www.intersport.fr/departement/gironde-33/",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-42-57-1785357843223.png",
+    "id": "p-1785357577160"
+  },
+  {
+    "name": "BDB TRAVAUX PUBLICS",
+    "tier": "majeur",
+    "url": "https://www.bdb-tp.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-30-29-1785349890244.png",
+    "id": "p-1785349882123"
+  },
+  {
+    "name": "ATELIER BIGATA ",
+    "tier": "majeur",
+    "url": "https://www.bigata.net/fr/",
+    "logo": "/partners/logobigataprint-1785347039018.jpg",
+    "id": "p-1785346862881"
+  },
+  {
+    "name": "CTS",
+    "tier": "majeur",
+    "url": "https://www.google.com/search?client=safari&rls=en&q=CTS+EYSINES&ie=UTF-8&oe=UTF-8",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-20-26-1785349250751.png",
+    "id": "p-1785349181303"
+  },
+  {
+    "name": "E2M",
+    "tier": "majeur",
+    "url": "https://e2m-groupe.fr",
+    "logo": "/partners/e2m-sans-fond-grand-format-pour-autocollants-et-bleus-1785346471776.png",
+    "id": "p-06"
+  },
+  {
+    "name": "GSF NETTOYAGE ",
+    "tier": "majeur",
+    "url": "https://www.gsf.fr",
+    "logo": "/partners/logo-gsf-2x-1785362182332.webp",
+    "id": "p-1785362142316"
+  },
+  {
+    "name": "SORGELMAT DISTRIBUTION",
+    "tier": "majeur",
+    "url": "https://sorgelmat.fr",
+    "logo": "/partners/logo-print-hd-transparent-1785347424713.png",
+    "id": "p-1785347112003"
+  },
+  {
+    "name": "MALARDIER COUVERTURE",
+    "tier": "majeur",
+    "url": "https://www.malardiercouverturezinguerie.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-01-54-1785349150073.png",
+    "id": "p-1785349140883"
+  },
+  {
+    "name": "DIMENA",
+    "tier": "majeur",
+    "url": "https://dimena.fr",
+    "logo": "/partners/images-14-1785407056577.png",
+    "id": "p-1785406665234"
+  },
+  {
+    "name": "CEFERKA RECYCLAGE ",
+    "tier": "majeur",
+    "url": "https://www.ceferka.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-23-48-1785356649073.png",
+    "id": "p-1785356495551"
+  },
+  {
+    "name": "CENTURY 21 KADIMA",
+    "tier": "majeur",
+    "url": "https://www.century21.fr/trouver_agence/agence/2411517036/",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-19-57-52-1785349033126.png",
+    "id": "p-1785347839525"
+  },
+  {
+    "name": "LOCA MS ",
+    "tier": "majeur",
+    "url": "https://www.locams.com",
+    "logo": "/partners/image001-1785355794379.png",
+    "id": "p-1785355686963"
+  },
+  {
+    "id": "p3",
+    "name": "KEEP SAFE ",
+    "tier": "majeur",
+    "logo": "/partners/ks-couleur-1-1785331552697.png",
+    "url": "https://www.keepsafe.fr"
+  },
+  {
+    "name": "PROFIL PLUS",
+    "tier": "majeur",
+    "url": "https://www.profilplus.fr/agence/77-le-haillan",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-17-24-1785349101280.png",
+    "id": "p-1785349094161"
+  },
+  {
+    "name": "ENGIE",
+    "tier": "majeur",
+    "url": "https://particuliers.engie.fr/aide-contact/tous-nos-contacts.html?utm_source=sea_google&utm_medium=cpc&utm_campaign=sea_google_marque_engie_seul_exact_perf_prospecting&utm_term=engie&utm_device=c&utm_network=g&utm_match=e&utm_target=&utm_placement=&wiz_source=sea_google&wiz_medium=cpc&wiz_campaign=sea_google_marque_engie_seul_exact_perf_prospecting&wiz_term=engie&gad_source=1&gad_campaignid=266296860&gclid=CjwKCAjwyabTBhBFEiwAM3mNUKcEgaXd_VysNj1rdSicN-mc3_tSWhwPW0-hzMVsAsMfRznXPjvzmhoCArAQAvD_BwE",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-01-24-1785348917889.png",
+    "id": "p-1785348858751"
+  },
+  {
+    "id": "p9",
+    "name": "SANOLI ",
+    "tier": "majeur",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-15-44-51-1785332710086.png",
+    "url": "https://www.sanoli-gc.com"
+  },
+  {
     "name": "ACCESS AUTOMATISME SYSTÈME",
     "tier": "officiel",
     "url": "https://www.acces-automatismes-systemes.fr",
@@ -7,11 +161,11 @@
     "id": "p-1785425738402"
   },
   {
-    "name": "LE PETIT FORESTIER ",
-    "tier": "soutien",
-    "url": "https://www.petitforestier.com/fr-fr/professional/agencies/bordeaux/bordeaux-le-haillan",
-    "logo": "/partners/capture-d-ecran-2026-08-05-a-17-59-16-1785945718992.png",
-    "id": "p-1785945713129"
+    "name": "CHÂTEAU HAUT BOURCIER",
+    "tier": "officiel",
+    "url": "http://www.chateau-haut-bourcier.com",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-28-26-1785425496488.png",
+    "id": "p-1785425254554"
   },
   {
     "name": "COURS PÉRET ",
@@ -19,13 +173,6 @@
     "url": "https://www.cours-peret-bordeaux.com",
     "logo": "/partners/logo-cp-png-1785946016265.png",
     "id": "p-1785945958022"
-  },
-  {
-    "name": "CHÂTEAU HAUT BOURCIER",
-    "tier": "officiel",
-    "url": "http://www.chateau-haut-bourcier.com",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-28-26-1785425496488.png",
-    "id": "p-1785425254554"
   },
   {
     "name": "CAMPUS DU LAC",
@@ -40,13 +187,6 @@
     "url": "https://www.vortex-experience.com",
     "logo": "/partners/capture-d-ecran-2026-07-30-a-17-23-05-1785425030358.png",
     "id": "p-1785424898591"
-  },
-  {
-    "name": "CHÂTEAU LILIAN LADOUYS",
-    "tier": "soutien",
-    "url": "https://www.chateau-lilian-ladouys.com",
-    "logo": "/partners/images-31-1785424465969.jpg",
-    "id": "p-1785424429608"
   },
   {
     "name": "SARL PERALU",
@@ -68,13 +208,6 @@
     "url": "https://www.google.com/search?client=safari&hs=K0Lq&sca_esv=2c719d755bc25006&rls=en&sxsrf=APpeQnsVpePNMSkLKWAtc9rZ_vxW0I-nEA:1785423807311&q=MAUFFREY+TRANSPORT&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKIlgyddFclCTt781vHsEspvKN33wU-jOcNCbWnWrpwU5qF3Zm5A4qeB_9lhQoIyMnBC6XE30MIqDMjmrVTjc43aF85JeX-cV2GbLw_iiczIFc9Uavw&sa=X&ved=2ahUKEwiRsLv-1fqVAxXIeqQEHeVeOpUQ0pQJegQICxAB&biw=1440&bih=900&dpr=1",
     "logo": "",
     "id": "p-1785423833350"
-  },
-  {
-    "name": "MA PETITE CAVE ",
-    "tier": "soutien",
-    "url": "https://www.mapetitecave.fr",
-    "logo": "",
-    "id": "p-1785423501861"
   },
   {
     "name": "l'Élysée bar ",
@@ -119,27 +252,6 @@
     "id": "p-1785417384964"
   },
   {
-    "name": "REP INDUSTRIE ",
-    "tier": "soutien",
-    "url": "https://www.google.com/search?client=safari&rls=en&q=REP+INDUSTRIE&ie=UTF-8&oe=UTF-8",
-    "logo": "/partners/images-28-1785417039821.png",
-    "id": "p-1785417003840"
-  },
-  {
-    "name": "ROUZÈS OCÉAN",
-    "tier": "soutien",
-    "url": "https://www.google.com/search?client=safari&hs=9I1&sca_esv=3cfedecb9b07e191&rls=en&sxsrf=APpeQnt_EC6a0gsfQZBSRuAamYJcmPRqBw:1785416817524&q=ROUZ%C3%89S+OC%C3%89AN&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc3x8792U5ZVg9NxUywAiNAAK9LTph7mlss0iXxz9ohv5X4K06bW0PTrZtlKhUziN3xNuDBluxKmAlxWKdwzlp51FGvsHCD0r8xIGZIwYbnp3xsaIfLAm8cNnOJDz24qChps0X6nUQI7A8UmrQxfSItuiqSmzkbh_lvaJyRrOoUDvQ6dnvQ&sa=X&ved=2ahUKEwjx0bz5u_qVAxUwOfsDHb_YAVYQ0pQJegQICxAB&biw=1440&bih=900&dpr=1",
-    "logo": "/partners/images-28-1785416863061.jpg",
-    "id": "p-1785416850650"
-  },
-  {
-    "name": "E.LECLERC",
-    "tier": "majeur",
-    "url": "https://www.e.leclerc",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-21-29-1785349345596.png",
-    "id": "p-01"
-  },
-  {
     "name": "AUDIT COURTAGE",
     "tier": "officiel",
     "url": "https://auditcourtage.com",
@@ -152,13 +264,6 @@
     "url": "https://www.google.com/search?client=safari&hs=zI1&sca_esv=2c719d755bc25006&rls=en&sxsrf=APpeQnuECpuesRs3SxsHv4bcLNhdhm9EHg:1785416173712&q=SADES+SAINT+MEDARD&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc3x8792U5ZVg9NxUywAiNAAK9LTph7mlss0iXxz9ohv5X4K06bW0PTrZtlKhUziN32NixWI0NGdlmcDRs20y9EhSa9VCHxrSZskBTOkBppmhKD0qFhwSQRiPaZdkGO9y8VTVxpd4IyhPFjtmZxgALeA6YlaG0w6lpzv1MNr4kXolSonXkQ&sa=X&ved=2ahUKEwjoub3GufqVAxV5WKQEHQSBOMAQ0pQJegQIEBAB&biw=1440&bih=900&dpr=1",
     "logo": "/partners/logo-sades-1785416318269.png",
     "id": "p-1785416212821"
-  },
-  {
-    "id": "p02",
-    "name": "BRICO E.LECLERC ",
-    "tier": "majeur",
-    "logo": "/partners/brico-st-medard-1785332058302.jpg",
-    "url": "https://www.e.leclerc/e/brico-eleclerc?srsltid=AfmBOor4ECyo-jYCAhYaSYCKNs8rcb0d6BMuXLA-1XLEYwpwpDCmTKXI"
   },
   {
     "name": "AUTO SÉCURITÉ",
@@ -201,13 +306,6 @@
     "url": "https://www.ingenierie-developpement.fr",
     "logo": "/partners/images-21-1785413870807.png",
     "id": "p-1785413859234"
-  },
-  {
-    "name": "SF2I PROMOTEUR IMMOBILIER",
-    "tier": "majeur",
-    "url": "https://www.google.com/search?q=sf2i+immobilier%C2%A0&client=safari&hs=ZdgV&sca_esv=2c719d755bc25006&rls=en&biw=1440&bih=900&sxsrf=APpeQnutxAfxOrWbgE2_-l6P_TK7brwTdg%3A1785415974488&ei=JklravPBHcqskdUPqO2y-Qs&ved=0ahUKEwjz7L3nuPqVAxVKVqQEHai2LL8Q4dUDCBA&uact=5&oq=sf2i+immobilier%C2%A0&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXNmMmkgaW1tb2JpbGllcsKgMgQQIxgnMgYQABgWGB4yCBAAGIAEGKIEMgUQABjvBTIFEAAY7wUyCBAAGIAEGKIEMggQABiABBiiBEjBCFDCAljrBnABeAGQAQCYAVmgAZ4CqgEBNLgBA8gBAPgBAZgCBaAC_wLCAgoQABhHGNYEGLADwgIIEAAYiQUYogSYAwCIBgGQBgaSBwM0LjGgB_cOsgcDMy4xuAfOAsIHBzItMS4zLjHIB0aACAE&sclient=gws-wiz-serp",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-15-13-51-1785417473849.png",
-    "id": "p-1785415804031"
   },
   {
     "name": "DVM GLOBAL ",
@@ -257,20 +355,6 @@
     "url": "https://k-pax.fr",
     "logo": "/partners/capture-d-ecran-2026-07-30-a-14-49-18-1785415782146.png",
     "id": "p-1785407065806"
-  },
-  {
-    "name": "INTERMARCHÉ ",
-    "tier": "majeur",
-    "url": "https://www.intermarche.com/?srsltid=AfmBOoqmxLFR9-VLOKzesWfsq77amNd-PrT17QJxsNFq8t4xT8SGUzes",
-    "logo": "/partners/images-25-1785416792232.jpg",
-    "id": "p-1785416673522"
-  },
-  {
-    "name": "VÉOLIA",
-    "tier": "soutien",
-    "url": "https://www.eau.veolia.fr",
-    "logo": "/partners/images-14-1785406628747.png",
-    "id": "p-1785406539452"
   },
   {
     "name": "CAP TP 33",
@@ -350,13 +434,6 @@
     "id": "p-1785365479931"
   },
   {
-    "name": "ABL CÉRÉMIQUE ",
-    "tier": "majeur",
-    "url": "https://www.carrelage-brisseau-lionel.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-14-09-09-1785413608164.png",
-    "id": "p-1785413415778"
-  },
-  {
     "name": "BL BOULANGERIE ",
     "tier": "officiel",
     "url": "https://www.google.com/search?client=safari&rls=en&q=BL+BOULANGERIE&ie=UTF-8&oe=UTF-8",
@@ -420,20 +497,6 @@
     "id": "p-1785364365454"
   },
   {
-    "name": "ARIANE GROUP",
-    "tier": "institutionnel",
-    "url": "https://www.ariane.group",
-    "logo": "/partners/images-4-1785362823699.png",
-    "id": "p-1785362814083"
-  },
-  {
-    "name": "ROXEL GROUP",
-    "tier": "institutionnel",
-    "url": "https://www.roxelgroup.com",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-00-05-17-1785362748518.png",
-    "id": "p-1785362645763"
-  },
-  {
     "name": "LORÉNOVE",
     "tier": "officiel",
     "url": "https://www.fenetres-lorenove.fr/agence/eysines",
@@ -453,34 +516,6 @@
     "url": "https://arcalie.net",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-23-59-15-1785362500971.png",
     "id": "p-1785362217073"
-  },
-  {
-    "name": "UNIKALO",
-    "tier": "majeur",
-    "url": "https://unikalo.com",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-00-50-22-1785365448517.png",
-    "id": "p-1785365260876"
-  },
-  {
-    "name": "BORDEAUX MÉTROPOLE ",
-    "tier": "institutionnel",
-    "url": "",
-    "logo": "/partners/images-2-1785362010097.png",
-    "id": "p-1785361914375"
-  },
-  {
-    "name": "GIRONDE",
-    "tier": "institutionnel",
-    "url": "",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-23-49-30-1785361908395.png",
-    "id": "p-1785361896574"
-  },
-  {
-    "name": "FRANCE TRAVAIL",
-    "tier": "institutionnel",
-    "url": "https://www.francetravail.fr/accueil/",
-    "logo": "/partners/2-1785361866272.jpg",
-    "id": "p-1785361851721"
   },
   {
     "name": "DUNE CONSTRUCTIONS ",
@@ -539,13 +574,6 @@
     "id": "p-1785359267077"
   },
   {
-    "name": "GILLES ARNAUD - GOLF CABOT",
-    "tier": "soutien",
-    "url": "https://gillesarnaud-golf.fr",
-    "logo": "/partners/images-1785358967585.png",
-    "id": "p-1785358924122"
-  },
-  {
     "name": "LA GRANDE JAUGUE",
     "tier": "officiel",
     "url": "",
@@ -572,20 +600,6 @@
     "url": "https://eatsalad.com/listing/le-haillan/",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-22-54-34-1785358585685.png",
     "id": "p-1785357898737"
-  },
-  {
-    "name": "INTERSPORT ",
-    "tier": "majeur",
-    "url": "https://www.intersport.fr/departement/gironde-33/",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-42-57-1785357843223.png",
-    "id": "p-1785357577160"
-  },
-  {
-    "name": "MILLET PARCS ET JARDINS",
-    "tier": "soutien",
-    "url": "https://www.milletparcsetjardins.fr",
-    "logo": "/partners/logo-mpj-final-2-1785357457236.png",
-    "id": "p-1785357448983"
   },
   {
     "name": "LAPLANTE",
@@ -630,25 +644,11 @@
     "id": "p-1785356756727"
   },
   {
-    "name": "BDB TRAVAUX PUBLICS",
-    "tier": "majeur",
-    "url": "https://www.bdb-tp.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-30-29-1785349890244.png",
-    "id": "p-1785349882123"
-  },
-  {
     "name": "MUTUELLE DE POITIERS",
     "tier": "officiel",
     "url": "https://agence.assurance-mutuelle-poitiers.fr/agence-saint-medard-en-jalles",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-22-08-27-1785355833580.png",
     "id": "p-1785355828360"
-  },
-  {
-    "name": "ATELIER BIGATA ",
-    "tier": "majeur",
-    "url": "https://www.bigata.net/fr/",
-    "logo": "/partners/logobigataprint-1785347039018.jpg",
-    "id": "p-1785346862881"
   },
   {
     "name": "STÉPHANIE LUCAT - SWISS LIFE",
@@ -665,25 +665,11 @@
     "id": "p-1785355326993"
   },
   {
-    "name": "Champagne Roger-Constant Lemaire",
-    "tier": "soutien",
-    "url": "https://champagne-lemaire.fr",
-    "logo": "/partners/bloc-marque-blason-1785355154573.jpg",
-    "id": "p-1785355144858"
-  },
-  {
     "name": "TRANSPORT VEYNAT ",
     "tier": "officiel",
     "url": "https://www.veynat.com/fr/",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-21-57-46-1785355116303.png",
     "id": "p-1785355108639"
-  },
-  {
-    "name": "CTS",
-    "tier": "majeur",
-    "url": "https://www.google.com/search?client=safari&rls=en&q=CTS+EYSINES&ie=UTF-8&oe=UTF-8",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-20-26-1785349250751.png",
-    "id": "p-1785349181303"
   },
   {
     "name": "CENERGIA",
@@ -707,53 +693,11 @@
     "id": "p-1785349489017"
   },
   {
-    "name": "E2M",
-    "tier": "majeur",
-    "url": "https://e2m-groupe.fr",
-    "logo": "/partners/e2m-sans-fond-grand-format-pour-autocollants-et-bleus-1785346471776.png",
-    "id": "p-06"
-  },
-  {
-    "name": "GSF NETTOYAGE ",
-    "tier": "majeur",
-    "url": "https://www.gsf.fr",
-    "logo": "/partners/logo-gsf-2x-1785362182332.webp",
-    "id": "p-1785362142316"
-  },
-  {
-    "name": "SORGELMAT DISTRIBUTION",
-    "tier": "majeur",
-    "url": "https://sorgelmat.fr",
-    "logo": "/partners/logo-print-hd-transparent-1785347424713.png",
-    "id": "p-1785347112003"
-  },
-  {
-    "name": "MALARDIER COUVERTURE",
-    "tier": "majeur",
-    "url": "https://www.malardiercouverturezinguerie.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-01-54-1785349150073.png",
-    "id": "p-1785349140883"
-  },
-  {
-    "name": "DIMENA",
-    "tier": "majeur",
-    "url": "https://dimena.fr",
-    "logo": "/partners/images-14-1785407056577.png",
-    "id": "p-1785406665234"
-  },
-  {
     "name": "LA CABANE DE LULU",
     "tier": "officiel",
     "url": "https://www.lacabanedelulu.com",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-19-49-38-1785348984544.png",
     "id": "p-1785348967848"
-  },
-  {
-    "name": "SUD OUEST",
-    "tier": "soutien",
-    "url": "https://abonnement.sudouest.fr/?utm_source=googleads&utm_medium=paidsocial&utm_campaign=googleadsdefensif&utm_term=sud%20ouest&utm_campaign=SO+-+SWG+DEFENSIF&utm_source=adwords&utm_medium=ppc&hsa_acc=4080296732&hsa_cam=17998976131&hsa_grp=140741302795&hsa_ad=615831785498&hsa_src=g&hsa_tgt=kwd-33321641&hsa_kw=sud%20ouest&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=17998976131&gbraid=0AAAAADoahGUQGIaEv67nxLGrFMzdS3eRp&gclid=CjwKCAjwyabTBhBFEiwAM3mNUCOab_h0L_ifxrsNMahtPf-6hP5CNlMTm3b50fX9jEy_WI8JA_IMAxoC6g0QAvD_BwE",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-23-17-1785349449367.png",
-    "id": "p-1785349441994"
   },
   {
     "name": "LA TABLE DU POISSONNIER",
@@ -768,13 +712,6 @@
     "url": "https://lacabane116-poissonnerie-eysines.fr",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-20-02-31-1785348182681.png",
     "id": "p-1785348177193"
-  },
-  {
-    "name": "CEFERKA RECYCLAGE ",
-    "tier": "majeur",
-    "url": "https://www.ceferka.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-23-48-1785356649073.png",
-    "id": "p-1785356495551"
   },
   {
     "name": "ALTEA BUSINESS SCHOOL",
@@ -803,20 +740,6 @@
     "url": "https://www.google.com/search?client=safari&rls=en&q=R%C3%89NOV%27ACTION+33+SAINT+M%C3%89DARD&ie=UTF-8&oe=UTF-8",
     "logo": "/partners/logo-png-1785347432664.png",
     "id": "p-1785347407126"
-  },
-  {
-    "name": "CENTURY 21 KADIMA",
-    "tier": "majeur",
-    "url": "https://www.century21.fr/trouver_agence/agence/2411517036/",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-19-57-52-1785349033126.png",
-    "id": "p-1785347839525"
-  },
-  {
-    "name": "LOCA MS ",
-    "tier": "majeur",
-    "url": "https://www.locams.com",
-    "logo": "/partners/image001-1785355794379.png",
-    "id": "p-1785355686963"
   },
   {
     "name": "RAGAZZI DA PEPPONE ",
@@ -854,39 +777,11 @@
     "id": "p-1785346548005"
   },
   {
-    "name": "BS AUTOVITRAGE",
-    "tier": "soutien",
-    "url": "https://bs-autovitrage.fr",
-    "logo": "/partners/logo-1-1785346518768.jpg",
-    "id": "p-1785346462982"
-  },
-  {
-    "id": "p3",
-    "name": "KEEP SAFE ",
-    "tier": "majeur",
-    "logo": "/partners/ks-couleur-1-1785331552697.png",
-    "url": "https://www.keepsafe.fr"
-  },
-  {
     "name": "GROUPAMA",
     "tier": "officiel",
     "url": "https://agences.groupama.fr/assurance/",
     "logo": "/partners/fondblanc-groupama-sign-hor-vert-pms-x2-1785346432620.jpg",
     "id": "p-1785346417994"
-  },
-  {
-    "name": "ATELIER FLIPPER ",
-    "tier": "soutien",
-    "url": "https://atelier-du-flipper.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-19-31-06-1785346302931.png",
-    "id": "p-1785346219463"
-  },
-  {
-    "name": "VILLE DE SAINT-MÉDARD-EN-JALLES",
-    "tier": "institutionnel",
-    "url": "https://www.saint-medard-en-jalles.fr",
-    "logo": "/partners/logo-saint-medard-en-jalles-1785333353591.jpg",
-    "id": "p-1785333193947"
   },
   {
     "name": "VAKOM",
@@ -915,13 +810,6 @@
     "tier": "officiel",
     "logo": "/partners/logo-fond-noir-1785331476022.jpg",
     "url": "https://artyss.fr"
-  },
-  {
-    "name": "PROFIL PLUS",
-    "tier": "majeur",
-    "url": "https://www.profilplus.fr/agence/77-le-haillan",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-17-24-1785349101280.png",
-    "id": "p-1785349094161"
   },
   {
     "id": "p4",
@@ -959,24 +847,136 @@
     "url": "https://www.enzoprat.fr"
   },
   {
-    "name": "ENGIE",
-    "tier": "majeur",
-    "url": "https://particuliers.engie.fr/aide-contact/tous-nos-contacts.html?utm_source=sea_google&utm_medium=cpc&utm_campaign=sea_google_marque_engie_seul_exact_perf_prospecting&utm_term=engie&utm_device=c&utm_network=g&utm_match=e&utm_target=&utm_placement=&wiz_source=sea_google&wiz_medium=cpc&wiz_campaign=sea_google_marque_engie_seul_exact_perf_prospecting&wiz_term=engie&gad_source=1&gad_campaignid=266296860&gclid=CjwKCAjwyabTBhBFEiwAM3mNUKcEgaXd_VysNj1rdSicN-mc3_tSWhwPW0-hzMVsAsMfRznXPjvzmhoCArAQAvD_BwE",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-01-24-1785348917889.png",
-    "id": "p-1785348858751"
-  },
-  {
-    "id": "p9",
-    "name": "SANOLI ",
-    "tier": "majeur",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-15-44-51-1785332710086.png",
-    "url": "https://www.sanoli-gc.com"
-  },
-  {
     "id": "p11",
     "name": "BISTROT DE LA JALLES ",
     "tier": "officiel",
     "logo": "/partners/carte-visite-recto-bistro-de-la-jalle-2-1785332211973.png",
     "url": "https://restaurant-bordeaux.net"
+  },
+  {
+    "name": "LE PETIT FORESTIER ",
+    "tier": "soutien",
+    "url": "https://www.petitforestier.com/fr-fr/professional/agencies/bordeaux/bordeaux-le-haillan",
+    "logo": "/partners/capture-d-ecran-2026-08-05-a-17-59-16-1785945718992.png",
+    "id": "p-1785945713129"
+  },
+  {
+    "name": "CHÂTEAU LILIAN LADOUYS",
+    "tier": "soutien",
+    "url": "https://www.chateau-lilian-ladouys.com",
+    "logo": "/partners/images-31-1785424465969.jpg",
+    "id": "p-1785424429608"
+  },
+  {
+    "name": "MA PETITE CAVE ",
+    "tier": "soutien",
+    "url": "https://www.mapetitecave.fr",
+    "logo": "",
+    "id": "p-1785423501861"
+  },
+  {
+    "name": "REP INDUSTRIE ",
+    "tier": "soutien",
+    "url": "https://www.google.com/search?client=safari&rls=en&q=REP+INDUSTRIE&ie=UTF-8&oe=UTF-8",
+    "logo": "/partners/images-28-1785417039821.png",
+    "id": "p-1785417003840"
+  },
+  {
+    "name": "ROUZÈS OCÉAN",
+    "tier": "soutien",
+    "url": "https://www.google.com/search?client=safari&hs=9I1&sca_esv=3cfedecb9b07e191&rls=en&sxsrf=APpeQnt_EC6a0gsfQZBSRuAamYJcmPRqBw:1785416817524&q=ROUZ%C3%89S+OC%C3%89AN&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc3x8792U5ZVg9NxUywAiNAAK9LTph7mlss0iXxz9ohv5X4K06bW0PTrZtlKhUziN3xNuDBluxKmAlxWKdwzlp51FGvsHCD0r8xIGZIwYbnp3xsaIfLAm8cNnOJDz24qChps0X6nUQI7A8UmrQxfSItuiqSmzkbh_lvaJyRrOoUDvQ6dnvQ&sa=X&ved=2ahUKEwjx0bz5u_qVAxUwOfsDHb_YAVYQ0pQJegQICxAB&biw=1440&bih=900&dpr=1",
+    "logo": "/partners/images-28-1785416863061.jpg",
+    "id": "p-1785416850650"
+  },
+  {
+    "name": "VÉOLIA",
+    "tier": "soutien",
+    "url": "https://www.eau.veolia.fr",
+    "logo": "/partners/images-14-1785406628747.png",
+    "id": "p-1785406539452"
+  },
+  {
+    "name": "GILLES ARNAUD - GOLF CABOT",
+    "tier": "soutien",
+    "url": "https://gillesarnaud-golf.fr",
+    "logo": "/partners/images-1785358967585.png",
+    "id": "p-1785358924122"
+  },
+  {
+    "name": "MILLET PARCS ET JARDINS",
+    "tier": "soutien",
+    "url": "https://www.milletparcsetjardins.fr",
+    "logo": "/partners/logo-mpj-final-2-1785357457236.png",
+    "id": "p-1785357448983"
+  },
+  {
+    "name": "Champagne Roger-Constant Lemaire",
+    "tier": "soutien",
+    "url": "https://champagne-lemaire.fr",
+    "logo": "/partners/bloc-marque-blason-1785355154573.jpg",
+    "id": "p-1785355144858"
+  },
+  {
+    "name": "SUD OUEST",
+    "tier": "soutien",
+    "url": "https://abonnement.sudouest.fr/?utm_source=googleads&utm_medium=paidsocial&utm_campaign=googleadsdefensif&utm_term=sud%20ouest&utm_campaign=SO+-+SWG+DEFENSIF&utm_source=adwords&utm_medium=ppc&hsa_acc=4080296732&hsa_cam=17998976131&hsa_grp=140741302795&hsa_ad=615831785498&hsa_src=g&hsa_tgt=kwd-33321641&hsa_kw=sud%20ouest&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=17998976131&gbraid=0AAAAADoahGUQGIaEv67nxLGrFMzdS3eRp&gclid=CjwKCAjwyabTBhBFEiwAM3mNUCOab_h0L_ifxrsNMahtPf-6hP5CNlMTm3b50fX9jEy_WI8JA_IMAxoC6g0QAvD_BwE",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-23-17-1785349449367.png",
+    "id": "p-1785349441994"
+  },
+  {
+    "name": "BS AUTOVITRAGE",
+    "tier": "soutien",
+    "url": "https://bs-autovitrage.fr",
+    "logo": "/partners/logo-1-1785346518768.jpg",
+    "id": "p-1785346462982"
+  },
+  {
+    "name": "ATELIER FLIPPER ",
+    "tier": "soutien",
+    "url": "https://atelier-du-flipper.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-19-31-06-1785346302931.png",
+    "id": "p-1785346219463"
+  },
+  {
+    "name": "ARIANE GROUP",
+    "tier": "institutionnel",
+    "url": "https://www.ariane.group",
+    "logo": "/partners/images-4-1785362823699.png",
+    "id": "p-1785362814083"
+  },
+  {
+    "name": "ROXEL GROUP",
+    "tier": "institutionnel",
+    "url": "https://www.roxelgroup.com",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-00-05-17-1785362748518.png",
+    "id": "p-1785362645763"
+  },
+  {
+    "name": "BORDEAUX MÉTROPOLE ",
+    "tier": "institutionnel",
+    "url": "",
+    "logo": "/partners/images-2-1785362010097.png",
+    "id": "p-1785361914375"
+  },
+  {
+    "name": "GIRONDE",
+    "tier": "institutionnel",
+    "url": "",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-23-49-30-1785361908395.png",
+    "id": "p-1785361896574"
+  },
+  {
+    "name": "FRANCE TRAVAIL",
+    "tier": "institutionnel",
+    "url": "https://www.francetravail.fr/accueil/",
+    "logo": "/partners/2-1785361866272.jpg",
+    "id": "p-1785361851721"
+  },
+  {
+    "name": "VILLE DE SAINT-MÉDARD-EN-JALLES",
+    "tier": "institutionnel",
+    "url": "https://www.saint-medard-en-jalles.fr",
+    "logo": "/partners/logo-saint-medard-en-jalles-1785333353591.jpg",
+    "id": "p-1785333193947"
   }
 ]
