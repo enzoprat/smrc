@@ -168,13 +168,6 @@
     "id": "p-1785358617963"
   },
   {
-    "name": "COURS PÉRET ",
-    "tier": "officiel",
-    "url": "https://www.cours-peret-bordeaux.com",
-    "logo": "/partners/logo-cp-png-1785946016265.png",
-    "id": "p-1785945958022"
-  },
-  {
     "name": "CENERGIA",
     "tier": "officiel",
     "url": "https://cenergia.fayat.com/cenergia",
@@ -565,6 +558,13 @@
     "url": "https://www.cours-peret-bordeaux.com",
     "logo": "/partners/logo-cp-png-1785364660407.png",
     "id": "p-1785364483647"
+  },
+  {
+    "name": "COURS PÉRET ",
+    "tier": "officiel",
+    "url": "https://www.cours-peret-bordeaux.com",
+    "logo": "/partners/logo-cp-png-1785946016265.png",
+    "id": "p-1785945958022"
   },
   {
     "name": "HOTEL IBIS STYLE SAINT MÉDARD",
