@@ -448,13 +448,6 @@
     "id": "p-1785405486852"
   },
   {
-    "name": "CAMPUS DU LAC",
-    "tier": "officiel",
-    "url": "https://www.campusdulac.com",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-25-55-1785425191900.png",
-    "id": "p-1785425180715"
-  },
-  {
     "name": "BOUCHERIE ECLENCHER ",
     "tier": "officiel",
     "url": "https://www.google.com/search?client=safari&hs=T50&sca_esv=2f8f76a28fa0a08e&rls=en&sxsrf=APpeQnuimgBzcWO0vDRbRE-Xmo2o38_XVw:1785365918746&q=BOUCHERIE+ECLANCHER&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKIlgyddFclCTt781vHsEspvKN33wU-jOcNCbWnWrpwU5qF3Zm5A4qeB_9lhQoIyMnBC6XE30MIqDMjmrVTjc43aF85JeX-cV2GbLw_iiczIFc9Uavw&sa=X&ved=2ahUKEwiJ5IWr_viVAxUOU6QEHdKFLGoQ0pQJegQICxAB&biw=1440&bih=900&dpr=1",
@@ -768,6 +761,13 @@
     "url": "https://www.cher-monsieur.fr/bordeaux-saint-medard-en-jalles",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-15-43-53-1785332772607.png",
     "id": "p-1785332713811"
+  },
+  {
+    "name": "CAMPUS DU LAC",
+    "tier": "officiel",
+    "url": "https://www.campusdulac.com",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-25-55-1785425191900.png",
+    "id": "p-1785425180715"
   },
   {
     "id": "p5",
