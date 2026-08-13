@@ -34,7 +34,7 @@ const missions = [
 export default function ArbitresPage() {
   const stats = [
     { value: "12", label: "Arbitres actifs" },
-    { value: "U6 → Seniors", label: "Toutes catégories" },
+    { value: "Baby → Seniors", label: "Toutes catégories" },
     { value: "École", label: "d'arbitrage" },
     { value: "100 %", label: "Implication" },
   ];

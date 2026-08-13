@@ -153,7 +153,7 @@ export default function EcoleRugbyPage() {
         title="Offrez le rugby à votre enfant"
         text="Une séance d'essai gratuite, et c'est souvent le début d'une belle aventure."
         primary={{ label: "Nous contacter", href: "/contact" }}
-        secondary={{ label: "Poser une question", href: "/contact" }}
+        secondary={{ label: "Règlement intérieur", href: "/ecole-de-rugby/reglement-interieur" }}
       />
     </>
   );

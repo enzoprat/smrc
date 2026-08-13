@@ -29,6 +29,11 @@ export const mainNav: NavItem[] = [
         href: "/club/stade-robert-monseau",
         description: "Accès, infos pratiques, jour de match",
       },
+      {
+        label: "Règlement intérieur",
+        href: "/ecole-de-rugby/reglement-interieur",
+        description: "Les règles de vie de l'école de rugby",
+      },
     ],
   },
   {
@@ -46,7 +51,7 @@ export const mainNav: NavItem[] = [
     label: "Notre Formation",
     href: "/ecole-de-rugby",
     children: [
-      { label: "École de Rugby", href: "/ecole-de-rugby", description: "Les plus jeunes, de U6 à U14" },
+      { label: "École de Rugby", href: "/ecole-de-rugby", description: "Les plus jeunes, de Baby à U14" },
       { label: "Cadettes", href: "/formations/cadettes", description: "Le rugby féminin des jeunes joueuses" },
       { label: "Pôle Jeunes", href: "/formations/pole-jeunes", description: "La formation des jeunes du club" },
       { label: "CEL", href: "/formations/cel", description: "Centre d'Entraînement Labellisé" },

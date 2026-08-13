@@ -23,7 +23,7 @@ const youthTeams: Team[] = [
     name: "École de Rugby",
     category: "Jeunes · dès 3 ans",
     description:
-      "Baby rugby, U6 à U14 : la découverte du rugby dans un cadre éducatif, sécurisé et familial.",
+      "De Baby à U14 : la découverte du rugby dans un cadre éducatif, sécurisé et familial.",
     href: "/ecole-de-rugby",
     layout: "simple",
   },

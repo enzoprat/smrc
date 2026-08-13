@@ -39,6 +39,29 @@ export type PartnerPack = {
 
 export const partnerPacks: PartnerPack[] = [
   {
+    name: "Pack Découverte",
+    pitch: "Le premier pas pour rejoindre le réseau des partenaires du club.",
+    price: "500 €",
+    benefits: [
+      "Club 1905 – accès au réseau des partenaires",
+      "Annonce du partenariat",
+      "Invitation soirée Partenaires",
+      "2 abonnements",
+    ],
+  },
+  {
+    name: "Partenaire Territoire",
+    pitch: "Ancrez votre entreprise dans le territoire et soutenez le club.",
+    price: "1 000 €",
+    benefits: [
+      "Club 1905 – accès au réseau des partenaires",
+      "Abri de touche",
+      "Annonce du partenariat",
+      "Invitation soirée Partenaires",
+      "4 abonnements",
+    ],
+  },
+  {
     name: "Pack Privilège",
     pitch: "Une première marche pour associer votre entreprise au club.",
     price: "3 000 €",
