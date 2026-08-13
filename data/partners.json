@@ -161,39 +161,18 @@
     "id": "p-1785413130679"
   },
   {
+    "name": "CRÉDIT AGRICOLE",
+    "tier": "officiel",
+    "url": "https://www.credit-agricole.fr/particulier/agence/aquitaine/merignac-capeyron-1961.html",
+    "logo": "/partners/ca-aquitaine-v-rvb-1785358629261.jpg",
+    "id": "p-1785358617963"
+  },
+  {
     "name": "COURS PÉRET ",
     "tier": "officiel",
     "url": "https://www.cours-peret-bordeaux.com",
     "logo": "/partners/logo-cp-png-1785946016265.png",
     "id": "p-1785945958022"
-  },
-  {
-    "name": "INDIAN MOTORCYCLE ",
-    "tier": "officiel",
-    "url": "https://www.indianmotorcyclebordeaux.com",
-    "logo": "/partners/imc-dealer-sac-logo-bordeaux-fa-150dpi-1785332880248.png",
-    "id": "p-1785332841805"
-  },
-  {
-    "id": "",
-    "name": "ARTY'SS",
-    "tier": "officiel",
-    "logo": "/partners/logo-fond-noir-1785331476022.jpg",
-    "url": "https://artyss.fr"
-  },
-  {
-    "name": "AQMO",
-    "tier": "officiel",
-    "url": "https://aqmo.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-19-49-15-1785347546259.png",
-    "id": "p-1785347539550"
-  },
-  {
-    "name": "VORTEX EXPÉRIENCE",
-    "tier": "officiel",
-    "url": "https://www.vortex-experience.com",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-23-05-1785425030358.png",
-    "id": "p-1785424898591"
   },
   {
     "name": "CENERGIA",
@@ -203,18 +182,74 @@
     "id": "p-1785349745626"
   },
   {
+    "name": "INDIAN MOTORCYCLE ",
+    "tier": "officiel",
+    "url": "https://www.indianmotorcyclebordeaux.com",
+    "logo": "/partners/imc-dealer-sac-logo-bordeaux-fa-150dpi-1785332880248.png",
+    "id": "p-1785332841805"
+  },
+  {
+    "name": "AQMO",
+    "tier": "officiel",
+    "url": "https://aqmo.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-19-49-15-1785347546259.png",
+    "id": "p-1785347539550"
+  },
+  {
+    "id": "",
+    "name": "ARTY'SS",
+    "tier": "officiel",
+    "logo": "/partners/logo-fond-noir-1785331476022.jpg",
+    "url": "https://artyss.fr"
+  },
+  {
+    "name": "LORÉNOVE",
+    "tier": "officiel",
+    "url": "https://www.fenetres-lorenove.fr/agence/eysines",
+    "logo": "/partners/images-3-1785362614255.jpg",
+    "id": "p-1785362594558"
+  },
+  {
+    "name": "CHANTIERS D'AQUITAINE ",
+    "tier": "officiel",
+    "url": "https://www.google.com/search?client=safari&rls=en&q=chantier+d%27aquitaine+exedra&ie=UTF-8&oe=UTF-8",
+    "logo": "/partners/groupe-exedra-chantiers-aquitaine-1785404827912.jpg",
+    "id": "p-1785365650562"
+  },
+  {
+    "name": "K-PAX ",
+    "tier": "officiel",
+    "url": "https://k-pax.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-14-49-18-1785415782146.png",
+    "id": "p-1785407065806"
+  },
+  {
+    "name": "VORTEX EXPÉRIENCE",
+    "tier": "officiel",
+    "url": "https://www.vortex-experience.com",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-23-05-1785425030358.png",
+    "id": "p-1785424898591"
+  },
+  {
+    "name": "CHÂTEAU HAUT BOURCIER",
+    "tier": "officiel",
+    "url": "http://www.chateau-haut-bourcier.com",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-28-26-1785425496488.png",
+    "id": "p-1785425254554"
+  },
+  {
+    "name": "RJ WATTS",
+    "tier": "officiel",
+    "url": "https://www.rjwatts.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-00-29-44-1785364447351.png",
+    "id": "p-1785364438457"
+  },
+  {
     "name": "SARL PERALU",
     "tier": "officiel",
     "url": "https://www.peralu-33.fr",
     "logo": "/partners/peralu-1785424251162.png",
     "id": "p-1785424236456"
-  },
-  {
-    "name": "CRÉDIT AGRICOLE",
-    "tier": "officiel",
-    "url": "https://www.credit-agricole.fr/particulier/agence/aquitaine/merignac-capeyron-1961.html",
-    "logo": "/partners/ca-aquitaine-v-rvb-1785358629261.jpg",
-    "id": "p-1785358617963"
   },
   {
     "name": "FLOCUS BAR",
@@ -245,13 +280,6 @@
     "id": "p-1785355527546"
   },
   {
-    "name": "LORÉNOVE",
-    "tier": "officiel",
-    "url": "https://www.fenetres-lorenove.fr/agence/eysines",
-    "logo": "/partners/images-3-1785362614255.jpg",
-    "id": "p-1785362594558"
-  },
-  {
     "name": "L'OASIS",
     "tier": "officiel",
     "url": "https://www.pagesjaunes.fr/pros/09216056",
@@ -264,13 +292,6 @@
     "url": "https://lacabane116-poissonnerie-eysines.fr",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-20-02-31-1785348182681.png",
     "id": "p-1785348177193"
-  },
-  {
-    "name": "CHANTIERS D'AQUITAINE ",
-    "tier": "officiel",
-    "url": "https://www.google.com/search?client=safari&rls=en&q=chantier+d%27aquitaine+exedra&ie=UTF-8&oe=UTF-8",
-    "logo": "/partners/groupe-exedra-chantiers-aquitaine-1785404827912.jpg",
-    "id": "p-1785365650562"
   },
   {
     "name": "EAT SALAD",
@@ -301,20 +322,6 @@
     "id": "p-1785362532971"
   },
   {
-    "name": "BOUCHERIE ROUGE TENDRE ",
-    "tier": "officiel",
-    "url": "https://www.google.com/search?client=safari&hs=mkLq&sca_esv=2f8f76a28fa0a08e&rls=en&sxsrf=APpeQnviqrSvoJiJvoA9uvPXpRQ3Scgl8Q:1785365987676&q=ROUGE+TENDRE&source=lnms&fbs=ABfTbFWlHVawnkyJjbQ_GeAtGB4OIP9FU2kYbC9RGSbIoVl1-U5-4CH4-upo8mIaRQxIBTpoyZK1h-d7QAMzrJ_XZGLMpHo5XKeu5Xce4rB_MLXJ3nDrp4vA3yfDHrM8664jDH4ziMk3vG_WHJq3Dt0A45TctWHKpG_kmJ8x5vRy_D8bp9PTbynpqUT175aTw_aTP0on_nsvQfm_uocFQJAxZgjKU0UIhPpdUIpg4l7DNrdMrIIe6vvg88q4k4xnJAzSC02NsPif&sa=X&ved=2ahUKEwiL_fTL_viVAxVKVqQEHai2LL8Q0pQJegQIDxAB&biw=1440&bih=900&dpr=1",
-    "logo": "/partners/logo-rouge-tendre-1-1-2-1785404608546.png",
-    "id": "p-1785365979688"
-  },
-  {
-    "name": "RJ WATTS",
-    "tier": "officiel",
-    "url": "https://www.rjwatts.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-00-29-44-1785364447351.png",
-    "id": "p-1785364438457"
-  },
-  {
     "name": "JLT BTP",
     "tier": "officiel",
     "url": "https://jltbtp-33.fr",
@@ -327,13 +334,6 @@
     "url": "https://www.chauffeetvous.fr",
     "logo": "/partners/images-12-1785405724267.jpg",
     "id": "p-1785405379259"
-  },
-  {
-    "name": "K-PAX ",
-    "tier": "officiel",
-    "url": "https://k-pax.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-14-49-18-1785415782146.png",
-    "id": "p-1785407065806"
   },
   {
     "name": "EDEN ALU ",
@@ -362,13 +362,6 @@
     "url": "https://www.drhouse-immo.com/conseiller-immobilier/saint-medard-en-jalles-33160/marie-noelle-pihatarioe",
     "logo": "/partners/capture-d-ecran-2026-07-30-a-16-05-12-1785422891595.png",
     "id": "p-1785422171829"
-  },
-  {
-    "name": "CHÂTEAU HAUT BOURCIER",
-    "tier": "officiel",
-    "url": "http://www.chateau-haut-bourcier.com",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-28-26-1785425496488.png",
-    "id": "p-1785425254554"
   },
   {
     "name": "PEREIRA RÉNOHABITAT",
@@ -418,6 +411,13 @@
     "url": "https://yoü.fr",
     "logo": "/partners/capture-d-ecran-2026-07-30-a-14-29-08-1785414569977.png",
     "id": "p-1785414424868"
+  },
+  {
+    "name": "BOUCHERIE ROUGE TENDRE ",
+    "tier": "officiel",
+    "url": "https://www.google.com/search?client=safari&hs=mkLq&sca_esv=2f8f76a28fa0a08e&rls=en&sxsrf=APpeQnviqrSvoJiJvoA9uvPXpRQ3Scgl8Q:1785365987676&q=ROUGE+TENDRE&source=lnms&fbs=ABfTbFWlHVawnkyJjbQ_GeAtGB4OIP9FU2kYbC9RGSbIoVl1-U5-4CH4-upo8mIaRQxIBTpoyZK1h-d7QAMzrJ_XZGLMpHo5XKeu5Xce4rB_MLXJ3nDrp4vA3yfDHrM8664jDH4ziMk3vG_WHJq3Dt0A45TctWHKpG_kmJ8x5vRy_D8bp9PTbynpqUT175aTw_aTP0on_nsvQfm_uocFQJAxZgjKU0UIhPpdUIpg4l7DNrdMrIIe6vvg88q4k4xnJAzSC02NsPif&sa=X&ved=2ahUKEwiL_fTL_viVAxVKVqQEHai2LL8Q0pQJegQIDxAB&biw=1440&bih=900&dpr=1",
+    "logo": "/partners/logo-rouge-tendre-1-1-2-1785404608546.png",
+    "id": "p-1785365979688"
   },
   {
     "name": "VITALE ÉPARGNE",
