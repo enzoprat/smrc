@@ -434,6 +434,13 @@
     "id": "p-1785407196004"
   },
   {
+    "name": "SOC ",
+    "tier": "officiel",
+    "url": "http://www.soc.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-32-57-1785357335585.png",
+    "id": "p-1785357328473"
+  },
+  {
     "name": "CAP TP 33",
     "tier": "officiel",
     "url": "https://www.google.com/search?q=CAP+TP+33&client=safari&hs=cvLq&sca_esv=2c719d755bc25006&rls=en&biw=1440&bih=900&sxsrf=APpeQnsSebNbqxsECj0tkXuAxzH80J53hA%3A1785406261427&ei=NSNrav_hGeLd7M8P7o3O4Qs&ved=0ahUKEwi_0PfPlPqVAxXiLvsDHe6GM7wQ4dUDCBA&uact=5&oq=CAP+TP+33&gs_lp=Egxnd3Mtd2l6LXNlcnAiCUNBUCBUUCAzMzILEC4YgAQYxwEYrwEyBhAAGBYYHjIGEAAYFhgeMggQABiABBiiBDIIEAAYiQUYogRIuwlQjQJYughwAXgAkAEAmAFWoAGrAqoBATS4AQPIAQD4AQGYAgSgArUCwgIHECMYsAMYJ8ICChAAGEcY1gQYsAPCAgQQIxgnwgILEC4YrwEYxwEYgATCAgUQABiABMICChAAGIAEGIoFGEPCAgoQABiABBjLARgKmAMAiAYBkAYIkgcDMy4xoAelGLIHAzIuMbgHkQLCBwcyLTEuMS4yyAdAgAgB&sclient=gws-wiz-serp",
@@ -621,13 +628,6 @@
     "url": "https://www.uperio-group.com/fr_fr/",
     "logo": "/partners/capture-d-ecran-2026-07-30-a-01-04-47-1785404912128.png",
     "id": "p-1785364845565"
-  },
-  {
-    "name": "SOC ",
-    "tier": "officiel",
-    "url": "http://www.soc.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-32-57-1785357335585.png",
-    "id": "p-1785357328473"
   },
   {
     "name": "MAISON AUZÈNE GALISSON",
