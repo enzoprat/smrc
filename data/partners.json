@@ -504,6 +504,13 @@
     "id": "p-1785422573247"
   },
   {
+    "name": "GROUPAMA",
+    "tier": "officiel",
+    "url": "https://agences.groupama.fr/assurance/",
+    "logo": "/partners/fondblanc-groupama-sign-hor-vert-pms-x2-1785346432620.jpg",
+    "id": "p-1785346417994"
+  },
+  {
     "name": "ARCALIE",
     "tier": "officiel",
     "url": "https://arcalie.net",
@@ -712,13 +719,6 @@
     "url": "https://auditcourtage.com",
     "logo": "/partners/images-7-1785416642117.jpg",
     "id": "p-1785416354884"
-  },
-  {
-    "name": "GROUPAMA",
-    "tier": "officiel",
-    "url": "https://agences.groupama.fr/assurance/",
-    "logo": "/partners/fondblanc-groupama-sign-hor-vert-pms-x2-1785346432620.jpg",
-    "id": "p-1785346417994"
   },
   {
     "name": "VAKOM",
