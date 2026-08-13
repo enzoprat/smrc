@@ -385,6 +385,13 @@
     "id": "p-1785413984333"
   },
   {
+    "name": "DMC ENERGIE ",
+    "tier": "officiel",
+    "url": "",
+    "logo": "/partners/logo-dmc-energie-copie-1785346675147.jpg",
+    "id": "p-1785346665882"
+  },
+  {
     "name": "INGÉNIERIE DÉVELOPPEMENT ",
     "tier": "officiel",
     "url": "https://www.ingenierie-developpement.fr",
@@ -712,13 +719,6 @@
     "url": "https://www.burovalie.com",
     "logo": "/partners/logo-jpeg-1785346746332.png",
     "id": "p-1785346736302"
-  },
-  {
-    "name": "DMC ENERGIE ",
-    "tier": "officiel",
-    "url": "",
-    "logo": "/partners/logo-dmc-energie-copie-1785346675147.jpg",
-    "id": "p-1785346665882"
   },
   {
     "name": "MAESTRIA",
