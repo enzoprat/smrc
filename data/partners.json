@@ -182,13 +182,6 @@
     "url": "https://artyss.fr"
   },
   {
-    "name": "CAMPUS DU LAC",
-    "tier": "officiel",
-    "url": "https://www.campusdulac.com",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-25-55-1785425191900.png",
-    "id": "p-1785425180715"
-  },
-  {
     "name": "AQMO",
     "tier": "officiel",
     "url": "https://aqmo.fr",
@@ -495,6 +488,13 @@
     "url": "https://www.google.com/search?client=safari&rls=en&q=BOUCHERIE+SAINT+M%C3%89DARD&ie=UTF-8&oe=UTF-8",
     "logo": "/partners/images-9-1785404551105.png",
     "id": "p-1785366056276"
+  },
+  {
+    "name": "CAMPUS DU LAC",
+    "tier": "officiel",
+    "url": "https://www.campusdulac.com",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-25-55-1785425191900.png",
+    "id": "p-1785425180715"
   },
   {
     "name": "BOUCHERIE ECLENCHER ",
