@@ -357,13 +357,6 @@
     "id": "p-1785415376056"
   },
   {
-    "name": "SUD OUEST POIDS LOURDS NÉGOCE",
-    "tier": "officiel",
-    "url": "https://www.google.com/search?client=safari&hs=dI1&sca_esv=2c719d755bc25006&rls=en&sxsrf=APpeQnuboJRU3BUESKcDRF-_ChWcvhtZLg:1785414844829&q=sud+ouest+poids+lourds+negoce&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKE96KF_epQoJkgXuqdq6dlmxS4Fb98UQv6ZD6Rw83Xr8GuD7KurDdSpheH3G8iiG8vPWswjkEXl6JpsxdKzzespnS4wDVaEk2HEMXb1hy7U5u8RgxA&sa=X&ved=2ahUKEwi37ejMtPqVAxVSOPsDHbe7MacQ0pQJegQICxAB&biw=1440&bih=900&dpr=1",
-    "logo": "",
-    "id": "p-1785414651373"
-  },
-  {
     "name": "SOCIÉTÉ GÉNÉRALE",
     "tier": "officiel",
     "url": "https://www.societegenerale.com/fr",
@@ -600,6 +593,13 @@
     "url": "https://www.createck-paysage.com",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-23-20-00-1785361261922.png",
     "id": "p-1785361248026"
+  },
+  {
+    "name": "SUD OUEST POIDS LOURDS NÉGOCE",
+    "tier": "officiel",
+    "url": "https://www.google.com/search?client=safari&hs=dI1&sca_esv=2c719d755bc25006&rls=en&sxsrf=APpeQnuboJRU3BUESKcDRF-_ChWcvhtZLg:1785414844829&q=sud+ouest+poids+lourds+negoce&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKE96KF_epQoJkgXuqdq6dlmxS4Fb98UQv6ZD6Rw83Xr8GuD7KurDdSpheH3G8iiG8vPWswjkEXl6JpsxdKzzespnS4wDVaEk2HEMXb1hy7U5u8RgxA&sa=X&ved=2ahUKEwi37ejMtPqVAxVSOPsDHbe7MacQ0pQJegQICxAB&biw=1440&bih=900&dpr=1",
+    "logo": "",
+    "id": "p-1785414651373"
   },
   {
     "name": "ATOL",
