@@ -567,6 +567,13 @@
     "url": "https://www.google.com/search?client=safari&rls=en&q=ATELIER+BOIS+CONCEPT&ie=UTF-8&oe=UTF-8"
   },
   {
+    "name": "MAESTRIA",
+    "tier": "officiel",
+    "url": "https://www.maestria.fr/fr/",
+    "logo": "/partners/logo-maestria-1785346631760.jpg",
+    "id": "p-1785346602325"
+  },
+  {
     "name": "BRICOMARCHÉ ",
     "tier": "officiel",
     "url": "https://www.bricomarche.com/magasin/saint-medard-en-jalles/07902",
@@ -684,13 +691,6 @@
     "url": "https://www.burovalie.com",
     "logo": "/partners/logo-jpeg-1785346746332.png",
     "id": "p-1785346736302"
-  },
-  {
-    "name": "MAESTRIA",
-    "tier": "officiel",
-    "url": "https://www.maestria.fr/fr/",
-    "logo": "/partners/logo-maestria-1785346631760.jpg",
-    "id": "p-1785346602325"
   },
   {
     "name": "CAP INCENDIE",
