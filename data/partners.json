@@ -413,13 +413,6 @@
     "id": "p-1785405486852"
   },
   {
-    "name": "RAGAZZI DA PEPPONE ",
-    "tier": "officiel",
-    "url": "https://ragazzidapeppone.fr",
-    "logo": "/partners/logo-marron-1785346822696.png",
-    "id": "p-1785346812870"
-  },
-  {
     "name": "BPM CARS",
     "tier": "officiel",
     "url": "https://www.google.com/search?q=BPM+CARS+MERIGNAC%C2%A0&client=safari&hs=M50&sca_esv=2f8f76a28fa0a08e&rls=en&sxsrf=APpeQntS18rzy5iHjsG29ByvR6t76Sb3zg%3A1785365506277&ei=AoRqaoTUELLw7M8Pg6zo2AQ&biw=1440&bih=900",
@@ -481,6 +474,13 @@
     "url": "https://www.cours-peret-bordeaux.com",
     "logo": "/partners/logo-cp-png-1785946016265.png",
     "id": "p-1785945958022"
+  },
+  {
+    "name": "RAGAZZI DA PEPPONE ",
+    "tier": "officiel",
+    "url": "https://ragazzidapeppone.fr",
+    "logo": "/partners/logo-marron-1785346822696.png",
+    "id": "p-1785346812870"
   },
   {
     "name": "HOTEL IBIS STYLE SAINT MÉDARD",
