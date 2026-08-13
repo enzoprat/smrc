@@ -672,20 +672,6 @@
     "id": "p-1785423833350"
   },
   {
-    "name": "LA TABLE DU POISSONNIER",
-    "tier": "officiel",
-    "url": "https://lacabane116-poissonnerie-eysines.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-09-49-1785348844785.png",
-    "id": "p-1785348833077"
-  },
-  {
-    "name": "UNIBATECH ",
-    "tier": "officiel",
-    "url": "https://www.unibatech.fr",
-    "logo": "/partners/logo-unibatech-1785347509598.svg",
-    "id": "p-1785347494482"
-  },
-  {
     "name": "FLOCUS BAR",
     "tier": "officiel",
     "url": "https://www.flocusbordeaux.com",
@@ -747,6 +733,13 @@
     "url": "https://vakom.fr/franchise-vakom/bordeaux-merignac/",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-15-51-02-1785333089293.png",
     "id": "p-1785333079188"
+  },
+  {
+    "name": "LA TABLE DU POISSONNIER",
+    "tier": "officiel",
+    "url": "https://lacabane116-poissonnerie-eysines.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-09-49-1785348844785.png",
+    "id": "p-1785348833077"
   },
   {
     "name": "CHER MONSIEUR ",
@@ -852,6 +845,13 @@
     "tier": "officiel",
     "logo": "/partners/carte-visite-recto-bistro-de-la-jalle-2-1785332211973.png",
     "url": "https://restaurant-bordeaux.net"
+  },
+  {
+    "name": "UNIBATECH ",
+    "tier": "officiel",
+    "url": "https://www.unibatech.fr",
+    "logo": "/partners/logo-unibatech-1785347509598.svg",
+    "id": "p-1785347494482"
   },
   {
     "name": "LE PETIT FORESTIER ",
