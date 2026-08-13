@@ -238,20 +238,6 @@
     "id": "p-1785364438457"
   },
   {
-    "name": "SARL PERALU",
-    "tier": "officiel",
-    "url": "https://www.peralu-33.fr",
-    "logo": "/partners/peralu-1785424251162.png",
-    "id": "p-1785424236456"
-  },
-  {
-    "name": "FLOCUS BAR",
-    "tier": "officiel",
-    "url": "https://www.flocusbordeaux.com",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-06-53-1785424103124.png",
-    "id": "p-1785423991515"
-  },
-  {
     "name": "LA GRANDE JAUGUE",
     "tier": "officiel",
     "url": "",
@@ -259,18 +245,11 @@
     "id": "p-1785358857374"
   },
   {
-    "name": "MAUFFREY TRANSPORT ",
+    "name": "SARL PERALU",
     "tier": "officiel",
-    "url": "https://www.google.com/search?client=safari&hs=K0Lq&sca_esv=2c719d755bc25006&rls=en&sxsrf=APpeQnsVpePNMSkLKWAtc9rZ_vxW0I-nEA:1785423807311&q=MAUFFREY+TRANSPORT&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKIlgyddFclCTt781vHsEspvKN33wU-jOcNCbWnWrpwU5qF3Zm5A4qeB_9lhQoIyMnBC6XE30MIqDMjmrVTjc43aF85JeX-cV2GbLw_iiczIFc9Uavw&sa=X&ved=2ahUKEwiRsLv-1fqVAxXIeqQEHeVeOpUQ0pQJegQICxAB&biw=1440&bih=900&dpr=1",
-    "logo": "",
-    "id": "p-1785423833350"
-  },
-  {
-    "name": "STÉPHANIE LUCAT - SWISS LIFE",
-    "tier": "officiel",
-    "url": "https://agences.swisslife.fr/fr/france-FR/0065823/stephanie-lucat/details",
-    "logo": "/partners/nouveau-logo-1785355541469.jpg",
-    "id": "p-1785355527546"
+    "url": "https://www.peralu-33.fr",
+    "logo": "/partners/peralu-1785424251162.png",
+    "id": "p-1785424236456"
   },
   {
     "name": "L'OASIS",
@@ -280,11 +259,18 @@
     "id": "p-1785355326993"
   },
   {
-    "name": "LA CABANE 116",
+    "name": "FLOCUS BAR",
     "tier": "officiel",
-    "url": "https://lacabane116-poissonnerie-eysines.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-02-31-1785348182681.png",
-    "id": "p-1785348177193"
+    "url": "https://www.flocusbordeaux.com",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-06-53-1785424103124.png",
+    "id": "p-1785423991515"
+  },
+  {
+    "name": "STÉPHANIE LUCAT - SWISS LIFE",
+    "tier": "officiel",
+    "url": "https://agences.swisslife.fr/fr/france-FR/0065823/stephanie-lucat/details",
+    "logo": "/partners/nouveau-logo-1785355541469.jpg",
+    "id": "p-1785355527546"
   },
   {
     "name": "EAT SALAD",
@@ -301,11 +287,11 @@
     "id": "p-1785347800023"
   },
   {
-    "name": "SONANCE AUDITION SAINT MÉDARD ",
+    "name": "MAUFFREY TRANSPORT ",
     "tier": "officiel",
-    "url": "https://sonance-audition.fr/centre/audioprothesiste-saint-medard-en-jalles/",
-    "logo": "/partners/images-30-1785423076217.png",
-    "id": "p-1785423021459"
+    "url": "https://www.google.com/search?client=safari&hs=K0Lq&sca_esv=2c719d755bc25006&rls=en&sxsrf=APpeQnsVpePNMSkLKWAtc9rZ_vxW0I-nEA:1785423807311&q=MAUFFREY+TRANSPORT&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKIlgyddFclCTt781vHsEspvKN33wU-jOcNCbWnWrpwU5qF3Zm5A4qeB_9lhQoIyMnBC6XE30MIqDMjmrVTjc43aF85JeX-cV2GbLw_iiczIFc9Uavw&sa=X&ved=2ahUKEwiRsLv-1fqVAxXIeqQEHeVeOpUQ0pQJegQICxAB&biw=1440&bih=900&dpr=1",
+    "logo": "",
+    "id": "p-1785423833350"
   },
   {
     "name": "COMPTOIR NATIONAL DE L'OR ",
@@ -313,6 +299,20 @@
     "url": "https://www.gold.fr/comptoirs-achat-vente-or/le-bouscat/?srsltid=AfmBOoqlOVYKETLEfI5NgiKFyyKvKgsdbWhMv9FGVB69CO-bX5XwRLjN",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-23-58-54-1785362543105.png",
     "id": "p-1785362532971"
+  },
+  {
+    "name": "LA CABANE 116",
+    "tier": "officiel",
+    "url": "https://lacabane116-poissonnerie-eysines.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-02-31-1785348182681.png",
+    "id": "p-1785348177193"
+  },
+  {
+    "name": "SONANCE AUDITION SAINT MÉDARD ",
+    "tier": "officiel",
+    "url": "https://sonance-audition.fr/centre/audioprothesiste-saint-medard-en-jalles/",
+    "logo": "/partners/images-30-1785423076217.png",
+    "id": "p-1785423021459"
   },
   {
     "name": "JLT BTP",
