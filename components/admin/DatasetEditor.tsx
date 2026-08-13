@@ -110,6 +110,36 @@ export function DatasetEditor({
     setStatus("idle");
   }
 
+  // Applique le numéro d'ordre saisi : repositionne la ligne `i` à la place
+  // demandée au sein de sa catégorie, puis renumérote les lignes 1, 2, 3…
+  // (évite les doublons de numéro qui empêchaient le tri de bouger).
+  function commitOrder(i: number) {
+    setRows((prev) => {
+      if (!groupField) return prev;
+      const g = String(prev[i][groupField] ?? "");
+      const groupIdx = prev
+        .map((_, idx) => idx)
+        .filter((idx) => String(prev[idx][groupField] ?? "") === g);
+      const currentPos = groupIdx.indexOf(i);
+      const n = groupIdx.length;
+      const raw = Number(prev[i].__order);
+      let target = Number.isFinite(raw) && raw >= 1 ? Math.round(raw) : currentPos + 1;
+      target = Math.min(Math.max(1, target), n);
+      const groupRows = groupIdx.map((idx) => ({ ...prev[idx] }));
+      const [moved] = groupRows.splice(currentPos, 1);
+      groupRows.splice(target - 1, 0, moved);
+      groupRows.forEach((r, k) => {
+        r.__order = k + 1;
+      });
+      const next = [...prev];
+      groupIdx.forEach((idx, k) => {
+        next[idx] = groupRows[k];
+      });
+      return next;
+    });
+    setStatus("idle");
+  }
+
   function add() {
     setRows((prev) => {
       const g = activeGroup || "";
@@ -243,6 +273,7 @@ export function DatasetEditor({
           <div key={String(row.__key ?? i)} className="rounded-lg bg-white p-5 shadow-sm ring-1 ring-black/5">
             <div className="mb-3 flex items-center gap-2 border-b border-black/5 pb-3">
               {groupField ? (
+                <>
                 <label className="flex items-center gap-2 text-sm text-ink-600">
                   <span className="font-display text-xs font-semibold uppercase tracking-wide">
                     Ordre
@@ -254,9 +285,15 @@ export function DatasetEditor({
                     onChange={(e) =>
                       update(i, "__order", e.target.value === "" ? "" : Number(e.target.value))
                     }
+                    onBlur={() => commitOrder(i)}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter") e.currentTarget.blur();
+                    }}
                     className="w-16 rounded-sm border border-ink-900/15 px-2 py-1 text-center text-sm outline-none focus:border-gold focus:ring-2 focus:ring-gold/30"
                   />
                 </label>
+                <span className="text-xs text-ink-400">/ {visibleIndices.length}</span>
+                </>
               ) : (
                 <span className="font-display text-sm font-bold text-ink-400">#{pos + 1}</span>
               )}

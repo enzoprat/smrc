@@ -28,8 +28,9 @@ export default function AdminPartnersPage() {
         <h1 className="font-display text-3xl font-bold uppercase text-ink-900">Partenaires</h1>
         <p className="mt-1 text-ink-600">
           Gérez les partenaires affichés sur le site. Sélectionnez une catégorie, puis indiquez dans
-          la case « Ordre » le rang d'apparition (1 pour le premier, 2 pour le deuxième, etc.).
-          L'ordre est appliqué à l'enregistrement.
+          la case « Ordre » le rang souhaité (1 pour le premier, 2 pour le deuxième, etc.) : le
+          partenaire se replace aussitôt et les autres sont renumérotés. Cliquez sur « Enregistrer »
+          pour publier.
         </p>
       </header>
       <DatasetEditor
