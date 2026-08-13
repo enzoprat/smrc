@@ -462,13 +462,6 @@
     "id": "p-1785365906864"
   },
   {
-    "name": "BORDELAISE DE LUNETTERIE ",
-    "tier": "officiel",
-    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiMTcGTPTWnCCbKef3lEz-lYSVIB8odH8s3Kacxxamzg&s=10",
-    "logo": "/partners/images-10-1785404689302.png",
-    "id": "p-1785365833292"
-  },
-  {
     "name": "FRANCE RÔL ROBOTICS",
     "tier": "officiel",
     "url": "https://francerol-robotics.com",
@@ -537,6 +530,13 @@
     "url": "https://all.accor.com/hotel/7208/index.fr.shtml",
     "logo": "/partners/capture-d-ecran-2026-07-30-a-00-29-24-1785364468213.png",
     "id": "p-1785364461145"
+  },
+  {
+    "name": "BORDELAISE DE LUNETTERIE ",
+    "tier": "officiel",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiMTcGTPTWnCCbKef3lEz-lYSVIB8odH8s3Kacxxamzg&s=10",
+    "logo": "/partners/images-10-1785404689302.png",
+    "id": "p-1785365833292"
   },
   {
     "name": "HOTEL IBIS BUDGET AÉROPORT ",
