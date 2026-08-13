@@ -252,13 +252,6 @@
     "id": "p-1785355326993"
   },
   {
-    "name": "FLOCUS BAR",
-    "tier": "officiel",
-    "url": "https://www.flocusbordeaux.com",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-06-53-1785424103124.png",
-    "id": "p-1785423991515"
-  },
-  {
     "name": "STÉPHANIE LUCAT - SWISS LIFE",
     "tier": "officiel",
     "url": "https://agences.swisslife.fr/fr/france-FR/0065823/stephanie-lucat/details",
@@ -740,6 +733,13 @@
     "url": "https://www.unibatech.fr",
     "logo": "/partners/logo-unibatech-1785347509598.svg",
     "id": "p-1785347494482"
+  },
+  {
+    "name": "FLOCUS BAR",
+    "tier": "officiel",
+    "url": "https://www.flocusbordeaux.com",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-06-53-1785424103124.png",
+    "id": "p-1785423991515"
   },
   {
     "name": "RÉNOV'ACTION 33",
