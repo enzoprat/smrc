@@ -287,13 +287,6 @@
     "id": "p-1785348177193"
   },
   {
-    "name": "JLT BTP",
-    "tier": "officiel",
-    "url": "https://jltbtp-33.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-16-47-44-1785422899348.png",
-    "id": "p-1785422573247"
-  },
-  {
     "name": "CHAUFFE & VOUS",
     "tier": "officiel",
     "url": "https://www.chauffeetvous.fr",
@@ -565,6 +558,13 @@
     "url": "https://all.accor.com/hotel/7508/index.fr.shtml",
     "logo": "/partners/capture-d-ecran-2026-07-30-a-00-32-06-1785364372364.png",
     "id": "p-1785364365454"
+  },
+  {
+    "name": "JLT BTP",
+    "tier": "officiel",
+    "url": "https://jltbtp-33.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-16-47-44-1785422899348.png",
+    "id": "p-1785422573247"
   },
   {
     "name": "ARCALIE",
