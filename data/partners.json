@@ -441,6 +441,13 @@
     "id": "p-1785364745307"
   },
   {
+    "name": "GROUPAMA",
+    "tier": "officiel",
+    "url": "https://agences.groupama.fr/assurance/",
+    "logo": "/partners/fondblanc-groupama-sign-hor-vert-pms-x2-1785346432620.jpg",
+    "id": "p-1785346417994"
+  },
+  {
     "name": "CAP TP 33",
     "tier": "officiel",
     "url": "https://www.google.com/search?q=CAP+TP+33&client=safari&hs=cvLq&sca_esv=2c719d755bc25006&rls=en&biw=1440&bih=900&sxsrf=APpeQnsSebNbqxsECj0tkXuAxzH80J53hA%3A1785406261427&ei=NSNrav_hGeLd7M8P7o3O4Qs&ved=0ahUKEwi_0PfPlPqVAxXiLvsDHe6GM7wQ4dUDCBA&uact=5&oq=CAP+TP+33&gs_lp=Egxnd3Mtd2l6LXNlcnAiCUNBUCBUUCAzMzILEC4YgAQYxwEYrwEyBhAAGBYYHjIGEAAYFhgeMggQABiABBiiBDIIEAAYiQUYogRIuwlQjQJYughwAXgAkAEAmAFWoAGrAqoBATS4AQPIAQD4AQGYAgSgArUCwgIHECMYsAMYJ8ICChAAGEcY1gQYsAPCAgQQIxgnwgILEC4YrwEYxwEYgATCAgUQABiABMICChAAGIAEGIoFGEPCAgoQABiABBjLARgKmAMAiAYBkAYIkgcDMy4xoAelGLIHAzIuMbgHkQLCBwcyLTEuMS4yyAdAgAgB&sclient=gws-wiz-serp",
@@ -488,6 +495,13 @@
     "url": "https://jltbtp-33.fr",
     "logo": "/partners/capture-d-ecran-2026-07-30-a-16-47-44-1785422899348.png",
     "id": "p-1785422573247"
+  },
+  {
+    "name": "VAKOM",
+    "tier": "officiel",
+    "url": "https://vakom.fr/franchise-vakom/bordeaux-merignac/",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-15-51-02-1785333089293.png",
+    "id": "p-1785333079188"
   },
   {
     "name": "ARCALIE",
@@ -712,20 +726,6 @@
     "url": "https://auditcourtage.com",
     "logo": "/partners/images-7-1785416642117.jpg",
     "id": "p-1785416354884"
-  },
-  {
-    "name": "GROUPAMA",
-    "tier": "officiel",
-    "url": "https://agences.groupama.fr/assurance/",
-    "logo": "/partners/fondblanc-groupama-sign-hor-vert-pms-x2-1785346432620.jpg",
-    "id": "p-1785346417994"
-  },
-  {
-    "name": "VAKOM",
-    "tier": "officiel",
-    "url": "https://vakom.fr/franchise-vakom/bordeaux-merignac/",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-15-51-02-1785333089293.png",
-    "id": "p-1785333079188"
   },
   {
     "name": "BOUCHERIE DYLAN CHOURI",
