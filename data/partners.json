@@ -329,6 +329,13 @@
     "id": "p-1785424236456"
   },
   {
+    "name": "MUTUELLE DE POITIERS",
+    "tier": "officiel",
+    "url": "https://agence.assurance-mutuelle-poitiers.fr/agence-saint-medard-en-jalles",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-08-27-1785355833580.png",
+    "id": "p-1785355828360"
+  },
+  {
     "name": "PEREIRA RÉNOHABITAT",
     "tier": "officiel",
     "url": "https://pereira-renohabitat.fr",
@@ -364,11 +371,25 @@
     "id": "p-1785414651373"
   },
   {
+    "name": "SOCIÉTÉ GÉNÉRALE",
+    "tier": "officiel",
+    "url": "https://www.societegenerale.com/fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-26-36-1785349618368.png",
+    "id": "p-1785349546740"
+  },
+  {
     "name": "MAISON YOU",
     "tier": "officiel",
     "url": "https://yoü.fr",
     "logo": "/partners/capture-d-ecran-2026-07-30-a-14-29-08-1785414569977.png",
     "id": "p-1785414424868"
+  },
+  {
+    "name": "SR COCA",
+    "tier": "officiel",
+    "url": "https://www.google.com/search?client=safari&rls=en&q=SR+COCA&ie=UTF-8&oe=UTF-8",
+    "logo": "/partners/sr-coca-5-1785356856783.jpg",
+    "id": "p-1785356756727"
   },
   {
     "name": "BOUCHERIE ROUGE TENDRE ",
@@ -616,13 +637,6 @@
     "id": "p-1785359267077"
   },
   {
-    "name": "STEPH ONGLES & BEAUTÉ ",
-    "tier": "officiel",
-    "url": "https://www.planity.com/steph-ongles-beaute-33160-saint-medard-en-jalles",
-    "logo": "/partners/logo-steph-ongles-et-beaute-1785358697085.jpg",
-    "id": "p-1785358689688"
-  },
-  {
     "name": "LAPLANTE",
     "tier": "officiel",
     "url": "https://www.google.com/search?client=safari&rls=en&q=LAPLANTE+IMPRESSION&ie=UTF-8&oe=UTF-8",
@@ -658,32 +672,11 @@
     "id": "p-1785356881790"
   },
   {
-    "name": "SR COCA",
-    "tier": "officiel",
-    "url": "https://www.google.com/search?client=safari&rls=en&q=SR+COCA&ie=UTF-8&oe=UTF-8",
-    "logo": "/partners/sr-coca-5-1785356856783.jpg",
-    "id": "p-1785356756727"
-  },
-  {
-    "name": "MUTUELLE DE POITIERS",
-    "tier": "officiel",
-    "url": "https://agence.assurance-mutuelle-poitiers.fr/agence-saint-medard-en-jalles",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-22-08-27-1785355833580.png",
-    "id": "p-1785355828360"
-  },
-  {
     "name": "TRANSPORT VEYNAT ",
     "tier": "officiel",
     "url": "https://www.veynat.com/fr/",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-21-57-46-1785355116303.png",
     "id": "p-1785355108639"
-  },
-  {
-    "name": "SOCIÉTÉ GÉNÉRALE",
-    "tier": "officiel",
-    "url": "https://www.societegenerale.com/fr",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-20-26-36-1785349618368.png",
-    "id": "p-1785349546740"
   },
   {
     "name": "GT SERRURERIE METALLERIE ",
@@ -817,6 +810,13 @@
     "url": "https://www.vortex-experience.com",
     "logo": "/partners/capture-d-ecran-2026-07-30-a-17-23-05-1785425030358.png",
     "id": "p-1785424898591"
+  },
+  {
+    "name": "STEPH ONGLES & BEAUTÉ ",
+    "tier": "officiel",
+    "url": "https://www.planity.com/steph-ongles-beaute-33160-saint-medard-en-jalles",
+    "logo": "/partners/logo-steph-ongles-et-beaute-1785358697085.jpg",
+    "id": "p-1785358689688"
   },
   {
     "id": "p8",
