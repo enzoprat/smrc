@@ -616,13 +616,6 @@
     "id": "p-1785407895665"
   },
   {
-    "name": "UPERIO GROUP",
-    "tier": "officiel",
-    "url": "https://www.uperio-group.com/fr_fr/",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-01-04-47-1785404912128.png",
-    "id": "p-1785364845565"
-  },
-  {
     "name": "MAISON AUZÈNE GALISSON",
     "tier": "officiel",
     "url": "https://gratuit-2503485.webador.fr",
@@ -817,6 +810,13 @@
     "url": "https://www.acces-automatismes-systemes.fr",
     "logo": "/partners/capture-d-ecran-2026-07-30-a-17-35-17-1785425747470.png",
     "id": "p-1785425738402"
+  },
+  {
+    "name": "UPERIO GROUP",
+    "tier": "officiel",
+    "url": "https://www.uperio-group.com/fr_fr/",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-01-04-47-1785404912128.png",
+    "id": "p-1785364845565"
   },
   {
     "name": "UNIBATECH ",
