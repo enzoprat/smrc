@@ -154,13 +154,6 @@
     "url": "https://www.sanoli-gc.com"
   },
   {
-    "name": "ACCESS AUTOMATISME SYSTÈME",
-    "tier": "officiel",
-    "url": "https://www.acces-automatismes-systemes.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-35-17-1785425747470.png",
-    "id": "p-1785425738402"
-  },
-  {
     "name": "DVM GLOBAL ",
     "tier": "officiel",
     "url": "https://www.dvmglobal.com/fr/",
@@ -845,6 +838,13 @@
     "tier": "officiel",
     "url": "https://kozmaconcept.fr",
     "logo": "/partners/logo-1785331606937.jpg"
+  },
+  {
+    "name": "ACCESS AUTOMATISME SYSTÈME",
+    "tier": "officiel",
+    "url": "https://www.acces-automatismes-systemes.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-35-17-1785425747470.png",
+    "id": "p-1785425738402"
   },
   {
     "id": "p11",
