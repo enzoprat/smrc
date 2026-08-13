@@ -441,13 +441,6 @@
     "id": "p-1785405486852"
   },
   {
-    "name": "BOUCHERIE SAINT MÉDARD",
-    "tier": "officiel",
-    "url": "https://www.google.com/search?client=safari&rls=en&q=BOUCHERIE+SAINT+M%C3%89DARD&ie=UTF-8&oe=UTF-8",
-    "logo": "/partners/images-9-1785404551105.png",
-    "id": "p-1785366056276"
-  },
-  {
     "name": "CAMPUS DU LAC",
     "tier": "officiel",
     "url": "https://www.campusdulac.com",
@@ -796,6 +789,13 @@
     "tier": "officiel",
     "logo": "/partners/image0-2-1785331784961.png",
     "url": "OLL'A PIZZA"
+  },
+  {
+    "name": "BOUCHERIE SAINT MÉDARD",
+    "tier": "officiel",
+    "url": "https://www.google.com/search?client=safari&rls=en&q=BOUCHERIE+SAINT+M%C3%89DARD&ie=UTF-8&oe=UTF-8",
+    "logo": "/partners/images-9-1785404551105.png",
+    "id": "p-1785366056276"
   },
   {
     "id": "p7",
