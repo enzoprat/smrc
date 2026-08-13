@@ -763,13 +763,6 @@
     "url": "OLL'A PIZZA"
   },
   {
-    "name": "BOUCHERIE SAINT MÉDARD",
-    "tier": "officiel",
-    "url": "https://www.google.com/search?client=safari&rls=en&q=BOUCHERIE+SAINT+M%C3%89DARD&ie=UTF-8&oe=UTF-8",
-    "logo": "/partners/images-9-1785404551105.png",
-    "id": "p-1785366056276"
-  },
-  {
     "id": "p7",
     "name": "COSTA ADRIEN  - POSE DE CARRELAGE ",
     "tier": "officiel",
@@ -805,13 +798,6 @@
     "id": "p-1785407196004"
   },
   {
-    "id": "p8",
-    "name": "PRAT ENZO - CRÉATION DE SITE INTERNET ",
-    "tier": "officiel",
-    "logo": "/partners/chatgpt-image-26-juil-2026-15-08-57-1785398785972.png",
-    "url": "https://www.enzoprat.fr"
-  },
-  {
     "name": "SONANCE AUDITION SAINT MÉDARD ",
     "tier": "officiel",
     "url": "https://sonance-audition.fr/centre/audioprothesiste-saint-medard-en-jalles/",
@@ -845,6 +831,13 @@
     "tier": "officiel",
     "logo": "/partners/carte-visite-recto-bistro-de-la-jalle-2-1785332211973.png",
     "url": "https://restaurant-bordeaux.net"
+  },
+  {
+    "name": "BOUCHERIE SAINT MÉDARD",
+    "tier": "officiel",
+    "url": "https://www.google.com/search?client=safari&rls=en&q=BOUCHERIE+SAINT+M%C3%89DARD&ie=UTF-8&oe=UTF-8",
+    "logo": "/partners/images-9-1785404551105.png",
+    "id": "p-1785366056276"
   },
   {
     "name": "LE PETIT FORESTIER ",
@@ -936,6 +929,13 @@
     "url": "https://www.google.com/search?client=safari&rls=en&q=LAPLANTE+IMPRESSION&ie=UTF-8&oe=UTF-8",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-22-32-08-1785357414959.png",
     "id": "p-1785357405184"
+  },
+  {
+    "id": "p8",
+    "name": "PRAT ENZO - CRÉATION DE SITE INTERNET ",
+    "tier": "soutien",
+    "logo": "/partners/chatgpt-image-26-juil-2026-15-08-57-1785398785972.png",
+    "url": "https://www.enzoprat.fr"
   },
   {
     "name": "ARIANE GROUP",
