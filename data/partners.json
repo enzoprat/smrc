@@ -245,13 +245,6 @@
     "id": "p-1785358857374"
   },
   {
-    "name": "SARL PERALU",
-    "tier": "officiel",
-    "url": "https://www.peralu-33.fr",
-    "logo": "/partners/peralu-1785424251162.png",
-    "id": "p-1785424236456"
-  },
-  {
     "name": "COMPTOIR NATIONAL DE L'OR ",
     "tier": "officiel",
     "url": "https://www.gold.fr/comptoirs-achat-vente-or/le-bouscat/?srsltid=AfmBOoqlOVYKETLEfI5NgiKFyyKvKgsdbWhMv9FGVB69CO-bX5XwRLjN",
@@ -355,6 +348,13 @@
     "url": "https://www.drhouse-immo.com/conseiller-immobilier/saint-medard-en-jalles-33160/marie-noelle-pihatarioe",
     "logo": "/partners/capture-d-ecran-2026-07-30-a-16-05-12-1785422891595.png",
     "id": "p-1785422171829"
+  },
+  {
+    "name": "SARL PERALU",
+    "tier": "officiel",
+    "url": "https://www.peralu-33.fr",
+    "logo": "/partners/peralu-1785424251162.png",
+    "id": "p-1785424236456"
   },
   {
     "name": "PEREIRA RÉNOHABITAT",
