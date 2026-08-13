@@ -336,13 +336,6 @@
     "id": "p-1785417454720"
   },
   {
-    "name": "PIEDRA TRAVAUX",
-    "tier": "officiel",
-    "url": "https://piedra-travaux.fr",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-15-16-10-1785417396283.png",
-    "id": "p-1785417384964"
-  },
-  {
     "name": "SADES PLOMBERIE",
     "tier": "officiel",
     "url": "https://www.google.com/search?client=safari&hs=zI1&sca_esv=2c719d755bc25006&rls=en&sxsrf=APpeQnuECpuesRs3SxsHv4bcLNhdhm9EHg:1785416173712&q=SADES+SAINT+MEDARD&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc3x8792U5ZVg9NxUywAiNAAK9LTph7mlss0iXxz9ohv5X4K06bW0PTrZtlKhUziN32NixWI0NGdlmcDRs20y9EhSa9VCHxrSZskBTOkBppmhKD0qFhwSQRiPaZdkGO9y8VTVxpd4IyhPFjtmZxgALeA6YlaG0w6lpzv1MNr4kXolSonXkQ&sa=X&ved=2ahUKEwjoub3GufqVAxV5WKQEHQSBOMAQ0pQJegQIEBAB&biw=1440&bih=900&dpr=1",
@@ -565,6 +558,13 @@
     "url": "https://arcalie.net",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-23-59-15-1785362500971.png",
     "id": "p-1785362217073"
+  },
+  {
+    "name": "PIEDRA TRAVAUX",
+    "tier": "officiel",
+    "url": "https://piedra-travaux.fr",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-15-16-10-1785417396283.png",
+    "id": "p-1785417384964"
   },
   {
     "name": "DUNE CONSTRUCTIONS ",
