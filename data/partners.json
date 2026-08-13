@@ -560,13 +560,6 @@
     "id": "p-1785361367821"
   },
   {
-    "name": "SBFM ",
-    "tier": "officiel",
-    "url": "https://www.sbfm-grillage.com/fr",
-    "logo": "/partners/capture-d-ecran-2026-07-29-a-23-17-19-1785361322205.png",
-    "id": "p-1785361279795"
-  },
-  {
     "name": "CRÉATECK PAYSAGE ",
     "tier": "officiel",
     "url": "https://www.createck-paysage.com",
@@ -712,6 +705,13 @@
     "url": "https://capincendie.com/fr/page/contact",
     "logo": "/partners/logo-capincendie-fond-noir-v8-1785346558987.png",
     "id": "p-1785346548005"
+  },
+  {
+    "name": "SBFM ",
+    "tier": "officiel",
+    "url": "https://www.sbfm-grillage.com/fr",
+    "logo": "/partners/capture-d-ecran-2026-07-29-a-23-17-19-1785361322205.png",
+    "id": "p-1785361279795"
   },
   {
     "name": "AUDIT COURTAGE",
