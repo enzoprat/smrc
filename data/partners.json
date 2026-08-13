@@ -217,13 +217,6 @@
     "id": "p-1785407065806"
   },
   {
-    "name": "VORTEX EXPÉRIENCE",
-    "tier": "officiel",
-    "url": "https://www.vortex-experience.com",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-23-05-1785425030358.png",
-    "id": "p-1785424898591"
-  },
-  {
     "name": "CHÂTEAU HAUT BOURCIER",
     "tier": "officiel",
     "url": "http://www.chateau-haut-bourcier.com",
@@ -355,6 +348,13 @@
     "url": "https://www.peralu-33.fr",
     "logo": "/partners/peralu-1785424251162.png",
     "id": "p-1785424236456"
+  },
+  {
+    "name": "VORTEX EXPÉRIENCE",
+    "tier": "officiel",
+    "url": "https://www.vortex-experience.com",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-23-05-1785425030358.png",
+    "id": "p-1785424898591"
   },
   {
     "name": "PEREIRA RÉNOHABITAT",
