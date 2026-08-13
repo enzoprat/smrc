@@ -588,6 +588,13 @@
     "id": "p-1785361216572"
   },
   {
+    "id": "p5",
+    "name": "ATELIER BOIS CONCEPT ",
+    "tier": "officiel",
+    "logo": "/partners/logo-abc-fond-blanc-1785331639883.png",
+    "url": "https://www.google.com/search?client=safari&rls=en&q=ATELIER+BOIS+CONCEPT&ie=UTF-8&oe=UTF-8"
+  },
+  {
     "name": "BRICOMARCHÉ ",
     "tier": "officiel",
     "url": "https://www.bricomarche.com/magasin/saint-medard-en-jalles/07902",
@@ -749,13 +756,6 @@
     "id": "p-1785425180715"
   },
   {
-    "id": "p5",
-    "name": "ATELIER BOIS CONCEPT ",
-    "tier": "officiel",
-    "logo": "/partners/logo-abc-fond-blanc-1785331639883.png",
-    "url": "https://www.google.com/search?client=safari&rls=en&q=ATELIER+BOIS+CONCEPT&ie=UTF-8&oe=UTF-8"
-  },
-  {
     "id": "p6",
     "name": "OLL'A PIZZA",
     "tier": "officiel",
@@ -833,18 +833,18 @@
     "id": "p-1785425738402"
   },
   {
-    "id": "p11",
-    "name": "BISTROT DE LA JALLES ",
-    "tier": "officiel",
-    "logo": "/partners/carte-visite-recto-bistro-de-la-jalle-2-1785332211973.png",
-    "url": "https://restaurant-bordeaux.net"
-  },
-  {
     "name": "UNIBATECH ",
     "tier": "officiel",
     "url": "https://www.unibatech.fr",
     "logo": "/partners/logo-unibatech-1785347509598.svg",
     "id": "p-1785347494482"
+  },
+  {
+    "id": "p11",
+    "name": "BISTROT DE LA JALLES ",
+    "tier": "officiel",
+    "logo": "/partners/carte-visite-recto-bistro-de-la-jalle-2-1785332211973.png",
+    "url": "https://restaurant-bordeaux.net"
   },
   {
     "name": "LE PETIT FORESTIER ",
