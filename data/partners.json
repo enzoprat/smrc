@@ -525,13 +525,6 @@
     "id": "p-1785364461145"
   },
   {
-    "name": "BORDELAISE DE LUNETTERIE ",
-    "tier": "officiel",
-    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiMTcGTPTWnCCbKef3lEz-lYSVIB8odH8s3Kacxxamzg&s=10",
-    "logo": "/partners/images-10-1785404689302.png",
-    "id": "p-1785365833292"
-  },
-  {
     "name": "HOTEL IBIS BUDGET AÉROPORT ",
     "tier": "officiel",
     "url": "https://all.accor.com/hotel/7508/index.fr.shtml",
@@ -649,6 +642,13 @@
     "url": "https://gratuit-2503485.webador.fr",
     "logo": "/partners/image-4-1785357301446.png",
     "id": "p-1785357290101"
+  },
+  {
+    "name": "BORDELAISE DE LUNETTERIE ",
+    "tier": "officiel",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiMTcGTPTWnCCbKef3lEz-lYSVIB8odH8s3Kacxxamzg&s=10",
+    "logo": "/partners/images-10-1785404689302.png",
+    "id": "p-1785365833292"
   },
   {
     "name": "VIVONS COURTIER",
