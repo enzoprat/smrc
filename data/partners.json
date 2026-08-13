@@ -462,13 +462,6 @@
     "id": "p-1785365906864"
   },
   {
-    "name": "FRANCE RÔL ROBOTICS",
-    "tier": "officiel",
-    "url": "https://francerol-robotics.com",
-    "logo": "/partners/logo-fond-violet-francerol-robotics-1785365805566.webp",
-    "id": "p-1785365729865"
-  },
-  {
     "name": "BL BOULANGERIE ",
     "tier": "officiel",
     "url": "https://www.google.com/search?client=safari&rls=en&q=BL+BOULANGERIE&ie=UTF-8&oe=UTF-8",
@@ -810,6 +803,13 @@
     "url": "https://www.vortex-experience.com",
     "logo": "/partners/capture-d-ecran-2026-07-30-a-17-23-05-1785425030358.png",
     "id": "p-1785424898591"
+  },
+  {
+    "name": "FRANCE RÔL ROBOTICS",
+    "tier": "officiel",
+    "url": "https://francerol-robotics.com",
+    "logo": "/partners/logo-fond-violet-francerol-robotics-1785365805566.webp",
+    "id": "p-1785365729865"
   },
   {
     "name": "STEPH ONGLES & BEAUTÉ ",
