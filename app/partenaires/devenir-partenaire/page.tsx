@@ -4,7 +4,7 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { PartnerForm } from "@/components/PartnerForm";
 import { StatStrip } from "@/components/StatStrip";
 import { Check } from "@/components/Icons";
-import { partnerPacks } from "@/data/partners";
+import { partnerPacks, alaCarteOffer } from "@/data/partners";
 import { site } from "@/data/site";
 import { buildMetadata } from "@/lib/seo";
 
@@ -80,7 +80,7 @@ export default function DevenirPartenairePage() {
             title="Des packs adaptés à chaque entreprise"
             subtitle="Chaque pack peut être personnalisé selon vos objectifs. Contactez-nous pour en savoir plus."
           />
-          <div className="mx-auto mt-10 grid max-w-6xl gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto mt-10 grid max-w-6xl gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {partnerPacks.map((pack) => (
               <div
                 key={pack.name}
@@ -113,6 +113,32 @@ export default function DevenirPartenairePage() {
                 </a>
               </div>
             ))}
+          </div>
+
+          {/* Offre à la carte */}
+          <div className="mx-auto mt-8 max-w-6xl rounded-lg bg-ink-900 p-8 text-white sm:p-10">
+            <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
+              <div>
+                <span className="inline-block rounded-sm bg-gold px-2 py-0.5 font-display text-[10px] font-bold uppercase tracking-wider text-ink-900">
+                  Sur mesure
+                </span>
+                <h3 className="mt-3 font-display text-2xl font-bold uppercase text-gold">
+                  {alaCarteOffer.name}
+                </h3>
+                <p className="mt-2 text-white/70">{alaCarteOffer.pitch}</p>
+                <ul className="mt-5 grid gap-2.5 sm:grid-cols-2">
+                  {alaCarteOffer.benefits.map((b) => (
+                    <li key={b} className="flex items-start gap-2 text-sm text-white/80">
+                      <Check width={16} height={16} className="mt-0.5 flex-shrink-0 text-gold-600" />
+                      {b}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <a href="#formulaire" className="btn-gold w-full lg:w-auto">
+                Construire mon offre
+              </a>
+            </div>
           </div>
         </div>
       </section>

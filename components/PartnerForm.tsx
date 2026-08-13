@@ -2,10 +2,11 @@
 
 import { useState } from "react";
 import { sendEmail } from "@/lib/email";
-import { partnerPacks } from "@/data/partners";
+import { partnerPacks, alaCarteOffer } from "@/data/partners";
 
 const BUDGETS = [
   ...partnerPacks.map((p) => (p.price ? `${p.name} — ${p.price}` : p.name)),
+  alaCarteOffer.name,
   "Budget personnalisé",
 ];
 

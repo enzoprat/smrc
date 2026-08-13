@@ -103,15 +103,15 @@ export const partnerPacks: PartnerPack[] = [
     ],
     featured: true,
   },
-  {
-    name: "Offre à la carte",
-    pitch: "Une opération sur mesure, construite avec vous selon vos objectifs.",
-    price: "Sur mesure",
-    benefits: [
-      "Intérieur SMRC : immersion, séminaire, avant-match en coulisses",
-      "One Shot : opération marketing sur un match (parrain, 10 places)",
-      "All Digital : présence 100 % digitale toute la saison",
-      "Séminaire, team building et privatisation d'espaces",
-    ],
-  },
 ];
+
+/** Offre à la carte — prestations sur mesure, distinctes des packs. */
+export const alaCarteOffer = {
+  name: "Offre à la carte",
+  pitch: "Une opération sur mesure, construite avec vous selon vos objectifs.",
+  benefits: [
+    "Séminaire avec traiteur et service",
+    "Team building : découverte rugby, Koh-Lanta, journée cohésion",
+    "Menu Nationale 2 : 8 places et une table de 8",
+  ],
+};
