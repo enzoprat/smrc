@@ -343,13 +343,6 @@
     "id": "p-1785417384964"
   },
   {
-    "name": "AUDIT COURTAGE",
-    "tier": "officiel",
-    "url": "https://auditcourtage.com",
-    "logo": "/partners/images-7-1785416642117.jpg",
-    "id": "p-1785416354884"
-  },
-  {
     "name": "SADES PLOMBERIE",
     "tier": "officiel",
     "url": "https://www.google.com/search?client=safari&hs=zI1&sca_esv=2c719d755bc25006&rls=en&sxsrf=APpeQnuECpuesRs3SxsHv4bcLNhdhm9EHg:1785416173712&q=SADES+SAINT+MEDARD&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc3x8792U5ZVg9NxUywAiNAAK9LTph7mlss0iXxz9ohv5X4K06bW0PTrZtlKhUziN32NixWI0NGdlmcDRs20y9EhSa9VCHxrSZskBTOkBppmhKD0qFhwSQRiPaZdkGO9y8VTVxpd4IyhPFjtmZxgALeA6YlaG0w6lpzv1MNr4kXolSonXkQ&sa=X&ved=2ahUKEwjoub3GufqVAxV5WKQEHQSBOMAQ0pQJegQIEBAB&biw=1440&bih=900&dpr=1",
@@ -768,6 +761,13 @@
     "url": "https://capincendie.com/fr/page/contact",
     "logo": "/partners/logo-capincendie-fond-noir-v8-1785346558987.png",
     "id": "p-1785346548005"
+  },
+  {
+    "name": "AUDIT COURTAGE",
+    "tier": "officiel",
+    "url": "https://auditcourtage.com",
+    "logo": "/partners/images-7-1785416642117.jpg",
+    "id": "p-1785416354884"
   },
   {
     "name": "GROUPAMA",
