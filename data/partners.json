@@ -329,13 +329,6 @@
     "id": "p-1785424236456"
   },
   {
-    "name": "VORTEX EXPÉRIENCE",
-    "tier": "officiel",
-    "url": "https://www.vortex-experience.com",
-    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-23-05-1785425030358.png",
-    "id": "p-1785424898591"
-  },
-  {
     "name": "PEREIRA RÉNOHABITAT",
     "tier": "officiel",
     "url": "https://pereira-renohabitat.fr",
@@ -817,6 +810,13 @@
     "tier": "officiel",
     "logo": "/partners/capture-d-ecran-2026-07-29-a-15-40-05-1785332745851.png",
     "url": "https://www.pagesjaunes.fr/pros/54366698"
+  },
+  {
+    "name": "VORTEX EXPÉRIENCE",
+    "tier": "officiel",
+    "url": "https://www.vortex-experience.com",
+    "logo": "/partners/capture-d-ecran-2026-07-30-a-17-23-05-1785425030358.png",
+    "id": "p-1785424898591"
   },
   {
     "id": "p8",
