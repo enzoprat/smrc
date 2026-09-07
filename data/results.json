@@ -1,5 +1,15 @@
 [
   {
+    "team": "Nationale 2",
+    "competition": "Nationale 2 — Poule 4",
+    "date": "2026-09-06T15:15",
+    "opponent": "RC Drancy",
+    "homeAway": "home",
+    "scoreHome": 22,
+    "scoreAway": 25,
+    "id": "r-1788802120451"
+  },
+  {
     "team": "Espoirs Nationaux",
     "competition": "Nationale 2 — Poule 4",
     "date": "2026-09-06T13:30",
