@@ -53,10 +53,10 @@
     "team": "Espoirs",
     "competition": "Espoirs Nationaux — Poule 1",
     "date": "2026-09-06T13:30",
-    "opponent": "Union Drancy Saint-Denis",
+    "opponent": "RC Drancy",
     "homeAway": "home",
     "venue": "Stade Robert Monseau",
-    "status": "upcoming",
+    "status": "finished",
     "id": "m-1785407901604"
   },
   {
@@ -162,8 +162,8 @@
   {
     "team": "Nationale 2",
     "competition": "Nationale 2 — Poule 1",
-    "date": "2026-12-12T19:00",
-    "opponent": "Union Drancy Saint-Denis",
+    "date": "2026-12-13T15:15",
+    "opponent": "RC Drancy",
     "homeAway": "away",
     "venue": "Stade Guy Moquet, Drançy",
     "status": "upcoming",
@@ -273,10 +273,10 @@
     "team": "Nationale 2",
     "competition": "Nationale 2 — Poule 1",
     "date": "2026-09-06T15:15",
-    "opponent": "Union Drancy Saint-Denis",
+    "opponent": "RC Drancy",
     "homeAway": "home",
     "venue": "Stade Robert Monseau",
-    "status": "upcoming",
+    "status": "finished",
     "id": "m-1785405938903"
   }
 ]
