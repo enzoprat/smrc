@@ -2,6 +2,26 @@
   {
     "team": "Nationale 2 ",
     "competition": "Nationale 2 — Poule 4",
+    "date": "2026-10-04T15:15",
+    "opponent": "AS Mâcon ",
+    "homeAway": "away",
+    "scoreHome": 54,
+    "scoreAway": 24,
+    "id": "r-1791474421907"
+  },
+  {
+    "team": "Espoirs Nationaux",
+    "competition": "Nationale 2 — Poule 4",
+    "date": "2026-10-04T13:30",
+    "opponent": "AS Mâcon ",
+    "homeAway": "away",
+    "scoreHome": 34,
+    "scoreAway": 22,
+    "id": "r-1791474219576"
+  },
+  {
+    "team": "Nationale 2 ",
+    "competition": "Nationale 2 — Poule 4",
     "date": "2026-09-20T15:30",
     "opponent": "Floirac RD",
     "homeAway": "home",
