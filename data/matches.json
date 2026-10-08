@@ -26,7 +26,7 @@
     "opponent": "AS Mâcon",
     "homeAway": "away",
     "venue": "Stade Emile Vanier, Mâcon",
-    "status": "upcoming",
+    "status": "finished",
     "id": "m-1785408062632"
   },
   {
@@ -36,7 +36,7 @@
     "opponent": "Floirac Rive Droite",
     "homeAway": "home",
     "venue": "Stade Robert Monseau",
-    "status": "upcoming",
+    "status": "finished",
     "id": "m-1785408031683"
   },
   {
@@ -46,7 +46,7 @@
     "opponent": "Stade Langonnais",
     "homeAway": "away",
     "venue": "Stade Comberlin, Langon",
-    "status": "upcoming",
+    "status": "finished",
     "id": "m-1785407973366"
   },
   {
@@ -56,7 +56,7 @@
     "opponent": "RC Drancy",
     "homeAway": "home",
     "venue": "Stade Robert Monseau",
-    "status": "upcoming",
+    "status": "finished",
     "id": "m-1785407901604"
   },
   {
@@ -246,7 +246,7 @@
     "opponent": "AS Mâcon",
     "homeAway": "away",
     "venue": "Stade Emile Vanier, Mâcon",
-    "status": "upcoming",
+    "status": "finished",
     "id": "m-1785406201306"
   },
   {
@@ -256,7 +256,7 @@
     "opponent": "Floirac Rive Droite",
     "homeAway": "home",
     "venue": "Stade Robert Monseau",
-    "status": "upcoming",
+    "status": "finished",
     "id": "m-1785406170479"
   },
   {
@@ -266,7 +266,7 @@
     "opponent": "Stade Langonnais",
     "homeAway": "away",
     "venue": "Stade Comberlin, Langon",
-    "status": "upcoming",
+    "status": "finished",
     "id": "m-1785406072091"
   },
   {
@@ -276,7 +276,7 @@
     "opponent": "Union Drancy Saint-Denis",
     "homeAway": "home",
     "venue": "Stade Robert Monseau",
-    "status": "upcoming",
+    "status": "finished",
     "id": "m-1785405938903"
   }
 ]
