@@ -2,6 +2,16 @@
   {
     "team": "Nationale 2",
     "competition": "Nationale 2 — Poule 4",
+    "date": "2026-09-13T14:00",
+    "opponent": "Stade Langonnais",
+    "homeAway": "away",
+    "scoreHome": 24,
+    "scoreAway": 23,
+    "id": "r-1791473563875"
+  },
+  {
+    "team": "Nationale 2",
+    "competition": "Nationale 2 — Poule 4",
     "date": "2026-09-06T15:15",
     "opponent": "RC Drancy",
     "homeAway": "home",
