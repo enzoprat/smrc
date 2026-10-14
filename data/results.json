@@ -1,5 +1,25 @@
 [
   {
+    "team": "Espoirs Nationaux",
+    "competition": "Nationale 2 — Poule 4",
+    "date": "2026-10-11T13:45",
+    "opponent": "Servette RC Genève",
+    "homeAway": "home",
+    "scoreHome": 17,
+    "scoreAway": 14,
+    "id": "r-1791961108427"
+  },
+  {
+    "team": "Nationale 2",
+    "competition": "Nationale 2 — Poule 4",
+    "date": "2026-10-11T15:30",
+    "opponent": "Servette RC Genève",
+    "homeAway": "home",
+    "scoreHome": 35,
+    "scoreAway": 34,
+    "id": "r-1791961049849"
+  },
+  {
     "team": "Nationale 2 ",
     "competition": "Nationale 2 — Poule 4",
     "date": "2026-10-04T15:15",
