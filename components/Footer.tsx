@@ -76,14 +76,14 @@ export function Footer() {
           <p>
             © {year} {site.name}. Tous droits réservés.
             {" · "}
-            Site créé par{" "}
+            Réalisé par{" "}
             <a
-              href="https://www.enzoprat.fr"
+              href="https://www.pratstudio.fr"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener"
               className="hover:text-gold"
             >
-              Prat Enzo
+              Prat Studio
             </a>
           </p>
           <ul className="flex flex-wrap items-center gap-4">
