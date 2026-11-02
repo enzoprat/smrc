@@ -2,6 +2,26 @@
   {
     "team": "Espoirs Nationaux",
     "competition": "Nationale 2 — Poule 4",
+    "date": "2026-10-17T17:00",
+    "opponent": "Stade Nantais",
+    "homeAway": "away",
+    "scoreHome": 39,
+    "scoreAway": 14,
+    "id": "r-1793640913778"
+  },
+  {
+    "team": "Nationale 2",
+    "competition": "Nationale 2 — Poule 4",
+    "date": "2026-10-17T19:00",
+    "opponent": "Stade Nantais",
+    "homeAway": "away",
+    "scoreHome": 49,
+    "scoreAway": 5,
+    "id": "r-1793640849028"
+  },
+  {
+    "team": "Espoirs Nationaux",
+    "competition": "Nationale 2 — Poule 4",
     "date": "2026-10-11T13:45",
     "opponent": "Servette RC Genève",
     "homeAway": "home",
