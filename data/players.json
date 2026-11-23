@@ -1,6 +1,14 @@
 [
   {
     "team": "equipe-premiere",
+    "name": "BASSONO Issa",
+    "position": "Ailier",
+    "age": "",
+    "image": "/partners/bassono-6-1795429003434.jpg",
+    "id": "j-1795428987677"
+  },
+  {
+    "team": "equipe-premiere",
     "name": "BAINIBURE Waisea",
     "position": "Centre",
     "age": "",
