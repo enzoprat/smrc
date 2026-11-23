@@ -1,6 +1,22 @@
 [
   {
     "team": "equipe-premiere",
+    "name": "BONNET Damien",
+    "position": "Troisième ligne",
+    "age": "",
+    "image": "/partners/bonnet-2-1795429039006.jpg",
+    "id": "j-1795429024902"
+  },
+  {
+    "team": "equipe-premiere",
+    "name": "BIENES Clarence",
+    "position": "Troisième ligne",
+    "age": "",
+    "image": "/partners/bienes-1-1795429023073.jpg",
+    "id": "j-1795429007608"
+  },
+  {
+    "team": "equipe-premiere",
     "name": "BASSONO Issa",
     "position": "Ailier",
     "age": "",
