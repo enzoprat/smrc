@@ -1,6 +1,14 @@
 [
   {
     "team": "equipe-premiere",
+    "name": "BAINIBURE Waisea",
+    "position": "Centre",
+    "age": "",
+    "image": "/partners/bainibure-3-1795428983702.jpg",
+    "id": "j-1795428965641"
+  },
+  {
+    "team": "equipe-premiere",
     "name": "BACQUEY Alexis",
     "position": "Pilier",
     "age": "",
