@@ -1,10 +1,18 @@
 [
   {
     "team": "equipe-premiere",
+    "name": "AISSAOUI Samy",
+    "position": "Pilier",
+    "age": "",
+    "image": "/partners/aissaoui-7-1795428924998.jpg",
+    "id": "j-1795428906570"
+  },
+  {
+    "team": "equipe-premiere",
     "name": "ABDELKRIM Erwann",
     "position": "Ailier",
     "age": "",
-    "image": "/partners/abdelkrim-1795428429159.jpg",
-    "id": "j-1795428186858"
+    "image": "/partners/abdelkrim-1795428903734.jpg",
+    "id": "j-1795428886671"
   }
 ]
