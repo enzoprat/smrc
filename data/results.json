@@ -1,23 +1,23 @@
 [
   {
-    "team": "Nationale 2",
+    "team": "Espoirs Nationaux",
     "competition": "Nationale 2 — Poule 4",
-    "date": "2026-11-15T15:30",
-    "opponent": "RCS Rumilly",
-    "homeAway": "away",
-    "scoreHome": 25,
-    "scoreAway": 15,
-    "id": "r-1795428640212"
-  },
-  {
-    "team": "Espoirs Nationaux ",
-    "competition": "Nationale 2 — Poule 4",
-    "date": "2026-11-15T13:30",
+    "date": "",
     "opponent": "RCS Rumilly",
     "homeAway": "away",
     "scoreHome": 14,
     "scoreAway": 15,
-    "id": "r-1795428637180"
+    "id": "r-1795794087119"
+  },
+  {
+    "team": "Nationale 2",
+    "competition": "Nationale 2 — Poule 4",
+    "date": "",
+    "opponent": "RCS Rumilly",
+    "homeAway": "away",
+    "scoreHome": 25,
+    "scoreAway": 15,
+    "id": "r-1795793989960"
   },
   {
     "team": "Espoirs Nationaux",
