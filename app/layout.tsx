@@ -7,12 +7,18 @@ import { JsonLd } from "@/components/JsonLd";
 import { sportsOrganizationLd } from "@/lib/jsonld";
 import { site } from "@/data/site";
 
-const sans = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
+const sans = Inter({
+  subsets: ["latin"],
+  variable: "--font-sans",
+  display: "swap",
+  fallback: ["system-ui", "arial"],
+});
 const display = Oswald({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-display",
   display: "swap",
+  fallback: ["system-ui", "arial"],
 });
 
 export const metadata: Metadata = {
