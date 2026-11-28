@@ -9,7 +9,7 @@ export type Player = {
   team: string; // slug d'équipe (voir data/teams.ts)
   name: string;
   position: string;
-  age?: number;
+  age?: string | number; // saisi en texte depuis l'admin (chaîne vide si non renseigné)
   image?: string;
 };
 
